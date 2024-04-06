@@ -28,15 +28,30 @@ header {
     z-index: 99;
 }
 
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .logo img {
     width: 200px;
 }
 
 #menu {
     font-size: 105%;
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
     list-style-type: none;
 }
+
+#menu li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid #252525;
+}
+
+/* Navbar styles with dropdown toggle */
 
 /* Main content */
 main {
