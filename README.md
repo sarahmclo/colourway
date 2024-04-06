@@ -1,110 +1,180 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Welcome to COLOURWAY: Your Colour Analysts.
 
-Welcome Sarah McLoughlin,
+## Mock-up
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+At COLOURWAY, we believe that colour isn't just a visual experience; it's a language that speaks volumes about who we are and how we interact with the world around us. We're not your typical colour consultants – we're your personal guides to understanding the power of colour in your life.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## About Us
 
-## Gitpod Reminders
+COLOURWAY: Your Colour Analysts is dedicated to providing a fresh and practical approach to colour analysis. Our team of certified experts offers personalised one-on-one consultations to help you discover the perfect palette for your personal style and environment. But we're more than just consultants; we're a community dedicated to exploring the transformative effects of colour through workshops and colour therapy sessions designed to enhance your well-being.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Our Approach
 
-`python3 -m http.server`
+At COLOURWAY, simplicity and practicality are at the heart of everything we do. We understand that navigating the world of colour can be overwhelming, which is why we've developed a straightforward process that demystifies the complexities of colour analysis. Whether you're revamping your wardrobe or redesigning your living space, our experts are here to guide you every step of the way.
 
-A blue button should appear to click: _Make Public_,
+## What We Offer
 
-Another blue button should appear to click: _Open Browser_.
+- Personalised one-on-one colour consultations
+- Community workshops and colour therapy sessions
+- Certified experts with a passion for colour
+- Simple and practical approach to colour analysis
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Join us on a journey to discover the transformative power of colour at COLOURWAY: Your Colour Analysts.
 
-A blue button should appear to click: _Make Public_,
+At COLOURWAY, we believe that simplicity and practicality are the cornerstones of effective design. Our website is a testament to this philosophy, offering a bold and intuitive user experience that puts the transformative power of colour front and centre.
 
-Another blue button should appear to click: _Open Browser_.
+## Design Philosophy
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+Our design ethos is rooted in the idea that less is more. We've embraced clean lines, minimalist layouts, and bold colour choices to create an interface that is both visually striking and easy to navigate. Every element has been carefully considered to ensure a seamless user experience, from the intuitive navigation menu to the vibrant colour palettes that adorn each page.
 
-To log into the Heroku toolbelt CLI:
+## User Experience
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+When you visit our website, you'll immediately notice the simplicity of our design. We've eschewed unnecessary clutter in favour of clean, uncluttered layouts that allow our content to shine. Whether you're browsing our services or exploring our community events, you'll find that everything is just a click away, thanks to our intuitive navigation system.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## Bold Choices
 
-------
+While our design may be simple, that doesn't mean it's lacking in impact. We've made bold choices in our use of colour and typography to create a website that stands out from the crowd. Vibrant hues and eye-catching fonts draw the user's attention and create a memorable visual identity for our brand.
 
-## Release History
+## Accessibility
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+In keeping with our commitment to practicality, we've ensured that our website is accessible to all users, regardless of their device or ability. Our responsive design adapts seamlessly to any screen size, while our use of semantic HTML ensures compatibility with screen readers and other assistive technologies.
 
-**September 20 2023:** Update Python version to 3.9.17.
+## Conclusion
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+At COLOURWAY: Your Colour Analysts, we believe that design should be both beautiful and functional. Our website is a testament to this belief, offering a simple, practical, and bold user experience that puts the transformative power of colour at your fingertips. Join us on a journey to discover the true impact of colour in your life. Welcome to a world where every shade narrates a unique story, and where the potential is as vast as the colour spectrum itself.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+## Table of Contents
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+## User Experience (UX)
+The 5 S's
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+### Project Goals
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+### User goals
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+### Site Owner Goals
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+### Target Audience
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### User Stories
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### First Time User
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### Returning User
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Site Owner
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Design Choices
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### Colors
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Fonts
 
-------
+### Structure
 
-## FAQ about the uptime script
+### Wireframes
 
-**Why have you added this script?**
+## Features
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+### Logo and Navbar
 
-**How will this affect me?**
+### Favicon
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+### Heading
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+### Footer
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+### Pages
 
-**So….?**
+## Frameworks and Programs Used
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+### Codeanywhere
 
-**Can I opt out?**
+Codeanywhere was used for writing code, committing, and then pushing to GitHub. GitHub
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+### Google Fonts
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+Google Fonts was used to import the fonts Barlow Condensed into the style.css file. These fonts were used throughout the site.
 
-**Anything more?**
+### Font Awesome
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+Font Awesome was used throughout all pages to add icons in order to create a better visual experience for User experience purposes.
 
----
+### Balsamiq
 
-Happy coding!
+Balsamiq was used to create the wireframes during the design phase of the project.
+
+### Multi Device Website Mockup Generator
+
+Responsive Design Checker was used in the testing process to check responsiveness on various devices and to generate mockup image.
+
+### Chrome DevTools
+
+Chrome DevTools was used during development process for code review and to test responsiveness.
+
+### Coolers Contrast Checker
+
+Coolers Contrast Checker was used to make sure the colors I used contrasted well enough for all users
+
+### Languages used
+
+The languages used in this project are:
+
+HTML
+
+CSS
+
+## Testing
+
+### Validator Testing
+
+### HTML & CSS
+
+### Accessibility
+
+1. Lighthouse testing
+
+2. Semantic HTML
+
+Semantic HTML tags were used to provide a clear and meaningful structure to the website content. This helps screen readers and other assistive technologies interpret and convey information accurately.
+
+3. ARIA (Accessible Rich Internet Applications)
+ARIA attributes were utilised on links to enhance the accessibility of the site allowing for screen readers to accurately pick up information.
+
+4. Contrast and Readability
+Coolers Contrast Checker was used to ensure sufficient contrast in colors chosen to make the content readable for users with visual impairments.
+
+5. Alt Text for Images
+All images on the website include descriptive alternative text (alt text). This helps users with visual impairments understand the content and context of images even if they cannot see them.
+
+6. Responsive Design
+The website is responsive, providing a seamless experience across various devices and screen sizes. This benefits users with different abilities and ensures a consistent and accessible user experience.
+
+This was tested via Chrome DevTools as the project progressed.
+
+### Manual Testing
+
+### Common Elements
+
+### Performance
+
+### Browser Compatibilty
+
+## Finished Product
+
+## Deployment
+
+## GitHub
+
+## Bugs
+
+## Credits
+
+### Content
+All content written for the website is by myself, is purely fictional, and for educational purposes only.
+
+### Media
+
+### Code
+
+## Acknowledgements
