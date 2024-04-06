@@ -61,7 +61,7 @@ nav {
     width: 100%;
     left: 0%;
     padding: 0 1rem;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 1px 1px #3a3a3a;
     display: none;
     top: 100%;
 }
@@ -81,7 +81,7 @@ nav {
 }
 /* Main content */
 main {
-    background-color: goldenrod;
+    background-color: #ffffff;
     /* Make main element take up surplus space tp push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
@@ -91,6 +91,29 @@ main {
 footer {
     background-color: #252525;
 }
+
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+/* add social network symbols */
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #ffffff;
+}
+
+.copyright {
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 12px;
+}
+
 
 /* Disable colour on a when visited (for testing) */
 a, a:visited, a:hover, a:active {
@@ -140,3 +163,4 @@ a, a:visited, a:hover, a:active {
 #menu a:hover {
     border-bottom: 1px solid #252525;
 }
+
