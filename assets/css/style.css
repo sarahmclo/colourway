@@ -20,7 +20,11 @@ body {
 
 /* Header */
 header {
-    background-color: hotpink;
+    background-color: #ffffff;
+}
+
+.logo img {
+    width: 200px;
 }
 
 /* Main content */
