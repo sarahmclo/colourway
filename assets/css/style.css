@@ -21,10 +21,21 @@ body {
 /* Header */
 header {
     background-color: #ffffff;
+    box-shadow: 0 2px 2px #3a3a3a;
+    padding: 0 1rem;
+    position: fixed;
+    width: 100%;;
+    z-index: 99;
 }
 
 .logo img {
     width: 200px;
+}
+
+#menu {
+    font-size: 105%;
+    letter-spacing: 1px;
+    list-style-type: none;
 }
 
 /* Main content */
@@ -38,3 +49,8 @@ main {
 footer {
     background-color: limegreen;
 }
+
+/* Disable colour on a when visited (for testing) */
+a, a:visited, a:hover, a:active {
+    color: inherit;
+  }
