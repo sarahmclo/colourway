@@ -2,7 +2,7 @@
 
 ## Mock-up
 
-At COLOURWAY, we believe that colour isn't just a visual experience; it's a language that speaks volumes about who we are and how we interact with the world around us. We're not your typical colour consultants – we're your personal guides to understanding the power of colour in your life.
+At COLOURWAY, we believe that colour isn't just a visual experience; it's a language that speaks volumes about who we are and how we interact with the world around us. We're not your typical colour consultants – we're your personal guides to understanding the power of colour in your life. Overall, this website could offer a clean, practical, and user-friendly platform for individuals to explore the transformative power of colour and integrate it into their daily routines in meaningful ways.
 
 ## About Us
 
