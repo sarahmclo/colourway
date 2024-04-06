@@ -83,13 +83,13 @@ nav {
 main {
     background-color: goldenrod;
     /* Make main element take up surplus space tp push footer down */
-    flex: auto;
+    flex: 1 0 auto;
     margin-top: 47px;
 }
 
 /* Footer */
 footer {
-    background-color: limegreen;
+    background-color: #252525;
 }
 
 /* Disable colour on a when visited (for testing) */
@@ -119,4 +119,24 @@ a, a:visited, a:hover, a:active {
     .nav-toggle-label {
         display: none;
     }
+
+    .logo {
+        margin: 0 0.5rem;
+        padding-top: 13px;
+    }
+
+    .logo {
+        margin: 0 0.5rem;
+        padding-top: 13px;
+    }
+
+    /* Main content */
+    main {
+        margin-top: 79px;
+    }
+}
+
+/* Media query for for devices 992px and larger */
+#menu a:hover {
+    border-bottom: 1px solid #252525;
 }
