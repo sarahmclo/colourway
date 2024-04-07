@@ -38,7 +38,8 @@ header a {
 }
 
 .logo img {
-    width: 200px;
+    width: 140px;
+    padding-top: 10px;
 }
 
 #menu {
@@ -142,11 +143,6 @@ a, a:visited, a:hover, a:active {
 
     .nav-toggle-label {
         display: none;
-    }
-
-    .logo {
-        margin: 0 0.5rem;
-        padding-top: 13px;
     }
 
     .logo {
