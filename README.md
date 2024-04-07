@@ -73,7 +73,7 @@ The 5 S's
 ### Structure
 
 ### Wireframes
-![wireframe-landing-page1](images/wireframe-landing-page-1.png)
+![wireframe-landing-page1](assets/images/wireframe-landing-page-1.png)
 
 ## Features
 

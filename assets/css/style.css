@@ -38,7 +38,7 @@ header a {
 }
 
 .logo img {
-    width: 140px;
+    width: 150px;
     padding-top: 10px;
 }
 
@@ -81,6 +81,7 @@ nav {
 .nav-toggle-label {
     font-size: 2rem;
 }
+
 /* Main content */
 main {
     background-color: #ffffff;
@@ -88,6 +89,14 @@ main {
     flex: 1 0 auto;
     margin-top: 47px;
 }
+
+/* Hero section */
+#hero {
+    height: 900px;
+    width: 90%;
+    background: url("../images/geometric-logo.webp") no-repeat center center/cover;
+    position: relative;
+} 
 
 /* Footer */
 footer {
