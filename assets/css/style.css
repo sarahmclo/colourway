@@ -84,19 +84,35 @@ nav {
 
 /* Main content */
 main {
-    background-color: #ffffff;
     /* Make main element take up surplus space tp push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
 }
 
 /* Hero section */
-#hero {
-    height: 900px;
-    width: 90%;
-    background: url("../images/geometric-logo.webp") no-repeat center center/cover;
-    position: relative;
-} 
+#hero-img {
+    max-width: 5%;
+    max-height: auto;
+}
+
+#hero-text {
+    color: #252525;
+    width: 100%;
+    min-height: 200%;
+    padding-top: px;
+    padding-left: 30px;
+}
+
+#hero-text h1 {
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+}
+
+#hero-text h2 {
+    font-style: italic;
+    font-weight: 200;
+    font-size: 13px;
+}
 
 /* Footer */
 footer {
