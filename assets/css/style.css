@@ -104,7 +104,7 @@ footer {
 
 /* add social network symbols */
 #social-networks i {
-    font-size: 160%;
+    font-size: 15=00%;
     padding: 5%;
     color: #ffffff;
 }
@@ -113,7 +113,7 @@ footer {
     color: #ffffff;
     text-align: center;
     padding-bottom: 10px;
-    font-size: 10px;
+    font-size: 9px;
 }
 
 /* Disable colour on a when visited (for testing) */
