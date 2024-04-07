@@ -104,7 +104,7 @@ footer {
 
 /* add social network symbols */
 #social-networks i {
-    font-size: 15=00%;
+    font-size: 18px;
     padding: 5%;
     color: #ffffff;
 }
@@ -155,12 +155,9 @@ a, a:visited, a:hover, a:active {
     }
 
     /* Footer */
-    font-size: 10px;
-
-}
 
 /* Media query for for devices 992px and larger */
-#menu a:hover {
+    #menu a:hover {
     border-bottom: 1px solid #ffffff;
+    }
 }
-
