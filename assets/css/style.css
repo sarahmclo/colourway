@@ -113,9 +113,8 @@ footer {
     color: #ffffff;
     text-align: center;
     padding-bottom: 10px;
-    font-size: 12px;
+    font-size: 4px;
 }
-
 
 /* Disable colour on a when visited (for testing) */
 a, a:visited, a:hover, a:active {
@@ -154,6 +153,10 @@ a, a:visited, a:hover, a:active {
     main {
         margin-top: 79px;
     }
+
+    /* Footer */
+    font-size: 10px;
+
 }
 
 /* Media query for for devices 992px and larger */
