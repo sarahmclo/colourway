@@ -20,7 +20,7 @@ body {
 
 /* Header */
 header {
-    background-color: #ffffff;
+    background-color: #252525;
     box-shadow: 0 2px 2px #3a3a3a;
     padding: 0 1rem;
     position: fixed;
@@ -29,6 +29,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    color: #ffffff;
 }
 
 header a {
@@ -51,13 +52,13 @@ header a {
 }
 
 .active {
-    border-bottom: 1px solid #252525;
+    border-bottom: 1px solid #ffffff;
 }
 
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
-    background-color: #ffffff;
+    background-color: #252525;
     width: 100%;
     left: 0%;
     padding: 0 1rem;
@@ -161,6 +162,6 @@ a, a:visited, a:hover, a:active {
 
 /* Media query for for devices 992px and larger */
 #menu a:hover {
-    border-bottom: 1px solid #252525;
+    border-bottom: 1px solid #ffffff;
 }
 
