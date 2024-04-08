@@ -26,7 +26,8 @@ header {
     box-shadow: 0 2px 2px #3a3a3a;
     padding: 0 1rem;
     position: fixed;
-    width: 100%;;
+    width: 100%;
+    ;
     z-index: 99;
     display: flex;
     justify-content: space-between;
@@ -185,9 +186,28 @@ img {
     display: block;
 }
 
+/* Team gallery section */
 #team-gallery {
-        
-    }
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: 0 0 50%;
+    /* Each column takes up 50% of the container width */
+    padding: 5px;
+    /* Optional: Add some spacing between the columns */
+    box-sizing: border-box;
+    /* Ensure padding is included in the width */
+    display: flex;
+    justify-content: center;
+    /* Align items horizontally (center) */
+}
+
+.column img {
+    border-radius: 10px;
+}
 
 /* Our Mission section */
 #our-mission {
@@ -204,7 +224,8 @@ img {
     color: #8DC73F;
 }
 
-#about-us > div, #about-approach > div {
+#about-us>div,
+#about-approach>div {
     line-height: 20px;
     margin-bottom: 20px;
 }
@@ -218,23 +239,22 @@ img {
     margin: 5px 0;
 }
 
-/*
 #mission-bg-image {
-    background: url('../images/geometric-logo.webp') no-repeat top center / cover;
+    background: url('../images/color_wheel_logo-400px.webp') no-repeat top center / cover;
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
-    /* Makes the square image into a circle *
+    /* Makes the square image into a circle */
     border-radius: 50%;
-    max-width: 250px;
-    max-height: 250px;
+    max-width: 300px;
+    max-height: 300px;
 }
 
 #mission-image {
     display: flex;
     align-items: center;
     justify-content: center;
-} */
+}
 
 /* Footer */
 footer {
@@ -271,12 +291,16 @@ footer {
 }
 
 /* Disable colour on a tag when visited (for testing) */
-a, a:visited, a:hover, a:active {
+a,
+a:visited,
+a:hover,
+a:active {
     color: inherit;
-  }
+}
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
     /* Header */
     nav {
         display: block;
@@ -290,7 +314,7 @@ a, a:visited, a:hover, a:active {
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 1rem;
     }
 
@@ -313,65 +337,65 @@ a, a:visited, a:hover, a:active {
         right: 50px;
     }
 
-    /* Team gallery section */
-    #team-gallery {
-        display: flex;
-        flex: 25%;
-        padding: 5px;
+    .column {
+        flex: 0 0 25%;
+        /* Each column takes up 25% of the container width on larger screens */
     }
 
     /* Our mission section */
-    #about-us, #about-approach {
+    #about-us,
+    #about-approach {
         display: flex;
         flex-direction: column;
         width: 100%;
     }
 
-    #about-us > div, #about-approach > div {
+    #about-us>div,
+    #about-approach>div {
         width: 75%;
     }
 
-    #about-approach > div {
+     #about-approach>div {
         text-align: end;
         align-self: flex-end;
-    }
+    } 
 
     /* Footer */
 
-/* Media query for devices 992px and larger */
+    /* Media query for devices 992px and larger */
     @media screen and (min-width: 992px) {
-    #menu a:hover {
-    border-bottom: 1px solid #252525;
-    }
-}
-
-/* Media query for devices 1200px and larger */
-@media screen and (min-width: 1200px) {    
-    /* Reasons section */
-    #about {
-        display: flex;
-        flex-direction: row;
+        #menu a:hover {
+            border-bottom: 1px solid #252525;
+        }
     }
 
-    #about > div {
-        flex: 1;
-    }
+    /* Media query for devices 1200px and larger */
+    @media screen and (min-width: 1200px) {
 
-    #mission-image {
-        order: 0
-    }
+        /* Our section */
+        #about {
+            display: flex;
+            flex-direction: row;
+        }
 
-    #about-approach {
-        order: 1;
-    }
+        #about>div {
+            flex: 1;
+        }
 
-    #about-approach > div {
-        align-self: flex-start;
-    }
+        #mission-image {
+            order: 0
+        }
 
-    #about-us > div {
-        align-self: flex-end;
-    }
-}
+        #about-approach {
+            order: 1;
+        }
 
+        #about-approach > div {
+            align-self: flex-start;
+        }
+
+        #about-us>div {
+            align-self: flex-end;
+        }
+    }
 }
