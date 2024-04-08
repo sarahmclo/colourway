@@ -179,6 +179,12 @@ a:hover {
     text-decoration: none;
 }
 
+img {
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+}
+
 /* Our Mission section */
 #our-mission {
     width: 90%;
@@ -191,9 +197,10 @@ a:hover {
     text-align: center;
     font-size: 120%;
     font-weight: 500;
+    color: #8DC73F;
 }
 
-#about-who > div, #about-approach > div {
+#about-us > div, #about-approach > div {
     line-height: 20px;
     margin-bottom: 20px;
 }
@@ -203,26 +210,27 @@ a:hover {
 }
 
 #about hr {
-    border-top: 1px solid #3a3a3a;
+    border-top: 1px solid #8DC73F;
     margin: 5px 0;
 }
 
-#mission-logo-bg-image {
-    background: url('../images/color_wheel_logo-400px.webp') no-repeat top center / cover;
+/*
+#mission-bg-image {
+    background: url('../images/geometric-logo.webp') no-repeat top center / cover;
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
-    /* Makes the square image into a circle */
+    /* Makes the square image into a circle *
     border-radius: 50%;
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 250px;
+    max-height: 250px;
 }
 
 #mission-image {
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} */
 
 /* Footer */
 footer {
@@ -239,15 +247,22 @@ footer {
 
 /* add social network symbols */
 #social-networks i {
-    font-size: 18px;
+    font-size: 28px;
     padding: 5%;
     color: #ffffff;
+}
+
+img {
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 20px;
 }
 
 .copyright {
     color: #ffffff;
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
     font-size: 9px;
 }
 
@@ -294,10 +309,59 @@ a, a:visited, a:hover, a:active {
         right: 50px;
     }
 
+    /* Our mission section */
+    #about-us, #about-approach {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #about-us > div, #about-approach > div {
+        width: 75%;
+    }
+
+    #about-approach > div {
+        text-align: end;
+        align-self: flex-end;
+    }
+
     /* Footer */
 
-/* Media query for for devices 992px and larger */
+/* Media query for devices 992px and larger */
+    @media screen and (min-width: 992px) {
     #menu a:hover {
     border-bottom: 1px solid #252525;
     }
 }
+
+/* Media query for devices 1200px and larger */
+@media screen and (min-width: 1200px) {    
+    /* Reasons section */
+    #about {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #about > div {
+        flex: 1;
+    }
+
+    #mission-image {
+        order: 0
+    }
+
+    #about-approach {
+        order: 1;
+    }
+
+    #about-approach > div {
+        align-self: flex-start;
+    }
+
+    #about-us > div {
+        align-self: flex-end;
+    }
+}
+
+}
+
