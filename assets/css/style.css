@@ -99,6 +99,7 @@ main {
     width: 100%;
     background: url(../images/colour-wide.webp) no-repeat center center/cover;
     position: relative;
+    color: #ffffff;
 }
 
 h1 {
@@ -113,44 +114,45 @@ h2 {
     font-size: 26px;
 }
 
+h3 {
+    font-weight: 400;
+}
+
 #hero-text {
     background-color: rgba(35, 37, 35, 0.7);
     position: absolute;
     bottom: 30px;
-    width: 80%;
+    width: 90%;
     min-height: 200px;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 15px;
+    padding-left: 10px;
     border-bottom-right-radius: 10%;
 }
 
-#hero-text > h1, #hero-text > h2 {
-    color: #ffffff;
-}
-
-.mission {
-    color: #ffffff;
+.hero-mission {
     font-size: 18px;
     font-weight: 300;
+    padding-left: 20px;
 }
 
-.mission ul {
-    list-style-type: none;
+.hero-mission ul {
+    list-style-type: circle;
     line-height: 150%;
 }
 
-/* Subscribe section */
-.subscribe {
+/* Welcome and subscribe section */
+.welcome {
     text-align: center;
-    padding-top: 20px;
+    justify-content: center;
+    margin: 20px;
 }
 
-.subscribe p {
+.welcome p {
     font-weight: 300;
 }
 
-/* Button */
+/* Subscribe button */
 .subscribe-button {
     background: #252525;
     border: 1px solid #fff;
@@ -162,7 +164,7 @@ h2 {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     line-height: 22px;
-    margin: 20px auto;
+    margin: 10px auto;
     padding: 12px 30px;
     transition: all 200ms ease;
 }
@@ -171,6 +173,10 @@ h2 {
     background: #8DC73F;
     border: 0.5px solid #ffffff;
     color: #ffffff;
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 /* Footer */
