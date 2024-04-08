@@ -151,7 +151,7 @@ h2 {
 }
 
 /* Button */
-.call-button {
+.subscribe-button {
     background: #252525;
     border: 1px solid #fff;
     border-radius: 15px;
@@ -167,7 +167,7 @@ h2 {
     transition: all 200ms ease;
 }
 
-.call-button:hover {
+.subscribe-button:hover {
     background: #8DC73F;
     border: 0.5px solid #ffffff;
     color: #ffffff;
