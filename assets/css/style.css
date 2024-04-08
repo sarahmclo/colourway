@@ -179,6 +179,49 @@ a:hover {
     text-decoration: none;
 }
 
+/* Our Mission section */
+#our-mission {
+    width: 90%;
+    margin: 20px auto;
+    font-weight: 300;
+}
+
+#our-mission h3 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#about-who > div, #about-approach > div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#about p {
+    padding: 0 20px;
+}
+
+#about hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
+#mission-logo-bg-image {
+    background: url('../images/color_wheel_logo-400px.webp') no-repeat top center / cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    /* Makes the square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#mission-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* Footer */
 footer {
     background-color: #252525;
