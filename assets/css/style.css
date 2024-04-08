@@ -90,9 +90,10 @@ main {
 }
 
 /* Hero section */
-#hero-img {
-    max-width: 5%;
-    max-height: auto;
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url(../images/colour-wide.webp) no-repeat center center/cover;
 }
 
 #hero-text {
