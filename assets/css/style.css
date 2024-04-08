@@ -185,6 +185,10 @@ img {
     display: block;
 }
 
+#team-gallery {
+        
+    }
+
 /* Our Mission section */
 #our-mission {
     width: 90%;
@@ -309,6 +313,13 @@ a, a:visited, a:hover, a:active {
         right: 50px;
     }
 
+    /* Team gallery section */
+    #team-gallery {
+        display: flex;
+        flex: 25%;
+        padding: 5px;
+    }
+
     /* Our mission section */
     #about-us, #about-approach {
         display: flex;
@@ -364,4 +375,3 @@ a, a:visited, a:hover, a:active {
 }
 
 }
-
