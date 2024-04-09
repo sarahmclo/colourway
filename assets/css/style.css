@@ -193,7 +193,7 @@ img {
 }
 
 .column {
-    flex: 0 0 50%;
+    flex: 0 0 100%;
     /* Each column takes up 50% of the container width */
     padding: 5px;
     /* Optional: Add some spacing between the columns */
@@ -343,11 +343,12 @@ a:active {
     }
 
     .column {
-        flex: 0 0 25%;
+        flex: 0 0 33.33%;
         /* Each column takes up 25% of the container width on larger screens */
     }
 
     /* Our mission section */
+
     #about-us,
     #about-approach {
         display: flex;
