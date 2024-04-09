@@ -23,7 +23,7 @@ header {
     /* background-color: #252525; */
     background-color: #ffffff;
     /* color: #ffffff; */
-    box-shadow: 0 1px 1px #3a3a3a;
+    box-shadow: 0 1.5px 1.5px #3a3a3a;
     padding: 0 1rem;
     position: fixed;
     width: 100%;
@@ -32,7 +32,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-
 }
 
 header a {
@@ -217,11 +216,15 @@ img {
 }
 
 #our-mission h3 {
-    margin-bottom: 20px;
     text-align: center;
     font-size: 120%;
     font-weight: 500;
-    color: #8DC73F;
+    color: #252525;
+}
+
+#our-mission h4 {
+    font-size: 90%;
+    padding-top: 20px;
 }
 
 #about-us>div,
@@ -235,19 +238,21 @@ img {
 }
 
 #about hr {
-    border-top: 1px solid #252525;
+    /* border-top: 1px solid #252525; */
     margin: 5px 0;
 }
 
 #mission-bg-image {
-    background: url('../images/color_wheel_logo-400px.webp') no-repeat top center / cover;
+    background: url('../images/colourway-logo-pastel.webp') no-repeat top center / cover;
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
     /* Makes the square image into a circle */
     border-radius: 50%;
-    max-width: 300px;
+    max-width: 400px;
     max-height: 300px;
+    background-size: contain; /* Ensure the background image fits within the container */
+    background-position: center; /* Center the background image */
 }
 
 #mission-image {
@@ -372,7 +377,7 @@ a:active {
     /* Media query for devices 1200px and larger */
     @media screen and (min-width: 1200px) {
 
-        /* Our section */
+        /* Our mission section */
         #about {
             display: flex;
             flex-direction: row;
