@@ -27,7 +27,6 @@ header {
     padding: 0 1rem;
     position: fixed;
     width: 100%;
-    ;
     z-index: 99;
     display: flex;
     justify-content: space-between;
@@ -36,7 +35,7 @@ header {
 
 header a {
     text-decoration: none;
-    color: inherit;
+    color: #8DC73F;
 }
 
 .logo img {
@@ -45,18 +44,17 @@ header a {
 }
 
 #menu {
-    font-size: 105%;
-    /* letter-spacing: 1px; */
     list-style-type: none;
 }
 
 #menu li {
     margin-bottom: 1em;
+    margin-top: 1em;
 }
 
 .active {
     /* border-bottom: 1px solid #ffffff; */
-    border-bottom: 1px solid #252525;
+    border-bottom: 1px solid #8DC73F;
 }
 
 /* Navbar styles with dropdown toggle */
@@ -365,7 +363,8 @@ a:active {
     /* Media query for devices 992px and larger */
     @media screen and (min-width: 992px) {
         #menu a:hover {
-            border-bottom: 1px solid #252525;
+            color: #8DC73F;
+            border-bottom: 1px solid #8DC73F;
         }
     
      /* Our mission section *
