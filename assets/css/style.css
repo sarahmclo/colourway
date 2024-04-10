@@ -157,7 +157,7 @@ h3 {
 .subscribe-button {
     background: #252525;
     border: 1px solid #fff;
-    border-radius: 15px;
+    border-radius: 25px;
     box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
     color: #ffffff;
     cursor: pointer;
@@ -166,7 +166,7 @@ h3 {
     font-size: 18px;
     line-height: 22px;
     margin: 20px auto;
-    padding: 12px 30px;
+    padding: 8px 24px;
     transition: all 200ms ease;
 }
 
@@ -211,7 +211,7 @@ img {
 
 /* Our Mission section */
 #our-mission {
-    width: 100%;
+    width: 90%;
     margin: 20px auto;
     font-weight: 300;
     font-size: 15px;
