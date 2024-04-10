@@ -264,7 +264,7 @@ img {
 
 /* Footer */
 footer {
-    background-color: #252525;
+    background-color: #ffffff;
 }
 
 #social-networks {
@@ -279,7 +279,7 @@ footer {
 #social-networks i {
     font-size: 28px;
     padding: 5%;
-    color: #ffffff;
+    color: #252525;
 }
 
 #footer-logo {
@@ -290,7 +290,7 @@ footer {
 }
 
 .copyright {
-    color: #ffffff;
+    color: #252525;
     text-align: center;
     padding-bottom: 15px;
     font-size: 9px;
@@ -349,7 +349,6 @@ a:active {
     }
 
     /* Our mission section */
-
     #about-us,
     #about-approach {
         display: flex;
