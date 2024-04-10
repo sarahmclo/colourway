@@ -286,7 +286,8 @@ footer {
     width: 200px;
     margin: 0 auto;
     display: block;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+    padding-top: 20px;
 }
 
 .copyright {
