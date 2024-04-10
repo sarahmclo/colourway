@@ -164,6 +164,15 @@ This was tested via Chrome DevTools as the project progressed.
 ## Finished Product
 
 ## Deployment
+I deployed early:
+
+Login to sarahmclo GitHub account
+Navigate to my project repository colourway
+Click the Settings near the top of the page
+In the left-hand menu, find and click on the Pages
+In the Source section, choose 'main' from the drop-down, select branch menu
+Select 'root' from the drop-down folder menu
+Click 'Save' and after a few moments the project will have been made live and a link is visible at the top of the page
 
 ## GitHub
 
