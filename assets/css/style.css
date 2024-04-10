@@ -150,7 +150,7 @@ h3 {
 
 .welcome p {
     font-weight: 300;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 /* Subscribe button */
@@ -214,7 +214,7 @@ img {
     width: 90%;
     margin: 20px auto;
     font-weight: 300;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 #our-mission h3 {
@@ -356,6 +356,7 @@ a:active {
     .team {
         flex: 0 0 33.33%;
     }
+}
 
     /* Footer */
 
