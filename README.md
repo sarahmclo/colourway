@@ -1,4 +1,4 @@
-# Welcome to COLOURWAY: Your Colour Analysts.
+# Welcome to COLOURWAY: Your Colour Analysts
 
 ## Mock-up
 
@@ -78,6 +78,8 @@ The 5 S's
 ## Features
 
 ### Logo and Navbar
+Designed logo and converted to webp
+![Logo](assets/images/colourway-logo-black-text.webp)
 
 ### Favicon
 
@@ -164,15 +166,16 @@ This was tested via Chrome DevTools as the project progressed.
 ## Finished Product
 
 ## Deployment
-I deployed early:
+Deploy early
 
-Login to sarahmclo GitHub account
-Navigate to my project repository colourway
-Click the Settings near the top of the page
-In the left-hand menu, find and click on the Pages
-In the Source section, choose 'main' from the drop-down, select branch menu
-Select 'root' from the drop-down folder menu
-Click 'Save' and after a few moments the project will have been made live and a link is visible at the top of the page
+1. Login to [Git Hub](https://github.com/) Repository account
+2. Navigate to my project repository colourway
+3. Click the Settings near the top of the page
+4. In the left-hand menu, find and click on the Pages
+5. In the Source section, choose 'main' from the drop-down, select branch menu
+6. Select 'root' from the drop-down folder menu
+7. Click 'Save'
+8. Project now live and a link is visible at the top of the page "Your site is published at https://github.com/sarahmclo/colourway/" 
 
 ## GitHub
 
