@@ -225,7 +225,6 @@ img {
 }
 
 #our-mission h4 {
-    font-size: 90%;
     padding-top: 20px;
 }
 
@@ -248,7 +247,7 @@ img {
     background: url('../images/colourway-logo-pastel.webp') no-repeat top center / cover;
     height: 90vw;
     width: 90vw;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     /* Makes the square image into a circle */
     border-radius: 50%;
     max-width: 400px;
