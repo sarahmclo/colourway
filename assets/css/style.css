@@ -150,6 +150,7 @@ h3 {
 
 .welcome p {
     font-weight: 300;
+    font-size: 15px;
 }
 
 /* Subscribe button */
@@ -210,9 +211,10 @@ img {
 
 /* Our Mission section */
 #our-mission {
-    width: 90%;
+    width: 100%;
     margin: 20px auto;
     font-weight: 300;
+    font-size: 15px;
 }
 
 #our-mission h3 {
