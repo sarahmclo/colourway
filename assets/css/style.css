@@ -83,6 +83,11 @@ nav {
     font-size: 2rem;
 }
 
+#our-mission:target {
+    padding-top: 300px;
+    margin-top: -300px;
+}
+
 /* Main content */
 main {
     /* Make main element take up surplus space tp push footer down */
@@ -113,7 +118,6 @@ h2 {
 
 h3 {
     font-weight: 400;
-    font-size: 16px;
     padding-bottom: 5px;
 }
 
@@ -221,6 +225,7 @@ img {
     font-size: 120%;
     font-weight: 500;
     color: #252525;
+    padding-top: 20px;
 }
 
 #our-mission h4 {
