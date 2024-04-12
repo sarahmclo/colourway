@@ -311,8 +311,6 @@ img {
 #colour-video {
     height: 90vw;
     width: 90vw;
-    /* Makes the square image into a circle */
-    /* border-radius: 50%; */
     max-width: 300px;
     max-height: 300px;
     display: flex;
@@ -320,6 +318,9 @@ img {
     justify-content: center;
     margin: 20px auto;
 }
+
+/* Subscribe */
+
 
 /* Footer */
 footer {
@@ -366,7 +367,6 @@ a:active {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-
     /* Header */
     nav {
         display: block;

@@ -204,14 +204,18 @@
 
         <!-- Subscribe form section -->
         <section id="subscribe">
-            <h3>Subscribe for exclusive offers</h3>
-            <form id="subscribe-form" method="POST" action="https://formdump.codeinstitute.net">Subscribe
-                <label for="name-field">Name</label>
-                <input id="name-field" type="text">
-                <label for="email">Enter Your Email</label>
-                <input type="submit" value="Send!">
-                <button type="submit">Subscribe</button>
-
+            <form id="subscribe-form" method="POST" action="https://formdump.codeinstitute.net">
+                        <h3>Subscribe for exclusive offers</h3>
+                        <label for="first-name">First Name</label>
+                        <input type="text" name="first_name" id="first-name" class="text-input" required>
+                        <br>
+                        <label for="last-name">Last Name</label>
+                        <input type="text" name="last_name" id="last-name" class="text-input" required>
+                        <br>
+                        <label for="email-address">Email Address</label>
+                        <input type="email" name="email_address" id="email-address" class="text-input" required>
+                        <br>
+                        <button type="submit" class="join-button">Subscribe</button>
             </form>
         </section>
 
