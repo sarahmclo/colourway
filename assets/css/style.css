@@ -96,6 +96,11 @@ nav {
     margin-top: -300px;
 }
 
+#subscribe:target {
+    padding-top: 300px;
+    margin-top: -300px;
+}
+
 /* Main content */
 main {
     /* Make main element take up surplus space tp push footer down */
@@ -258,8 +263,10 @@ img {
     /* border-radius: 50%; */
     max-width: 300px;
     max-height: 300px;
-    background-size: contain; /* Ensure the background image fits within the container */
-    background-position: center; /* Center the background image */
+    background-size: contain;
+    /* Ensure the background image fits within the container */
+    background-position: center;
+    /* Center the background image */
 }
 
 #mission-image {
@@ -272,13 +279,14 @@ img {
 #meet-the-team {
     text-align: center;
     justify-content: center;
-    margin: 20px;
     padding: 0 20px;
+    margin: 20px;
 }
 
 #team-photos {
     display: flex;
     padding: 5px;
+    flex-wrap: wrap;
 }
 
 .team {
@@ -294,13 +302,62 @@ img {
 }
 
 #meet-the-team h3 {
-    font-family: 'Inter' sans-serif;
+    font-family: 'Inter'sans-serif;
     text-align: center;
     font-size: 120%;
     font-weight: 500;
     color: #252525;
     padding-top: 10px;
     padding-bottom: 5px;
+}
+
+/* Colour analysis & theory section */
+#colour-section {
+    width: 90%;
+    margin: 20px auto;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+#colour-section h3 {
+    text-align: center;
+    font-size: 120%;
+    font-weight: 500;
+    color: #252525;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+#colour-section h4 {
+    padding-top: 10px;
+}
+
+#colour-theory>div,
+#colour-analysis>div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#colour p {
+    padding: 0 20px;
+}
+
+#colour hr {
+    /* border-top: 1px solid #252525; */
+    margin: 5px 0;
+}
+
+#colour-video {
+    height: 90vw;
+    width: 90vw;
+    /* Makes the square image into a circle */
+    /* border-radius: 50%; */
+    max-width: 300px;
+    max-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
 }
 
 /* Footer */
@@ -362,7 +419,7 @@ a:active {
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 1rem;
     }
 
@@ -403,33 +460,14 @@ a:active {
     }
 }
 
-    /* Footer */
+/* Footer */
 
-    /* Media query for devices 992px and larger */
-    @media screen and (min-width: 992px) {
-        #menu a:hover {
-            color: #8DC73F;
-            border-bottom: 1px solid #8DC73F;
-        }
-    
-     /* Our mission section *
-     #about-us,
-     #about-approach {
-         display: flex;
-         flex-direction: column;
-         width: 100%;
-     }
- 
-     #about-us>div,
-     #about-approach>div {
-         width: 75%;
-     }
- 
-      #about-approach>div {
-         text-align: end;
-         align-self: flex-end;
-     }
-    } */
+/* Media query for devices 992px and larger */
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        color: #8DC73F;
+        border-bottom: 1px solid #8DC73F;
+    }
 
     /* Media query for devices 1200px and larger */
     @media screen and (min-width: 1200px) {
@@ -452,11 +490,37 @@ a:active {
             order: 1;
         }
 
-        #about-approach > div {
+        #about-approach>div {
             align-self: flex-start;
         }
 
         #about-us>div {
+            align-self: flex-end;
+        }
+
+        /* Colour Theory & Analysis Section */
+        #colour-section {
+            display: flex;
+            flex-direction: row;
+        }
+
+        #olour-section>div {
+            flex: 1;
+        }
+
+        #colour-video {
+            order: 0
+        }
+
+        #colour-theory {
+            order: 1;
+        }
+
+        #colour-theory>div {
+            align-self: flex-start;
+        }
+
+        #colour-analysis>div {
             align-self: flex-end;
         }
     }
