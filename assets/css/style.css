@@ -130,8 +130,8 @@ h2 {
 }
 
 h3 {
-    font-weight: 400;
     padding-bottom: 5px;
+    text-align: center;
 }
 
 #hero-text {
@@ -171,7 +171,6 @@ h3 {
     color: #ffffff;
     cursor: pointer;
     display: block;
-    font-family: 'Roboto', sans-serif;
     font-size: 18px;
     line-height: 22px;
     margin: 20px auto;
@@ -204,14 +203,10 @@ img {
 
 .photo {
     flex: 0 0 100%;
-    /* Each column takes up 50% of the container width */
     padding: 5px;
-    /* Optional: Add some spacing between the columns */
     box-sizing: border-box;
-    /* Ensure padding is included in the width */
     display: flex;
     justify-content: center;
-    /* Align items horizontally (center) */
 }
 
 .photo img {
@@ -222,17 +217,6 @@ img {
 #our-mission {
     width: 90%;
     margin: 20px auto;
-    font-weight: 300;
-    font-size: 16px;
-}
-
-#our-mission h3 {
-    text-align: center;
-    font-size: 120%;
-    font-weight: 500;
-    color: #252525;
-    padding-top: 10px;
-    padding-bottom: 5px;
 }
 
 #our-mission h4 {
@@ -259,14 +243,10 @@ img {
     height: 90vw;
     width: 90vw;
     margin-bottom: 10px;
-    /* Makes the square image into a circle */
-    /* border-radius: 50%; */
     max-width: 300px;
     max-height: 300px;
     background-size: contain;
-    /* Ensure the background image fits within the container */
     background-position: center;
-    /* Center the background image */
 }
 
 #mission-image {
@@ -301,31 +281,12 @@ img {
     border-radius: 10px;
 }
 
-#meet-the-team h3 {
-    font-family: 'Inter'sans-serif;
-    text-align: center;
-    font-size: 120%;
-    font-weight: 500;
-    color: #252525;
-    padding-top: 10px;
-    padding-bottom: 5px;
-}
-
 /* Colour analysis & theory section */
 #colour-section {
     width: 90%;
     margin: 20px auto;
     font-weight: 300;
     font-size: 16px;
-}
-
-#colour-section h3 {
-    text-align: center;
-    font-size: 120%;
-    font-weight: 500;
-    color: #252525;
-    padding-top: 10px;
-    padding-bottom: 5px;
 }
 
 #colour-section h4 {
@@ -392,7 +353,7 @@ footer {
     color: #252525;
     text-align: center;
     padding-bottom: 15px;
-    font-size: 9px;
+    font-size: 10px;
 }
 
 /* Disable colour on a tag when visited (for testing) */
