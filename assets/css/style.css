@@ -155,7 +155,7 @@ h3 {
     line-height: 150%;
 }
 
-/* Welcome and subscribe section */
+/* Welcome and subscribe-button section */
 .welcome {
     text-align: center;
     justify-content: center;
@@ -199,6 +199,7 @@ img {
     display: flex;
     padding: 5px;
     flex-wrap: wrap;
+    margin: 20px;
 }
 
 .photo {
@@ -217,10 +218,6 @@ img {
 #our-mission {
     width: 90%;
     margin: 20px auto;
-}
-
-#our-mission h4 {
-    padding-top: 10px;
 }
 
 #about-us>div,
@@ -258,8 +255,6 @@ img {
 /* Meet the team section */
 #meet-the-team {
     text-align: center;
-    justify-content: center;
-    padding: 0 20px;
     margin: 20px;
 }
 
@@ -267,6 +262,7 @@ img {
     display: flex;
     padding: 5px;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .team {
@@ -289,10 +285,6 @@ img {
     font-size: 16px;
 }
 
-#colour-section h4 {
-    padding-top: 10px;
-}
-
 #colour-theory>div,
 #colour-analysis>div {
     line-height: 20px;
@@ -308,15 +300,19 @@ img {
     margin: 5px 0;
 }
 
-#colour-video {
+#colour-bg-video {
     height: 90vw;
     width: 90vw;
+    margin-bottom: 10px;
     max-width: 300px;
     max-height: 300px;
-    display: flex;
+    background-size: contain;
+    background-position: center;
+}
+
+#colour-video {
     align-items: center;
     justify-content: center;
-    margin: 20px auto;
 }
 
 /* Subscribe */
@@ -460,12 +456,12 @@ a:active {
         }
 
         /* Colour Theory & Analysis Section */
-        #colour-section {
+        #colour {
             display: flex;
             flex-direction: row;
         }
 
-        #olour-section>div {
+        #colour>div {
             flex: 1;
         }
 
@@ -473,15 +469,15 @@ a:active {
             order: 0
         }
 
-        #colour-theory {
+        #colour-analysis {
             order: 1;
         }
 
-        #colour-theory>div {
+        #colour-analysis>div {
             align-self: flex-start;
         }
 
-        #colour-analysis>div {
+        #colour-theory>div {
             align-self: flex-end;
         }
     }
