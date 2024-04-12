@@ -16,6 +16,8 @@ body {
     /* Generic Project Styles */
     color: #252525;
     font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
 }
 
 /* Header */
@@ -49,6 +51,7 @@ header a {
 #menu li {
     margin-bottom: 1em;
     margin-top: 1em;
+    font-weight: 400;
 }
 
 .active {
@@ -84,6 +87,11 @@ nav {
 }
 
 #our-mission:target {
+    padding-top: 300px;
+    margin-top: -300px;
+}
+
+#meet-the-team:target {
     padding-top: 300px;
     margin-top: -300px;
 }
@@ -134,8 +142,6 @@ h3 {
 }
 
 .hero-mission {
-    font-size: 17px;
-    font-weight: 300;
     padding-left: 20px;
 }
 
@@ -149,11 +155,6 @@ h3 {
     text-align: center;
     justify-content: center;
     margin: 20px;
-}
-
-.welcome p {
-    font-weight: 300;
-    font-size: 16px;
 }
 
 /* Subscribe button */
@@ -189,14 +190,14 @@ img {
     display: block;
 }
 
-/* Team gallery section */
-#team-gallery {
+/* Photo gallery section */
+#photo-gallery {
     display: flex;
     padding: 5px;
     flex-wrap: wrap;
 }
 
-.team {
+.photo {
     flex: 0 0 100%;
     /* Each column takes up 50% of the container width */
     padding: 5px;
@@ -208,7 +209,7 @@ img {
     /* Align items horizontally (center) */
 }
 
-.team img {
+.photo img {
     border-radius: 10px;
 }
 
@@ -226,6 +227,7 @@ img {
     font-weight: 500;
     color: #252525;
     padding-top: 10px;
+    padding-bottom: 5px;
 }
 
 #our-mission h4 {
@@ -266,6 +268,41 @@ img {
     justify-content: center;
 }
 
+/* Meet the team section */
+#meet-the-team {
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 0 20px;
+}
+
+#team-photos {
+    display: flex;
+    padding: 5px;
+}
+
+.team {
+    flex: 0 0 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+.team img {
+    border-radius: 10px;
+}
+
+#meet-the-team h3 {
+    font-family: 'Inter' sans-serif;
+    text-align: center;
+    font-size: 120%;
+    font-weight: 500;
+    color: #252525;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
 /* Footer */
 footer {
     background-color: #ffffff;
@@ -279,7 +316,7 @@ footer {
     list-style-type: none;
 }
 
-/* add social network symbols */
+/* Social network symbols */
 #social-networks i {
     font-size: 28px;
     padding: 5%;
@@ -325,7 +362,7 @@ a:active {
         display: flex;
     }
 
-    #menu>li {
+    #menu > li {
         padding-left: 1rem;
     }
 
@@ -355,6 +392,10 @@ a:active {
 
     h2 {
         font-size: 34px;
+    }
+
+    .photo {
+        flex: 0 0 33.33%;
     }
 
     .team {
