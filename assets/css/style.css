@@ -55,8 +55,7 @@ header a {
 }
 
 .active {
-    /* border-bottom: 1px solid #ffffff; */
-    border-bottom: 1px solid #FF55AF;
+    color: #FF55AF;
 }
 
 /* Navbar styles with dropdown toggle */

@@ -66,14 +66,15 @@ The 5 S's
 
 ### Design Choices
 
-### Colors
+### Colours
+![Colour Palette](docs/images/AdobeColor-color-theme_colourway.webp)
 
 ### Fonts
 
 ### Structure
 
 ### Wireframes
-![wireframe-landing-page1](docs/wireframe-landing-page-1.png)
+![wireframe-landing-page1](docs/wireframes/wireframe-landing-page-1.png)
 
 ## Features
 
