@@ -271,10 +271,37 @@ img {
     box-sizing: border-box;
     display: flex;
     justify-content: center;
+        position: relative; /* Ensure the container is relatively positioned */
+        overflow: hidden; /* Hide overflowing content */
 }
 
 .team img {
     border-radius: 10px;
+        width: 100%;
+        border-radius: 10px;
+        transition: transform 0.3s ease; /* Add a smooth transition for hover effect */
+}
+
+.team-overlay {
+    position: absolute;
+    bottom: 15px;
+    width: 90%;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    color: #ffffff; /* Text color */
+    text-align: center;
+    padding: 20px; /* Add padding for better readability */
+    transition: bottom 0.3s ease; /* Add transition for smooth animation */
+    overflow: auto;
+}
+
+
+.team-overlay p {
+    margin: 0; /* Remove default margin */
+}
+
+.team:hover .team-overlay {
+    bottom: 50px; /* Show the overlay on hover */
 }
 
 /* Colour analysis & theory section */
