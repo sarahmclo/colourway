@@ -161,7 +161,7 @@ h3 {
 .welcome {
     text-align: center;
     justify-content: center;
-    margin: 20px auto;
+    margin: 20px;
 }
 
 /* Subscribe button */
@@ -199,9 +199,8 @@ img {
 /* Photo gallery section */
 #photo-gallery {
     display: flex;
-    padding: 5px;
     flex-wrap: wrap;
-    margin: 20px auto;
+    margin: 20px;
 }
 
 .photo {
@@ -257,8 +256,7 @@ img {
 /* Meet the team section */
 #meet-the-team {
     text-align: center;
-    margin: 20px auto;
-    width: 90%;
+    margin: 20px;
 }
 
 #team-photos {
@@ -296,11 +294,8 @@ img {
     margin: 5px 0;
 }
 
-#colour-video {
-    /* height: 90vw;
-    width: 90vw;
-    max-width: 300px;
-    max-height: 300px; */
+#colour-video iframe {
+    width: 100%;
     display: flex;
     margin: 20px;
 }
@@ -308,7 +303,7 @@ img {
 /* Form, subscribe, contact & map section */
 #subscribe {
     font-family: 'Inter' sans-serif;
-    padding: 20px;
+    margin: 20px;
 }
 
 .subscribe-button-form {
@@ -338,9 +333,9 @@ img {
     padding-bottom: 10px;
 }
 
-#map {
-    width: 150%;
-
+#map iframe {
+    width: 100%;
+    height: 300px;
 }
 
 /* Footer */
