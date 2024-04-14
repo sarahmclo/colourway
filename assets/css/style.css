@@ -87,18 +87,18 @@ nav {
 }
 
 #our-mission:target {
-    padding-top: 300px;
-    margin-top: -300px;
+    padding-top: 250px;
+    margin-top: -250px;
 }
 
 #meet-the-team:target {
-    padding-top: 300px;
-    margin-top: -300px;
+    padding-top: 250px;
+    margin-top: -250px;
 }
 
 #subscribe:target {
-    padding-top: 300px;
-    margin-top: -300px;
+    padding-top: 250px;
+    margin-top: -250px;
 }
 
 /* Main content */
@@ -130,10 +130,11 @@ h2 {
 }
 
 h3 {
-    padding-bottom: 13px;
+    padding-bottom: 12px;
     text-align: center;
-    color: #00AD8C;
+    color: #FF55AF;
     font-size: 120%;
+    text-transform: uppercase;
 }
 
 #hero-text {
@@ -181,7 +182,7 @@ h3 {
 }
 
 .subscribe-button:hover {
-    background: #00AD8C;
+    background: #FF55AF;
     border: 0.5px solid #ffffff;
     color: #ffffff;
 }
@@ -303,10 +304,11 @@ img {
 /* Form, subscribe, contact & map section */
 #subscribe {
     margin: 20px;
+    text-align: center;
 }
 
 .subscribe-button-form {
-    background: #00AD8C;
+    background: #FF55AF;
     border: 0.5px solid #ffffff;
     color: #ffffff;
     border-radius: 25px;
@@ -368,7 +370,7 @@ footer {
 .copyright {
     color: #252525;
     text-align: center;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
     font-size: 10px;
 }
 
