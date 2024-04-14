@@ -56,7 +56,7 @@ header a {
 
 .active {
     /* border-bottom: 1px solid #ffffff; */
-    border-bottom: 1px solid #8DC73F;
+    border-bottom: 1px solid #00AD8C;
 }
 
 /* Navbar styles with dropdown toggle */
@@ -130,8 +130,10 @@ h2 {
 }
 
 h3 {
-    padding-bottom: 10px;
+    padding-bottom: 13px;
     text-align: center;
+    color: #00AD8C;
+    font-size: 120%;
 }
 
 #hero-text {
@@ -159,7 +161,7 @@ h3 {
 .welcome {
     text-align: center;
     justify-content: center;
-    margin: 20px;
+    margin: 20px auto;
 }
 
 /* Subscribe button */
@@ -179,7 +181,7 @@ h3 {
 }
 
 .subscribe-button:hover {
-    background: #8DC73F;
+    background: #00AD8C;
     border: 0.5px solid #ffffff;
     color: #ffffff;
 }
@@ -199,7 +201,7 @@ img {
     display: flex;
     padding: 5px;
     flex-wrap: wrap;
-    margin: 20px;
+    margin: 20px auto;
 }
 
 .photo {
@@ -255,7 +257,8 @@ img {
 /* Meet the team section */
 #meet-the-team {
     text-align: center;
-    margin: 20px;
+    margin: 20px auto;
+    width: 90%;
 }
 
 #team-photos {
@@ -278,7 +281,8 @@ img {
 
 /* Colour analysis & theory section */
 #colour-section {
-    margin: 0 20px;
+    margin: 20px auto;
+    width: 90%;
 }
 
 #colour-theory>div,
@@ -293,16 +297,51 @@ img {
 }
 
 #colour-video {
-    height: 90vw;
+    /* height: 90vw;
     width: 90vw;
     max-width: 300px;
-    max-height: 300px;
+    max-height: 300px; */
     display: flex;
     margin: 20px;
 }
 
-/* Subscribe */
+/* Form, subscribe, contact & map section */
+#subscribe {
+    font-family: 'Inter' sans-serif;
+    padding: 20px;
+}
 
+.subscribe-button-form {
+    background: #00AD8C;
+    border: 0.5px solid #ffffff;
+    color: #ffffff;
+    border-radius: 25px;
+    box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+    cursor: pointer;
+    display: block;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 20px auto;
+    padding: 8px 24px;
+    transition: all 200ms ease;
+}
+
+.subscribe-button-form:hover {
+    background: #252525;
+    color: #ffffff;
+    border: 1px solid #fff;
+}
+
+#contact-us {
+    list-style-type: none;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+#map {
+    width: 150%;
+
+}
 
 /* Footer */
 footer {
@@ -403,13 +442,11 @@ a:active {
     }
 }
 
-/* Footer */
-
 /* Media query for devices 992px and larger */
 @media screen and (min-width: 992px) {
     #menu a:hover {
-        color: #8DC73F;
-        border-bottom: 1px solid #8DC73F;
+        color: #00AD8C;
+        border-bottom: 1px solid #00AD8C;
     }
 
     /* Media query for devices 1200px and larger */
