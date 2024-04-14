@@ -297,12 +297,11 @@ img {
 #colour-video iframe {
     width: 100%;
     display: flex;
-    margin: 20px;
+    margin: 20px auto;
 }
 
 /* Form, subscribe, contact & map section */
 #subscribe {
-    font-family: 'Inter' sans-serif;
     margin: 20px;
 }
 
@@ -329,7 +328,6 @@ img {
 
 #contact-us {
     list-style-type: none;
-    font-size: 14px;
     padding-bottom: 10px;
 }
 
@@ -351,19 +349,20 @@ footer {
     list-style-type: none;
 }
 
+/* Logo */
+#footer-logo {
+    width: 180px;
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 10px;
+    padding-top: 40px;
+}
+
 /* Social network symbols */
 #social-networks i {
     font-size: 28px;
     padding: 5%;
     color: #252525;
-}
-
-#footer-logo {
-    width: 200px;
-    margin: 0 auto;
-    display: block;
-    padding-bottom: 10px;
-    padding-top: 20px;
 }
 
 .copyright {
@@ -497,6 +496,15 @@ a:active {
 
         #colour-theory>div {
             align-self: flex-end;
+        }
+
+        #colour-video {
+            margin: 20px; /* Adjust the margin value according to your preference */
+        }
+        
+        #colour-video iframe {
+            display: block;
+            margin: auto; /* Center the iframe horizontally */
         }
     }
 }
