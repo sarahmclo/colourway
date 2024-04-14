@@ -56,7 +56,7 @@ header a {
 
 .active {
     /* border-bottom: 1px solid #ffffff; */
-    border-bottom: 1px solid #00AD8C;
+    border-bottom: 1px solid #FF55AF;
 }
 
 /* Navbar styles with dropdown toggle */
@@ -441,8 +441,8 @@ a:active {
 /* Media query for devices 992px and larger */
 @media screen and (min-width: 992px) {
     #menu a:hover {
-        color: #00AD8C;
-        border-bottom: 1px solid #00AD8C;
+        color: #FF55AF;
+        border-bottom: 1px solid #FF55AF;
     }
 
     /* Media query for devices 1200px and larger */
