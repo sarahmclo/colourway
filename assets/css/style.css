@@ -271,15 +271,18 @@ img {
     box-sizing: border-box;
     display: flex;
     justify-content: center;
-        position: relative; /* Ensure the container is relatively positioned */
-        overflow: hidden; /* Hide overflowing content */
+    position: relative;
+    /* Ensure the container is relatively positioned */
+    overflow: hidden;
+    /* Hide overflowing content */
 }
 
 .team img {
     border-radius: 10px;
-        width: 100%;
-        border-radius: 10px;
-        transition: transform 0.3s ease; /* Add a smooth transition for hover effect */
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    /* Add a smooth transition for hover effect */
 }
 
 .team-overlay {
@@ -287,21 +290,27 @@ img {
     bottom: 15px;
     width: 90%;
     border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
-    color: #ffffff; /* Text color */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent black background */
+    color: #ffffff;
+    /* Text color */
     text-align: center;
-    padding: 20px; /* Add padding for better readability */
-    transition: bottom 0.3s ease; /* Add transition for smooth animation */
+    padding: 20px;
+    /* Add padding for better readability */
+    transition: bottom 0.3s ease;
+    /* Add transition for smooth animation */
     overflow: auto;
 }
 
 
 .team-overlay p {
-    margin: 0; /* Remove default margin */
+    margin: 0;
+    /* Remove default margin */
 }
 
 .team:hover .team-overlay {
-    bottom: 50px; /* Show the overlay on hover */
+    bottom: 50px;
+    /* Show the overlay on hover */
 }
 
 /* Colour analysis & theory section */
@@ -410,6 +419,7 @@ a:active {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
     /* Header */
     nav {
         display: block;
@@ -434,6 +444,22 @@ a:active {
     .logo {
         margin: 0 0.5rem;
         padding-top: 13px;
+    }
+
+    /* Navbar menu link */
+    #our-mission:target {
+        padding-top: 100px;
+        margin-top: -100px;
+    }
+
+    #meet-the-team:target {
+        padding-top: 100px;
+        margin-top: -100px;
+    }
+
+    #subscribe:target {
+        padding-top: 100px;
+        margin-top: -100px;
     }
 
     /* Main content */
@@ -473,22 +499,6 @@ a:active {
 
     /* Media query for devices 1200px and larger */
     @media screen and (min-width: 1200px) {
-
-        /* Navbar menu link */
-        #our-mission:target {
-            padding-top: 100px;
-            margin-top: -100px;
-        }
-        
-        #meet-the-team:target {
-            padding-top: 100px;
-            margin-top: -100px;
-        }
-        
-        #subscribe:target {
-            padding-top: 100px;
-            margin-top: -100px;
-        }
 
         /* Our mission section */
         #about {
@@ -543,12 +553,14 @@ a:active {
         }
 
         #colour-video {
-            margin: 20px; /* Adjust the margin value according to your preference */
+            margin: 20px;
+            /* Adjust the margin value according to your preference */
         }
-        
+
         #colour-video iframe {
             display: block;
-            margin: auto; /* Center the iframe horizontally */
+            margin: auto;
+            /* Center the iframe horizontally */
         }
     }
 }
