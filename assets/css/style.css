@@ -474,6 +474,22 @@ a:active {
     /* Media query for devices 1200px and larger */
     @media screen and (min-width: 1200px) {
 
+        /* Navbar menu link */
+        #our-mission:target {
+            padding-top: 100px;
+            margin-top: -100px;
+        }
+        
+        #meet-the-team:target {
+            padding-top: 100px;
+            margin-top: -100px;
+        }
+        
+        #subscribe:target {
+            padding-top: 100px;
+            margin-top: -100px;
+        }
+
         /* Our mission section */
         #about {
             display: flex;
