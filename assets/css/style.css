@@ -166,8 +166,8 @@ h3 {
 
 /* Subscribe button */
 .subscribe-button {
-    background: #252525;
-    border: 1px solid #fff;
+    background: #FF55AF;
+    border: 0.5px solid #ffffff;
     border-radius: 25px;
     box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
     color: #ffffff;
@@ -181,13 +181,9 @@ h3 {
 }
 
 .subscribe-button:hover {
-    background: #FF55AF;
+    background: #252525;
     border: 0.5px solid #ffffff;
     color: #ffffff;
-}
-
-a:hover {
-    text-decoration: none;
 }
 
 img {
@@ -358,8 +354,6 @@ img {
     border-radius: 2px;
     padding: 0 5px;
 }
-
-.radio-buttons {}
 
 .subscribe-button-form {
     background: #FF55AF;
