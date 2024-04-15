@@ -136,16 +136,20 @@ h3 {
     text-transform: uppercase;
 }
 
+h4 {
+    font-size: 110%;
+}
+
 #hero-text {
     background-color: rgba(35, 37, 35, 0.7);
     position: absolute;
     bottom: 30px;
-    width: 90%;
+    width: 80%;
     min-height: 200px;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 10px;
-    border-bottom-right-radius: 10%;
+    border-bottom-right-radius: 20px;
 }
 
 .hero-mission {
@@ -181,7 +185,7 @@ h3 {
 }
 
 .subscribe-button:hover {
-    background: #252525;
+    background: #35D42F;
     border: 0.5px solid #ffffff;
     color: #ffffff;
 }
@@ -236,9 +240,9 @@ img {
     background: url('../images/colourway-logo-pastel.webp') no-repeat top center / cover;
     height: 90vw;
     width: 90vw;
-    margin-bottom: 20px;
-    max-width: 300px;
-    max-height: 300px;
+    margin-bottom: 25px;
+    max-width: 250px;
+    max-height: 250px;
     background-size: contain;
     background-position: center;
 }
@@ -371,7 +375,7 @@ img {
 }
 
 .subscribe-button-form:hover {
-    background: #252525;
+    background: #35D42F;
     color: #ffffff;
     border: 1px solid #fff;
 }
@@ -391,11 +395,11 @@ img {
 
 /* Footer Logo */
 #footer-logo {
-    width: 180px;
+    width: 150px;
     margin: 0 auto;
     display: block;
     padding-bottom: 10px;
-    padding-top: 20px;
+    padding-top: 15px;
 }
 
 /* Footer */
@@ -591,14 +595,12 @@ a:active {
             }
 
             #colour-video {
-                margin: 20px;
-                /* Adjust the margin value according to your preference */
+                margin: 10px 25px;
             }
 
             #colour-video iframe {
                 display: block;
                 margin: auto;
-                /* Center the iframe horizontally */
             }
         }
     }
