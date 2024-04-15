@@ -339,8 +339,27 @@ img {
 /* Form, subscribe, contact & map section */
 #subscribe {
     margin: 20px;
-    text-align: center;
 }
+
+#subscribe-form {
+    color: #252525;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    border: 1px solid #252525;
+}
+
+.text-input {
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #252525;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+.radio-buttons {}
 
 .subscribe-button-form {
     background: #FF55AF;
@@ -352,9 +371,9 @@ img {
     display: block;
     font-size: 18px;
     line-height: 22px;
-    margin: 20px auto;
     padding: 8px 24px;
     transition: all 200ms ease;
+    margin: 20px auto;
 }
 
 .subscribe-button-form:hover {
@@ -363,14 +382,26 @@ img {
     border: 1px solid #fff;
 }
 
+/* Contact */
 #contact-us {
     list-style-type: none;
-    padding-bottom: 10px;
+    padding: 20px;
+    text-align: center;
 }
 
+/* Map */
 #map iframe {
     width: 100%;
     height: 300px;
+}
+
+/* Footer Logo */
+#footer-logo {
+    width: 180px;
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 10px;
+    padding-top: 20px;
 }
 
 /* Footer */
@@ -384,15 +415,6 @@ footer {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-}
-
-/* Logo */
-#footer-logo {
-    width: 180px;
-    margin: 0 auto;
-    display: block;
-    padding-bottom: 10px;
-    padding-top: 40px;
 }
 
 /* Social network symbols */
@@ -488,79 +510,101 @@ a:active {
     .team {
         flex: 0 0 33.33%;
     }
-}
 
-/* Media query for devices 992px and larger */
-@media screen and (min-width: 992px) {
-    #menu a:hover {
-        color: #FF55AF;
-        border-bottom: 1px solid #FF55AF;
+    /* Form */
+    #subscribe-form {
+        max-width: 800px;
+        margin: 0 auto;
     }
 
-    /* Media query for devices 1200px and larger */
-    @media screen and (min-width: 1200px) {
+    .text-input:hover {
+        border-color: #FF55AF;
+    }
 
-        /* Our mission section */
-        #about {
-            display: flex;
-            flex-direction: row;
-        }
-
-        #about>div {
-            flex: 1;
-        }
-
-        #mission-image {
-            order: 0
-        }
-
-        #about-approach {
-            order: 1;
-        }
-
-        #about-approach>div {
-            align-self: flex-start;
-        }
-
-        #about-us>div {
-            align-self: flex-end;
-        }
-
-        /* Colour Theory & Analysis Section */
-        #colour {
-            display: flex;
-            flex-direction: row;
-        }
-
-        #colour>div {
-            flex: 1;
-        }
-
-        #colour-video {
-            order: 0
-        }
-
-        #colour-analysis {
-            order: 1;
-        }
-
-        #colour-analysis>div {
-            align-self: flex-start;
-        }
-
-        #colour-theory>div {
-            align-self: flex-end;
-        }
-
-        #colour-video {
-            margin: 20px;
-            /* Adjust the margin value according to your preference */
-        }
-
-        #colour-video iframe {
-            display: block;
-            margin: auto;
-            /* Center the iframe horizontally */
-        }
+    /* Map */
+    #map iframe {
+        width: 100%;
+        max-width: 800px;
+        /* Set maximum width for the map */
+        margin: 0 auto;
+        /* Center the map horizontally */
+        display: block;
+        /* Ensure the iframe is displayed as a block element */
+        height: 300px;
     }
 }
+
+    /* Media query for devices 992px and larger */
+    @media screen and (min-width: 992px) {
+        #menu a:hover {
+            color: #FF55AF;
+            border-bottom: 1px solid #FF55AF;
+        }
+
+        /* Media query for devices 1200px and larger */
+        @media screen and (min-width: 1200px) {
+
+            /* Our mission section */
+            #about {
+                display: flex;
+                flex-direction: row;
+            }
+
+            #about>div {
+                flex: 1;
+            }
+
+            #mission-image {
+                order: 0
+            }
+
+            #about-approach {
+                order: 1;
+            }
+
+            #about-approach>div {
+                align-self: flex-start;
+            }
+
+            #about-us>div {
+                align-self: flex-end;
+            }
+
+            /* Colour Theory & Analysis Section */
+            #colour {
+                display: flex;
+                flex-direction: row;
+            }
+
+            #colour>div {
+                flex: 1;
+            }
+
+            #colour-video {
+                order: 0
+            }
+
+            #colour-analysis {
+                order: 1;
+            }
+
+            #colour-analysis>div {
+                align-self: flex-start;
+            }
+
+            #colour-theory>div {
+                align-self: flex-end;
+            }
+
+            #colour-video {
+                margin: 20px;
+                /* Adjust the margin value according to your preference */
+            }
+
+            #colour-video iframe {
+                display: block;
+                margin: auto;
+                /* Center the iframe horizontally */
+            }
+        }
+    }
