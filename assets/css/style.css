@@ -366,7 +366,42 @@ img {
     margin: 5px 0 20px 0;
     border: 1px solid #252525;
     border-radius: 2px;
-    padding: 0 5px;
+    padding: 10px 5px;
+}
+
+.radio-buttons input[type="radio"] {
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    /* Align radio buttons vertically with text */
+    width: 16px;
+    height: 16px;
+}
+
+.radio-buttons label {
+    cursor: pointer;
+    /* Make the label clickable */
+    display: inline-flex;
+    /* Use flexbox to align items */
+    line-height: 10px;
+    padding: 10px 0;
+}
+
+.checkbox input[type="checkbox"] {
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    /* Align radio buttons vertically with text */
+    width: 16px;
+    height: 16px;
+}
+
+.checkbox label {
+    cursor: pointer;
+    /* Make the label clickable */
+    display: inline-flex;
+    /* Use flexbox to align items */
+    padding: 10px 0;
 }
 
 .subscribe-button-form {
