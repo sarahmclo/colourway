@@ -111,7 +111,7 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background: url(../images/colour-wide.webp) no-repeat center center/cover;
+    background: url(../images/colour-wide-1280.webp) no-repeat center center/cover;
     position: relative;
     color: #ffffff;
 }
@@ -240,11 +240,11 @@ img {
     background: url('../images/colourway-logo.webp') no-repeat top center / cover;
     height: 90vw;
     width: 90vw;
-    margin-bottom: 25px;
     max-width: 280px;
-    max-height: 20px;
+    max-height: 280px;
     background-size: contain;
     background-position: center;
+    margin-bottom: 20px;
 }
 
 #mission-image {
