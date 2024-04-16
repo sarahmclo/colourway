@@ -55,7 +55,7 @@ header a {
 }
 
 .active {
-    border-bottom: 1px solid #FF55AF;
+    border-bottom: 1px solid #ed6fba;
 }
 
 /* Navbar styles with dropdown toggle */
@@ -131,7 +131,7 @@ h2 {
 h3 {
     padding-bottom: 12px;
     text-align: center;
-    color: #FF55AF;
+    color: #ed6fba;
     font-size: 120%;
     text-transform: uppercase;
 }
@@ -170,7 +170,7 @@ h4 {
 
 /* Subscribe button */
 .subscribe-button {
-    background: #FF55AF;
+    background: #ed6fba;
     border: 0.5px solid #ffffff;
     border-radius: 25px;
     box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
@@ -185,7 +185,7 @@ h4 {
 }
 
 .subscribe-button:hover {
-    background: #35D42F;
+    background: #35D330;
     border: 0.5px solid #ffffff;
     color: #ffffff;
 }
@@ -329,15 +329,20 @@ img {
     margin-bottom: 20px;
 }
 
-#colour hr {
+#colour-section hr {
     /* border-top: 1px solid #252525; */
     margin: 5px 0;
 }
 
-#colour-video iframe {
+#colour-theory-video /* iframe */ {
     width: 100%;
     display: flex;
-    margin: 20px auto;
+    margin: 20px auto 5px;
+}
+
+.video-source {
+    font-size: 10px;
+    margin-bottom: 20px;
 }
 
 /* Form, subscribe, contact & map section */
@@ -365,7 +370,7 @@ img {
 }
 
 .subscribe-button-form {
-    background: #FF55AF;
+    background: #ed6fba;
     border: 0.5px solid #ffffff;
     color: #ffffff;
     border-radius: 25px;
@@ -380,7 +385,7 @@ img {
 }
 
 .subscribe-button-form:hover {
-    background: #35D42F;
+    background: #35D330;
     color: #ffffff;
     border: 1px solid #fff;
 }
@@ -583,7 +588,7 @@ a:active {
             flex: 1;
         }
 
-        #colour-video {
+        #colour-theory-video {
             order: 0
         }
 
@@ -603,7 +608,7 @@ a:active {
             margin: 10px 25px;
         }
 
-        #colour-video iframe {
+        #colour-theory-video {
             display: block;
             margin: auto;
         }
