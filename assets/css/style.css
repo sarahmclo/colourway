@@ -331,10 +331,13 @@ img {
     margin: 5px 0;
 }
 
-#colour-theory-video /* iframe */ {
+#colour-theory-video {
     width: 100%;
     display: flex;
     margin: 20px auto 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .video-source {
@@ -388,17 +391,16 @@ img {
 }
 
 /* Contact us & map section */
-#contact-us-map {
+#contact-us {
     margin: 20px;
 }
 
-#contact-us {
+#contact {
     list-style-type: none;
-    padding: 20px;
     text-align: center;
+    padding-bottom: 20px;
 }
 
-/* Map */
 #map iframe {
     width: 100%;
     height: 300px;
@@ -409,7 +411,7 @@ img {
     width: 150px;
     margin: 0 auto;
     display: block;
-    padding-top: 15px;
+    padding: 5px;
 }
 
 /* Footer */
@@ -528,7 +530,8 @@ a:active {
     .text-input:hover {
         border-color: #FF55AF;
     }
-/* Contact us & map section */
+
+    /* Contact us & map section */
     #map iframe {
         width: 100%;
         max-width: 800px;
@@ -547,73 +550,73 @@ a:active {
         color: #FF55AF;
         border-bottom: 1px solid #FF55AF;
     }
+}
 
-    /* Media query for devices 1200px and larger */
-    @media screen and (min-width: 1200px) {
+/* Media query for devices 1200px and larger */
+@media screen and (min-width: 1200px) {
 
-        /* Our mission section */
-        #about {
-            display: flex;
-            flex-direction: row;
-        }
+    /* Our mission section */
+    #about {
+        display: flex;
+        flex-direction: row;
+    }
 
-        #about>div {
-            flex: 1;
-        }
+    #about>div {
+        flex: 1;
+    }
 
-        #mission-image {
-            order: 0
-        }
+    #mission-image {
+        order: 0
+    }
 
-        #about-approach {
-            order: 1;
-        }
+    #about-approach {
+        order: 1;
+    }
 
-        #about-approach>div {
-            align-self: flex-start;
-        }
+    #about-approach>div {
+        align-self: flex-start;
+    }
 
-        #about-us>div {
-            align-self: flex-end;
-        }
+    #about-us>div {
+        align-self: flex-end;
+    }
 
-        /* Colour Theory & Analysis Section */
-        #colour {
-            display: flex;
-            flex-direction: row;
-        }
+    /* Colour Theory & Analysis Section */
+    #colour {
+        display: flex;
+        flex-direction: row;
+    }
 
-        #colour>div {
-            flex: 1;
-        }
+    #colour>div {
+        flex: 1;
+    }
 
-        #colour-theory-video {
-            order: 0
-        }
+    #colour-theory-video {
+        order: 0
+    }
 
-        #colour-analysis {
-            order: 1;
-        }
+    #colour-analysis {
+        order: 1;
+    }
 
-        #colour-analysis>div {
-            align-self: flex-start;
-        }
+    #colour-analysis>div {
+        align-self: flex-start;
+    }
 
-        #colour-theory>div {
-            align-self: flex-end;
-        }
+    #colour-theory>div {
+        align-self: flex-end;
+    }
 
-        #colour-video {
-            margin: 10px 25px;
-        }
+    #colour-video {
+        margin: 10px 25px;
+    }
 
-        #colour-theory-video {
-            display: block;
-            margin: auto;
-        }
+    #colour-theory-video {
+        display: block;
+        margin: auto;
+    }
 
-        .video-source {
-            margin-top: 10px;
-        }
+    .video-source {
+        margin-top: 10px;
     }
 }

@@ -34,6 +34,7 @@
                 <li><a href="index.html#our-mission" id="mission-link">Our Mission</a></li>
                 <li><a href="index.html#meet-the-team" id="team-link">Meet The Team</a></li>
                 <li><a href="index.html#subscribe" id="subscribe-link">Subscribe</a></li>
+                <li><a href="index.html#contact-us" id="contact-link">Contact Us</a></li>
             </ul>
         </nav>
     </header>
@@ -58,9 +59,13 @@
         <!-- Welcome and Subscribe section -->
         <section id="welcome-subscribe">
             <div class="welcome">
-                <p><strong>Welcome to COLOURWAY </strong>where our certified therapists in personal and environmental
-                    colour analysis, specialise in reshaping your perception and interaction with colour.<br>We blend
-                    expertise with innovation to bring vibrant hues into every facet of your daily life.</p>
+
+            <h3>Welcome to COLOURWAY</h3>
+                <p>At Colourway our certified therapists in personal and environmental
+                    colour analysis, specialise in reshaping your perception and interaction with colour.
+                <br>
+                We blend expertise with innovation to bring vibrant hues into every facet of your daily life.</p>
+                
                 <!-- Subscribe button -->
                 <a href="index.html#subscribe" style="text-decoration: none;">
                     <button class="subscribe-button">Subscribe</button>
@@ -68,8 +73,7 @@
                 <p>Subscribe to learn more about our one-to-one consultations, workshops and <a
                         href="https://www.calm.com/blog/color-therapy#:~:text=Color%20therapy%E2%80%94often%20known%20as,navigate%20how%20you%20use%20colors."
                         target="_blank" rel="noopener"
-                        aria-label="definition of colour therapy by calm.com, opens in new page">chromotherapy</a>
-                    sessions.
+                        aria-label="definition of colour therapy by calm.com, opens in new page">chromotherapy</a>sessions.
                     <br>
                     Join us on a journey to discover the transformative power of colour at COLOURWAY, where simplicity
                     and practicality are the cornerstones of effective growth.
@@ -210,7 +214,8 @@
                     </div>
                 </div>
                 <div id="colour-video">
-                    <video id="colour-theory-video" src="assets/videos/ColourTheory.mp4" controls mute>
+                    <video id="colour-theory-video" src="assets/videos/ColourTheory.mp4" controls muted poster="assets/images/colour-theory-vid-poster.webp">
+                        Your browser does not support the video tag.
                     </video>
                     <div class="video-source">
                         <p>Source:'COLOR THEORY BASICS' by <a href="https://www.youtube.com/watch?v=YeI6Wqn4I78"
@@ -247,10 +252,10 @@
 
         <!-- Form & subscribe section -->
         <section id="subscribe">
-            <form id="subscribe-form" method="POST" action="https://formdump.codeinstitute.net">
+            <form id="subscribe-form" method="POST" action="https://formdump.codeinstitute.net" autocomplete="on">
                 <h3>Subscribe for Exclusive Offers</h3>
                 <label for="first-name">First Name</label>
-                <input type="text" name="first_name" id="first-name" class="text-input" required>
+                <input type="text" name="first_name" id="first-name" class="text-input" autocomplete="on">
                 <br>
                 <label for="last-name">Last Name</label>
                 <input type="text" name="last_name" id="last-name" class="text-input" required>
@@ -283,11 +288,11 @@
             </form>
         </section>
 
-        <!-- Contact us & Map section-->
-        <section id="contact-us-map">
-            <div id="contact">
-                <ul id="contact-us">
-                    <h4>Contact Us:</h4>
+        <!-- Contact us & map section-->
+        <section id="contact-us">
+            <h3>Contact Us:</h3>
+            <div>
+                <ul id="contact">
                     <li>Colourway <em>Your Colour Analysts, </em></li>
                     <li>1 Pink Avenue, Whitestrand, Galway, Ireland</li>
                     <li>Tel: 020 170283</li>
@@ -299,14 +304,13 @@
                     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-
-            <!-- Logo -->
-            <a href="index.html" class="footer-logo">
-                <img id="footer-logo" src="assets/images/colourway-logo-text.webp" alt="colourway logo">
-            </a>
         </section>
-
     </main>
+
+    <!-- Logo -->
+    <a href="index.html" class="footer-logo">
+        <img id="footer-logo" src="assets/images/colourway-logo-text.webp" alt="colourway logo">
+    </a>
 
     <!-- Footer -->
     <footer>
@@ -368,7 +372,7 @@
     <a href="http://jigsaw.w3.org/css-validator/check/referer">
         <img style="border:0;width:88px;height:31px"
             src="http://jigsaw.w3.org/css-validator/images/vcss"
-            alt="Valid CSS!" />
+            alt="Valid CSS!" >
     </a>
 </p>
 
@@ -376,7 +380,7 @@
     <a href="http://jigsaw.w3.org/css-validator/check/referer">
         <img style="border:0;width:88px;height:31px"
             src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
-            alt="Valid CSS!" />
+            alt="Valid CSS!" >
         </a>
     </p> 
     -->
