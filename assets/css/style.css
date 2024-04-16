@@ -52,7 +52,7 @@ header a {
 }
 
 .active {
-    border-bottom: 1px solid #ed6fba;
+    border-bottom: 1px solid #d92099;
 }
 
 /* Navbar styles with dropdown toggle */
@@ -128,7 +128,7 @@ h2 {
 h3 {
     padding-bottom: 12px;
     text-align: center;
-    color: #ed6fba;
+    color: #d92099;
     font-size: 120%;
     text-transform: uppercase;
 }
@@ -167,7 +167,7 @@ h4 {
 
 /* Subscribe button */
 .subscribe-button {
-    background: #ed6fba;
+    background: #d92099;
     border: 0.5px solid #ffffff;
     border-radius: 25px;
     box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
@@ -341,7 +341,7 @@ img {
 }
 
 .video-source {
-    font-size: 10px;
+    font-size: 12px;
     margin-bottom: 20px;
 }
 
@@ -370,7 +370,7 @@ img {
 }
 
 .subscribe-button-form {
-    background: #ed6fba;
+    background: #d92099;
     border: 0.5px solid #ffffff;
     color: #ffffff;
     border-radius: 25px;
@@ -528,7 +528,7 @@ a:active {
     }
 
     .text-input:hover {
-        border-color: #FF55AF;
+        border-color: #d92099;
     }
 
     /* Contact us & map section */
@@ -547,8 +547,8 @@ a:active {
 /* Media query for devices 992px and larger */
 @media screen and (min-width: 992px) {
     #menu a:hover {
-        color: #FF55AF;
-        border-bottom: 1px solid #FF55AF;
+        color: #d92099;
+        border-bottom: 1px solid #d92099;
     }
 }
 

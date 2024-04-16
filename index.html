@@ -60,16 +60,17 @@
         <section id="welcome-subscribe">
             <div class="welcome">
 
-            <h3>Welcome to COLOURWAY</h3>
+                <h3>Welcome to COLOURWAY</h3>
                 <p>At Colourway our certified therapists in personal and environmental
                     colour analysis, specialise in reshaping your perception and interaction with colour.
-                <br>
-                We blend expertise with innovation to bring vibrant hues into every facet of your daily life.</p>
-                
+                    <br>
+                    We blend expertise with innovation to bring vibrant hues into every facet of your daily life.</p>
+
                 <!-- Subscribe button -->
                 <a href="index.html#subscribe" style="text-decoration: none;">
                     <button class="subscribe-button">Subscribe</button>
                 </a>
+                
                 <p>Subscribe to learn more about our one-to-one consultations, workshops and <a
                         href="https://www.calm.com/blog/color-therapy#:~:text=Color%20therapy%E2%80%94often%20known%20as,navigate%20how%20you%20use%20colors."
                         target="_blank" rel="noopener"
@@ -129,10 +130,9 @@
                         <h4>Offer consultations, workshops & community.</h4>
                         <hr>
                         <p> We offer personalised one-on-one colour consultations, community workshops and colour
-                            therapy sessions, certified experts with a passion for colour and simple and practical
-                            approach to colour analysis. We are a community dedicated to exploring the transformative
-                            effects of colour through workshops and colour therapy sessions designed to enhance your
-                            well-being.
+                            therapy sessions. We are certified experts with a passion for colour utilising a simple and practical
+                            approach to colour analysis. Join a community dedicated to exploring the transformative
+                            effects of colour designed to enhance your well-being.
                         </p>
                     </div>
                 </div>
@@ -214,11 +214,12 @@
                     </div>
                 </div>
                 <div id="colour-video">
-                    <video id="colour-theory-video" src="assets/videos/ColourTheory.mp4" controls muted poster="assets/images/colour-theory-vid-poster.webp">
+                    <video id="colour-theory-video" src="assets/videos/ColourTheory.mp4" controls muted
+                        poster="assets/images/colour-theory-vid-poster.webp">
                         Your browser does not support the video tag.
                     </video>
                     <div class="video-source">
-                        <p>Source:'COLOR THEORY BASICS' by <a href="https://www.youtube.com/watch?v=YeI6Wqn4I78"
+                        <p>Source: 'COLOR THEORY BASICS' by <a href="https://www.youtube.com/watch?v=YeI6Wqn4I78"
                                 target="_blank" rel="noopener"
                                 aria-label="link to source video on colour theory by content creator Sarah Renae Clark, opens in new tab">Sarah
                                 Renae Clark</a></p>
@@ -300,6 +301,7 @@
             </div>
             <div id="map">
                 <iframe
+                title="iframe-map-galway"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2386.3239156991967!2d-9.067053723002338!3d53.265815672266065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485b96ff79da0b1f%3A0xeb05740d8a93f329!2sWhitestrand%20Rd%2C%20Galway!5e0!3m2!1sen!2sie!4v1713128575776!5m2!1sen!2sie"
                     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -346,14 +348,15 @@
 
 </body>
 
-<!-- Script to collapse menu when linking on index.html page-->
+<!-- Script to collapse menu when link is clicked on index.html page (acknowledge W3 School in README) -->
 <script>
     // Get all the link elements
     const links = document.querySelectorAll('#menu a');
     // Loop through each link
     links.forEach(link => {
         // Add click event listener to each link
-        link.addEventListener('click', () => {
+        link.addEventListener('click', (event) => {
+            event.preventDefault(); // Prevent the default behavior of the link
             // Check if the checkbox is checked (i.e., if the menu is open)
             const navToggle = document.getElementById('nav-toggle');
             if (navToggle.checked) {
