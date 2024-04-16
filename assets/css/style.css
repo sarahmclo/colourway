@@ -44,14 +44,11 @@ header a {
     padding-top: 10px;
 }
 
-#menu {
-    list-style-type: none;
-}
-
 #menu li {
     margin-bottom: 1em;
     margin-top: 1em;
     font-weight: 400;
+    list-style-type: none;
 }
 
 .active {
@@ -390,7 +387,11 @@ img {
     border: 1px solid #fff;
 }
 
-/* Contact */
+/* Contact us & map section */
+#contact-us-map {
+    margin: 20px;
+}
+
 #contact-us {
     list-style-type: none;
     padding: 20px;
@@ -408,7 +409,6 @@ img {
     width: 150px;
     margin: 0 auto;
     display: block;
-    padding-bottom: 10px;
     padding-top: 15px;
 }
 
@@ -528,8 +528,7 @@ a:active {
     .text-input:hover {
         border-color: #FF55AF;
     }
-
-    /* Map */
+/* Contact us & map section */
     #map iframe {
         width: 100%;
         max-width: 800px;
@@ -611,6 +610,10 @@ a:active {
         #colour-theory-video {
             display: block;
             margin: auto;
+        }
+
+        .video-source {
+            margin-top: 10px;
         }
     }
 }
