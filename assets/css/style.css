@@ -237,12 +237,12 @@ img {
 }
 
 #mission-bg-image {
-    background: url('../images/colourway-logo-pastel.webp') no-repeat top center / cover;
+    background: url('../images/colourway-logo.webp') no-repeat top center / cover;
     height: 90vw;
     width: 90vw;
     margin-bottom: 25px;
-    max-width: 250px;
-    max-height: 250px;
+    max-width: 280px;
+    max-height: 20px;
     background-size: contain;
     background-position: center;
 }
@@ -251,6 +251,12 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#philosophy {
+    margin: 20px;
+    justify-content: center;
+    text-align: center;
 }
 
 /* Meet the team section */
@@ -302,7 +308,6 @@ img {
     overflow: auto;
 }
 
-
 .team-overlay p {
     margin: 0;
     /* Remove default margin */
@@ -310,7 +315,6 @@ img {
 
 .team:hover .team-overlay {
     bottom: 50px;
-    /* Show the overlay on hover */
 }
 
 /* Colour analysis & theory section */
@@ -343,6 +347,7 @@ img {
 
 #subscribe-form {
     color: #252525;
+    background-color: #fff9fc;
     padding-top: 30px;
     padding-left: 30px;
     padding-right: 30px;
@@ -532,75 +537,75 @@ a:active {
     }
 }
 
-    /* Media query for devices 992px and larger */
-    @media screen and (min-width: 992px) {
-        #menu a:hover {
-            color: #FF55AF;
-            border-bottom: 1px solid #FF55AF;
+/* Media query for devices 992px and larger */
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        color: #FF55AF;
+        border-bottom: 1px solid #FF55AF;
+    }
+
+    /* Media query for devices 1200px and larger */
+    @media screen and (min-width: 1200px) {
+
+        /* Our mission section */
+        #about {
+            display: flex;
+            flex-direction: row;
         }
 
-        /* Media query for devices 1200px and larger */
-        @media screen and (min-width: 1200px) {
+        #about>div {
+            flex: 1;
+        }
 
-            /* Our mission section */
-            #about {
-                display: flex;
-                flex-direction: row;
-            }
+        #mission-image {
+            order: 0
+        }
 
-            #about>div {
-                flex: 1;
-            }
+        #about-approach {
+            order: 1;
+        }
 
-            #mission-image {
-                order: 0
-            }
+        #about-approach>div {
+            align-self: flex-start;
+        }
 
-            #about-approach {
-                order: 1;
-            }
+        #about-us>div {
+            align-self: flex-end;
+        }
 
-            #about-approach>div {
-                align-self: flex-start;
-            }
+        /* Colour Theory & Analysis Section */
+        #colour {
+            display: flex;
+            flex-direction: row;
+        }
 
-            #about-us>div {
-                align-self: flex-end;
-            }
+        #colour>div {
+            flex: 1;
+        }
 
-            /* Colour Theory & Analysis Section */
-            #colour {
-                display: flex;
-                flex-direction: row;
-            }
+        #colour-video {
+            order: 0
+        }
 
-            #colour>div {
-                flex: 1;
-            }
+        #colour-analysis {
+            order: 1;
+        }
 
-            #colour-video {
-                order: 0
-            }
+        #colour-analysis>div {
+            align-self: flex-start;
+        }
 
-            #colour-analysis {
-                order: 1;
-            }
+        #colour-theory>div {
+            align-self: flex-end;
+        }
 
-            #colour-analysis>div {
-                align-self: flex-start;
-            }
+        #colour-video {
+            margin: 10px 25px;
+        }
 
-            #colour-theory>div {
-                align-self: flex-end;
-            }
-
-            #colour-video {
-                margin: 10px 25px;
-            }
-
-            #colour-video iframe {
-                display: block;
-                margin: auto;
-            }
+        #colour-video iframe {
+            display: block;
+            margin: auto;
         }
     }
+}

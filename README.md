@@ -80,7 +80,7 @@ The 5 S's
 
 ### Logo and Navbar
 Designed logo and converted to webp
-![Logo](assets/images/colourway-logo-black-text.webp)
+![Logo](docs/images/colourway-logo-text.webp)
 
 ### Favicon
 
