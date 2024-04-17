@@ -44,11 +44,15 @@ header a {
     padding-top: 10px;
 }
 
+#menu {
+        list-style-type: none;
+    }
+
+
 #menu li {
     margin-bottom: 1em;
     margin-top: 1em;
     font-weight: 400;
-    list-style-type: none;
 }
 
 .active {

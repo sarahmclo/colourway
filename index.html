@@ -348,15 +348,14 @@
 
 </body>
 
-<!-- Script to collapse menu when link is clicked on index.html page (acknowledge W3 School in README) -->
+<!-- Script to collapse menu when linking on index.html page (credit in README) -->
 <script>
     // Get all the link elements
     const links = document.querySelectorAll('#menu a');
     // Loop through each link
     links.forEach(link => {
         // Add click event listener to each link
-        link.addEventListener('click', (event) => {
-            event.preventDefault(); // Prevent the default behavior of the link
+        link.addEventListener('click', () => {
             // Check if the checkbox is checked (i.e., if the menu is open)
             const navToggle = document.getElementById('nav-toggle');
             if (navToggle.checked) {
