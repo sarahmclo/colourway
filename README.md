@@ -131,13 +131,14 @@ HTML
 CSS
 
 ## Testing
-![css-validation](docs/images/w3c-css-validation_2024-04-16.png)
-![markup-validation](docs/images/w3c-markup-validation_2024-04-18.png)
-![lighthouse-testing](docs/images/lighthouse-testing_2024-04-1.png)
 
 ### Validator Testing
-
-### HTML & CSS
+### HTML
+![markup-validation](docs/images/w3c-markup-validation_2024-04-18.png)
+### CSS
+![css-validation](docs/images/w3c-css-validation_2024-04-16.png)
+### Lighthouse
+![lighthouse-testing](docs/images/lighthouse-testing_2024-04-1.png)
 
 ### Accessibility
 

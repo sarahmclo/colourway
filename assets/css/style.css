@@ -130,11 +130,10 @@ h2 {
 }
 
 h3 {
-    padding-bottom: 12px;
-    text-align: center;
     color: #d92099;
-    font-size: 120%;
-    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 300;
+    margin: 20px 0;
 }
 
 h4 {
@@ -164,8 +163,6 @@ h4 {
 
 /* Welcome and subscribe-button section */
 .welcome {
-    text-align: center;
-    justify-content: center;
     margin: 20px;
 }
 
@@ -190,6 +187,10 @@ h4 {
     background: #35D330;
     border: 0.5px solid #ffffff;
     color: #ffffff;
+}
+
+.button-link {
+    text-align: center;
 }
 
 img {
@@ -229,10 +230,6 @@ img {
     margin-bottom: 20px;
 }
 
-#about p {
-    padding: 0 20px;
-}
-
 #about hr {
     /* border-top: 1px solid #252525; */
     margin: 5px 0;
@@ -257,13 +254,11 @@ img {
 
 #philosophy {
     margin: 20px;
-    justify-content: center;
-    text-align: center;
 }
 
 /* Meet the team section */
 #meet-the-team {
-    text-align: center;
+    /* text-align: center; */
     margin: 20px;
 }
 
@@ -355,6 +350,13 @@ img {
     margin: 20px;
 }
 
+#subscribe h4 {
+    text-align: center;
+    color: #d92099;
+    font-size: 130%;
+    padding-bottom: 20px;
+}
+
 #subscribe-form {
     color: #252525;
     background-color: #fff9fc;
@@ -433,11 +435,17 @@ img {
 /* Contact us & map section */
 #contact-us {
     margin: 20px;
+    text-align: center;
+}
+
+#contact-us h4 {
+    color: #d92099;
+    font-size: 140%;
+    padding-bottom: 10px;
 }
 
 #contact {
     list-style-type: none;
-    text-align: center;
     padding-bottom: 20px;
 }
 
@@ -455,10 +463,6 @@ img {
 }
 
 /* Footer */
-footer {
-    background-color: #ffffff;
-}
-
 #social-networks {
     text-align: center;
     padding: 20px 0;
