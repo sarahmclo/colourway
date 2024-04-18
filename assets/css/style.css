@@ -45,8 +45,8 @@ header a {
 }
 
 #menu {
-        list-style-type: none;
-    }
+    list-style-type: none;
+}
 
 
 #menu li {
@@ -131,9 +131,9 @@ h2 {
 
 h3 {
     color: #d92099;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 300;
-    margin: 20px 0;
+    margin: 30px 0;
 }
 
 h4 {
@@ -163,7 +163,8 @@ h4 {
 
 /* Welcome and subscribe-button section */
 .welcome {
-    margin: 20px;
+    width: 90%;
+    margin: 20px auto;
 }
 
 /* Subscribe button */
@@ -203,7 +204,8 @@ img {
 #photo-gallery {
     display: flex;
     flex-wrap: wrap;
-    margin: 20px;
+    width: 90%;
+    margin: 20px auto;
 }
 
 .photo {
@@ -253,13 +255,22 @@ img {
 }
 
 #philosophy {
-    margin: 20px;
+    width: 90%;
+    margin: 20px auto;
+}
+
+#quote h4 {
+    color: #d92099;
+    font-weight: 300;
+    font-size: 120%;
+    margin: 0 20px;
 }
 
 /* Meet the team section */
 #meet-the-team {
     /* text-align: center; */
-    margin: 20px;
+    width: 90%;
+    margin: 20px auto;
 }
 
 #team-photos {
@@ -347,7 +358,8 @@ img {
 
 /* Form, subscribe, contact & map section */
 #subscribe {
-    margin: 20px;
+    max-width: 90%;
+    margin: 20px auto;
 }
 
 #subscribe h4 {
@@ -434,8 +446,9 @@ img {
 
 /* Contact us & map section */
 #contact-us {
-    margin: 20px;
+    margin: 20px auto;
     text-align: center;
+    max-width: 90%;
 }
 
 #contact-us h4 {
@@ -555,6 +568,10 @@ a:active {
 
     h2 {
         font-size: 34px;
+    }
+
+    h3 {
+        text-align: center;
     }
 
     .photo {
