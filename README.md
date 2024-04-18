@@ -1,4 +1,5 @@
 # Welcome to COLOURWAY: Your Colour Analysts
+![Logo](docs/images/colourway-text-logo.webp)
 
 ## Mock-up
 ![Colour Palette](docs/images/Colourway-MockUp.webp)
@@ -81,7 +82,7 @@ The 5 S's
 
 ### Logo and Navbar
 Designed logo and converted to webp
-![Logo](docs/images/colourway-logo-text.webp)
+![Logo](docs/images/colourway-text-logo.webp)
 
 ### Favicon
 

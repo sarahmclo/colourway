@@ -170,22 +170,23 @@ h4 {
 }
 
 /* Subscribe button */
-.subscribe-button {
-    background: #d92099;
+.subscribe-link {
+    background-color: #d92099;
+    color: #ffffff !important;
     border: 0.5px solid #ffffff;
     border-radius: 25px;
     box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
-    color: #ffffff;
     cursor: pointer;
-    display: block;
+    display: inline-block;
     font-size: 18px;
     line-height: 22px;
     margin: 20px auto;
     padding: 8px 24px;
     transition: all 200ms ease;
+    text-decoration: none;
 }
 
-.subscribe-button:hover {
+.subscribe-link:hover {
     background: #35D330;
     border: 0.5px solid #ffffff;
     color: #ffffff;
