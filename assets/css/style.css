@@ -26,7 +26,7 @@ header {
     background-color: #ffffff;
     /* color: #ffffff; */
     box-shadow: 0 1.5px 1.5px #3a3a3a;
-    padding: 0 1rem;
+    padding: 0.2rem 1rem;
     position: fixed;
     width: 100%;
     z-index: 99;
@@ -576,6 +576,11 @@ a:active {
 
     .photo {
         flex: 0 0 33.33%;
+    }
+
+    #quote h4 {
+        text-align: center;
+        font-size: 200%;
     }
 
     .team {
