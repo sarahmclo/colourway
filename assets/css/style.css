@@ -48,7 +48,6 @@ header a {
     list-style-type: none;
 }
 
-
 #menu li {
     margin-bottom: 1em;
     margin-top: 1em;
@@ -124,9 +123,19 @@ h1 {
 }
 
 h2 {
+    font-weight: 300;
+    font-size: 34px;
+    color: #d92099;
+    padding-bottom: 20px;
+}
+
+#hero-text h2 {
     font-style: italic;
-    font-weight: 200;
     font-size: 26px;
+    font-weight: 200;
+    margin: 0;
+    text-align: left;
+    color: #ffffff;
 }
 
 h3 {
@@ -138,6 +147,10 @@ h3 {
 
 h4 {
     font-size: 110%;
+}
+
+hr {
+    margin: 5px 0;
 }
 
 #hero-text {
@@ -210,7 +223,7 @@ img {
 
 .photo {
     flex: 0 0 100%;
-    padding: 5px;
+    padding-top: 5px;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
@@ -230,11 +243,6 @@ img {
 #about-approach>div {
     line-height: 20px;
     margin-bottom: 20px;
-}
-
-#about hr {
-    /* border-top: 1px solid #252525; */
-    margin: 5px 0;
 }
 
 #mission-bg-image {
@@ -260,9 +268,9 @@ img {
 }
 
 #quote h4 {
-    color: #d92099;
+    color: #252525;
     font-weight: 300;
-    font-size: 120%;
+    font-size: 130%;
     margin: 0 20px;
 }
 
@@ -275,14 +283,13 @@ img {
 
 #team-photos {
     display: flex;
-    padding: 5px;
     flex-wrap: wrap;
 }
 
 .team {
     flex: 0 0 100%;
-    padding: 5px;
     box-sizing: border-box;
+    padding-top: 5px;
     display: flex;
     justify-content: center;
     position: relative;
@@ -499,12 +506,21 @@ img {
 }
 
 /* Subscribe page */
-#logo-return {
-
-}
-
 #subscribed {
     text-align: center;
+    margin: 20px;
+}
+
+#subscribed h2 {
+    font-size: 28 px;
+    font-style: italic;
+}
+
+#subscribed h3 {
+    color: #252525;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px;
 }
 
 .return-button {
@@ -528,6 +544,11 @@ img {
     color: #ffffff;
     border: 1px solid #fff;
 }
+
+#sign-up {
+    list-style-type: none;
+}
+
 /* Disable colour on a tag when visited (for testing) */
 a,
 a:visited,
@@ -597,6 +618,11 @@ a:active {
     }
 
     h2 {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    #hero-text h2 {
         font-size: 34px;
     }
 
