@@ -1,12 +1,18 @@
-# COLOURWAY *Your Colour Analysts*
+# 
 ![Mock-Up](docs/images/colourway-mockup.webp)
 
-At COLOURWAY, we believe that colour isn't just a visual experience; it's a language that speaks volumes about who we are and how we interact with the world around us. We're not your typical colour consultants – we're your personal guides to understanding the power of colour in your life. Overall, this website could offer a clean, practical, and user-friendly platform for individuals to explore the transformative power of colour and integrate it into their daily routines in meaningful ways.
+Welcome to COLOURWAY, Your Colour Analysts, where we believe that colour isn't just a visual experience; it's a language that speaks volumes about who we are and how we interact with the world around us. We're not your typical colour consultants – we're your personal guides to understanding the power of colour in your life. 
 
-[View Colourway Live Here](https://www.example.com)
+With this site we offer a clean, practical, and user-friendly platform for individuals to explore the transformative power of colour and integrate it into their daily routines in meaningful ways. We believe that simplicity and practicality are the cornerstones of effective design, our website is a testament to this philosophy, offering a bold and intuitive user experience that puts the transformative power of colour front and centre in a personal yet practical way. Our website calls on our user to subcribe to the COLOURWAY community for exclusive info and offers.
+
+[View Colourway Live Here](https://sarahmclo.github.io/colourway/)
+
+## Table of Contents
+
+## User Experience (UX)
+The 5 S's
 
 ## About Us
-
 COLOURWAY: Your Colour Analysts is dedicated to providing a fresh and practical approach to colour analysis. Our team of certified experts offers personalised one-on-one consultations to help you discover the perfect palette for your personal style and everyday environment. But we're more than just consultants; we're a community dedicated to exploring the transformative effects of colour through workshops and colour therapy sessions designed to enhance your well-being.
 
 ## Our Approach
@@ -19,10 +25,6 @@ At COLOURWAY, simplicity and practicality are at the heart of everything we do. 
 - Community workshops and colour therapy sessions
 - Certified experts with a passion for colour
 - Simple and practical approach to colour analysis
-
-Join us on a journey to discover the transformative power of colour at COLOURWAY: Your Colour Analysts.
-
-At COLOURWAY, we believe that simplicity and practicality are the cornerstones of effective design. Our website is a testament to this philosophy, offering a bold and intuitive user experience that puts the transformative power of colour front and centre.
 
 ## Design Philosophy
 
@@ -39,15 +41,6 @@ While our design may be simple, that doesn't mean it's lacking in impact. We've 
 ## Accessibility
 
 In keeping with our commitment to practicality, we've ensured that our website is accessible to all users, regardless of their device or ability. Our responsive design adapts seamlessly to any screen size, while our use of semantic HTML ensures compatibility with screen readers and other assistive technologies.
-
-## Conclusion
-
-At COLOURWAY: Your Colour Analysts, we believe that design should be both beautiful and functional. Our website is a testament to this belief, offering a simple, practical, and bold user experience that puts the transformative power of colour at your fingertips. Join us on a journey to discover the true impact of colour in your life. Welcome to a world where every shade narrates a unique story, and where the potential is as vast as the colour spectrum itself.
-
-## Table of Contents
-
-## User Experience (UX)
-The 5 S's
 
 ### Project Goals
 
@@ -69,8 +62,9 @@ The 5 S's
 
 ### Colours
 
-![Colour Logo](docs/images/colourway-logo-rm.webp)
 ![Colour Palette](docs/images/AdobeColor-color-theme_colourway.webp)
+
+![Colour Logo](docs/images/colourway-logo.webp)
 
 ### Fonts
 
@@ -206,5 +200,9 @@ All content written for the website is by myself, is purely fictional, and for e
 ### Media
 
 ### Code
+
+## Conclusion
+
+At COLOURWAY: Your Colour Analysts, we believe that design should be both beautiful and functional. Our website is a testament to this belief, offering a simple, practical, and bold user experience that puts the transformative power of colour at your fingertips. Join us on a journey to discover the true impact of colour in your life. Welcome to a world where every shade narrates a unique story, and where the potential is as vast as the colour spectrum itself.
 
 ## Acknowledgements
