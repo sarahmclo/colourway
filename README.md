@@ -136,11 +136,20 @@ CSS
 
 ### Validator Testing
 ### HTML
-![markup-validation](docs/images/w3c-markup-validation_2024-04-18.png)
+Index Page
+![markup-validation](docs/images/w3c-markup-validation-index_2024-04-19.png)
+Subscribed Page
+![markup-validation](docs/images/w3c-markup-validation-subscribed-page_2024-04-19.png)
 ### CSS
-![css-validation](docs/images/w3c-css-validation_2024-04-16.png)
+Colourway Stylesheet
+![css-validation](docs/images/w3c-css-validation_2024-04-19.png)
+Google Styles Error
+![css-validation](docs/images/w3c_css_validation_GoogleStylesheetError_2024-04-16.png)
 ### Lighthouse
-![lighthouse-testing](docs/images/lighthouse-testing_2024-04-1.png)
+Index Page
+![lighthouse-testing](docs/images/LighthouseReport-IndexPage_2024-04-19.png)
+Subscribed Page
+![lighthouse-testing](docs/images/LighthouseReport-SubscribedPage_2024-04-19.png)
 
 ### Accessibility
 
