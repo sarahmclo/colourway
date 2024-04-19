@@ -139,14 +139,7 @@ h2 {
 }
 
 h3 {
-    color: #d92099;
-    font-size: 50px;
-    font-weight: 300;
-    margin: 30px 0;
-}
-
-h4 {
-    font-size: 110%;
+    font-size: 100%;
 }
 
 hr {
@@ -178,6 +171,7 @@ hr {
 .welcome {
     width: 90%;
     margin: 20px auto;
+    text-align: center;
 }
 
 /* Subscribe button */
@@ -223,7 +217,7 @@ img {
 
 .photo {
     flex: 0 0 100%;
-    padding-top: 5px;
+    padding: 5px;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
@@ -267,11 +261,11 @@ img {
     margin: 20px auto;
 }
 
-#quote h4 {
+#quote h3 {
     color: #252525;
     font-weight: 300;
-    font-size: 130%;
-    margin: 0 20px;
+    font-size: 120%;
+    text-align: center;
 }
 
 /* Meet the team section */
@@ -289,7 +283,7 @@ img {
 .team {
     flex: 0 0 100%;
     box-sizing: border-box;
-    padding-top: 5px;
+    padding: 5px;
     display: flex;
     justify-content: center;
     position: relative;
@@ -624,10 +618,6 @@ a:active {
 
     #hero-text h2 {
         font-size: 34px;
-    }
-
-    h3 {
-        text-align: center;
     }
 
     .photo {
