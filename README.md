@@ -1,12 +1,9 @@
-# Welcome to COLOURWAY: Your Colour Analysts
-![Logo](docs/images/colourway-text-logo.webp)
-
-## Mock-up
-![Colour Palette](docs/images/Colourway-MockUp.webp)
-
-![Colour Logo](docs/images/colourway-logo.webp)
+# COLOURWAY *Your Colour Analysts*
+![Mock-Up](docs/images/colourway-mockup.webp)
 
 At COLOURWAY, we believe that colour isn't just a visual experience; it's a language that speaks volumes about who we are and how we interact with the world around us. We're not your typical colour consultants – we're your personal guides to understanding the power of colour in your life. Overall, this website could offer a clean, practical, and user-friendly platform for individuals to explore the transformative power of colour and integrate it into their daily routines in meaningful ways.
+
+[View Colourway Live Here](https://www.example.com)
 
 ## About Us
 
@@ -71,6 +68,8 @@ The 5 S's
 ### Design Choices
 
 ### Colours
+
+![Colour Logo](docs/images/colourway-logo-rm.webp)
 ![Colour Palette](docs/images/AdobeColor-color-theme_colourway.webp)
 
 ### Fonts
@@ -84,7 +83,7 @@ The 5 S's
 
 ### Logo and Navbar
 Designed logo and converted to webp
-![Logo](docs/images/colourway-text-logo.webp)
+![Logo](docs/images/colourway-text-logo-rm.webp)
 
 ### Favicon
 

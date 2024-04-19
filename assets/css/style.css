@@ -29,7 +29,7 @@ header {
     padding: 0.2rem 1rem;
     position: fixed;
     width: 100%;
-    z-index: 99;  
+    z-index: 99;
 }
 
 header a {
@@ -83,7 +83,7 @@ nav {
 
 #our-mission:target {
     margin-top: -70px;
-    padding-top: 70px;    
+    padding-top: 70px;
 }
 
 #meet-the-team:target {
@@ -511,7 +511,8 @@ img {
     cursor: pointer;
     display: inline-block;
     font-size: 18px;
-    line-height: 22px;margin: 20px auto;
+    line-height: 22px;
+    margin: 20px auto;
     padding: 8px 24px;
     text-decoration: none;
     transition: all 200ms ease;
@@ -647,6 +648,7 @@ a:active {
 
 /* Media query for devices 1200px and larger */
 @media screen and (min-width: 1200px) {
+
     /* Our mission section */
     #about {
         display: flex;
