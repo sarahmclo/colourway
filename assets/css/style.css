@@ -129,15 +129,6 @@ h2 {
     padding-bottom: 20px;
 }
 
-#hero-text h2 {
-    font-style: italic;
-    font-size: 26px;
-    font-weight: 200;
-    margin: 0;
-    text-align: left;
-    color: #ffffff;
-}
-
 h3 {
     font-size: 100%;
 }
@@ -158,6 +149,15 @@ hr {
     border-bottom-right-radius: 20px;
 }
 
+#hero-text h2 {
+    font-style: italic;
+    font-size: 26px;
+    font-weight: 200;
+    margin: 0;
+    text-align: left;
+    color: #ffffff;
+}
+
 .hero-mission {
     padding-left: 20px;
 }
@@ -172,6 +172,10 @@ hr {
     width: 90%;
     margin: 20px auto;
     text-align: center;
+}
+
+.welcome h2 {
+    font-weight: 700;
 }
 
 /* Subscribe button */
@@ -499,22 +503,19 @@ img {
     font-size: 10px;
 }
 
-/* Subscribe page */
+/* Subscribed page */
 #subscribed {
     text-align: center;
-    margin: 20px;
+    margin: 30px;
 }
 
 #subscribed h2 {
-    font-size: 28 px;
+    font-size: 28px;
     font-style: italic;
 }
 
-#subscribed h3 {
-    color: #252525;
-    font-size: 20px;
-    font-weight: 700;
-    margin: 10px;
+#subscribed img {
+    width: 200px;
 }
 
 .return-button {
