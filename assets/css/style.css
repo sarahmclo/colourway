@@ -3,9 +3,9 @@
 
 /* Asterisk wildcard selector to override default styles added by browser */
 * {
-    padding: 0;
-    margin: 0;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 /* General styles */
@@ -21,17 +21,15 @@ body {
 
 /* Header */
 header {
-    /* background-color: #252525; */
+    align-items: baseline;
     background-color: #ffffff;
-    /* color: #ffffff; */
     box-shadow: 0 1.5px 1.5px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
     padding: 0.2rem 1rem;
     position: fixed;
     width: 100%;
-    z-index: 99;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
+    z-index: 99;  
 }
 
 header a {
@@ -48,9 +46,9 @@ header a {
 }
 
 #menu li {
+    font-weight: 400;
     margin-bottom: 1em;
     margin-top: 1em;
-    font-weight: 400;
 }
 
 .active {
@@ -59,15 +57,14 @@ header a {
 
 /* Navbar styles with dropdown toggle */
 nav {
-    position: absolute;
-    /* background-color: #252525; */
     background-color: #ffffff;
-    width: 100%;
-    left: 0%;
-    padding: 0 2rem;
     box-shadow: 0 1px 1px #3a3a3a;
     display: none;
+    left: 0%;
+    padding: 0 2rem;
+    position: absolute;
     top: 100%;
+    width: 100%;
 }
 
 /* Nav toggle */
@@ -85,18 +82,18 @@ nav {
 }
 
 #our-mission:target {
-    padding-top: 70px;
     margin-top: -70px;
+    padding-top: 70px;    
 }
 
 #meet-the-team:target {
-    padding-top: 70px;
     margin-top: -70px;
+    padding-top: 70px;
 }
 
 #subscribe:target {
-    padding-top: 70px;
     margin-top: -70px;
+    padding-top: 70px;
 }
 
 /* Main content */
@@ -108,23 +105,23 @@ main {
 
 /* Hero section */
 #hero {
-    height: 600px;
-    width: 100%;
     background: url(../images/hero-colour.webp) no-repeat center center/cover;
-    position: relative;
     color: #ffffff;
+    height: 600px;
+    position: relative;
+    width: 100%;
 }
 
 h1 {
     font-family: 'Inter', sans-serif;
-    text-transform: uppercase;
     font-size: 35px;
+    text-transform: uppercase;
 }
 
 h2 {
-    font-weight: 300;
-    font-size: 34px;
     color: #d92099;
+    font-size: 34px;
+    font-weight: 300;
     padding-bottom: 20px;
 }
 
@@ -138,23 +135,23 @@ hr {
 
 #hero-text {
     background-color: rgba(35, 37, 35, 0.7);
-    position: absolute;
+    border-bottom-right-radius: 20px;
     bottom: 30px;
-    width: 80%;
     min-height: 200px;
-    padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 10px;
-    border-bottom-right-radius: 20px;
+    padding-top: 20px;
+    position: absolute;
+    width: 80%;
 }
 
 #hero-text h2 {
-    font-style: italic;
+    color: #ffffff;
     font-size: 26px;
+    font-style: italic;
     font-weight: 200;
     margin: 0;
     text-align: left;
-    color: #ffffff;
 }
 
 .hero-mission {
@@ -162,15 +159,15 @@ hr {
 }
 
 .hero-mission ul {
-    list-style-type: circle;
     line-height: 150%;
+    list-style-type: circle;
 }
 
 /* Welcome and subscribe-button section */
 .welcome {
-    width: 90%;
     margin: 20px auto;
     text-align: center;
+    width: 90%;
 }
 
 .welcome h2 {
@@ -180,10 +177,10 @@ hr {
 /* Subscribe button */
 .subscribe-link {
     background-color: #d92099;
-    color: #ffffff !important;
     border: 0.5px solid #ffffff;
     border-radius: 25px;
     box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+    color: #ffffff !important;
     cursor: pointer;
     display: inline-block;
     font-size: 18px;
@@ -205,9 +202,9 @@ hr {
 }
 
 img {
-    width: 200px;
-    margin: 0 auto;
     display: block;
+    margin: 0 auto;
+    width: 200px;
 }
 
 /* Photo gallery section */
@@ -219,11 +216,11 @@ img {
 }
 
 .photo {
-    flex: 0 0 100%;
-    padding: 5px;
     box-sizing: border-box;
     display: flex;
+    flex: 0 0 100%;
     justify-content: center;
+    padding: 5px;
 }
 
 .photo img {
@@ -232,8 +229,8 @@ img {
 
 /* Our Mission section */
 #our-mission {
-    width: 90%;
     margin: 20px auto;
+    width: 90%;
 }
 
 #about-us>div,
@@ -244,38 +241,37 @@ img {
 
 #mission-bg-image {
     background: url('../images/colourway-logo.webp') no-repeat top center / cover;
-    height: 90vw;
-    width: 90vw;
-    max-width: 280px;
-    max-height: 280px;
-    background-size: contain;
     background-position: center;
+    background-size: contain;
+    height: 90vw;
     margin-bottom: 20px;
+    max-height: 280px;
+    max-width: 280px;
+    width: 90vw;
 }
 
 #mission-image {
-    display: flex;
     align-items: center;
+    display: flex;
     justify-content: center;
 }
 
 #philosophy {
-    width: 90%;
     margin: 20px auto;
+    width: 90%;
 }
 
 #quote h3 {
     color: #252525;
-    font-weight: 300;
     font-size: 120%;
+    font-weight: 300;
     text-align: center;
 }
 
 /* Meet the team section */
 #meet-the-team {
-    /* text-align: center; */
-    width: 90%;
     margin: 20px auto;
+    width: 90%;
 }
 
 #team-photos {
@@ -284,45 +280,40 @@ img {
 }
 
 .team {
-    flex: 0 0 100%;
     box-sizing: border-box;
-    padding: 5px;
     display: flex;
+    flex: 0 0 100%;
     justify-content: center;
-    position: relative;
-    /* Ensure the container is relatively positioned */
-    overflow: hidden;
     /* Hide overflowing content */
+    overflow: hidden;
+    padding: 5px;
+    /* Ensure the container is relatively positioned */
+    position: relative;
 }
 
 .team img {
     border-radius: 10px;
-    width: 100%;
-    border-radius: 10px;
-    transition: transform 0.3s ease;
     /* Add a smooth transition for hover effect */
+    transition: transform 0.3s ease;
+    width: 100%;
 }
 
 .team-overlay {
-    position: absolute;
-    bottom: 15px;
-    width: 90%;
-    border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.5);
     /* Semi-transparent black background */
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    bottom: 15px;
     color: #ffffff;
-    /* Text color */
-    text-align: center;
-    padding: 20px;
-    /* Add padding for better readability */
-    transition: bottom 0.3s ease;
-    /* Add transition for smooth animation */
     overflow: auto;
+    padding: 20px;
+    position: absolute;
+    text-align: center;
+    transition: bottom 0.3s ease;
+    width: 90%;
 }
 
 .team-overlay p {
     margin: 0;
-    /* Remove default margin */
 }
 
 .team:hover .team-overlay {
@@ -342,17 +333,16 @@ img {
 }
 
 #colour-section hr {
-    /* border-top: 1px solid #252525; */
     margin: 5px 0;
 }
 
 #colour-theory-video {
-    width: 100%;
-    display: flex;
-    margin: 20px auto 5px;
     border: 1px solid #ccc;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    margin: 20px auto 5px;
+    width: 100%;
 }
 
 .video-source {
@@ -362,66 +352,61 @@ img {
 
 /* Form, subscribe, contact & map section */
 #subscribe {
-    max-width: 90%;
     margin: 20px auto;
+    max-width: 90%;
 }
 
 #subscribe h4 {
-    text-align: center;
     color: #d92099;
     font-size: 130%;
     padding-bottom: 20px;
+    text-align: center;
 }
 
 #subscribe-form {
-    color: #252525;
     background-color: #fff9fc;
-    padding-top: 30px;
+    border: 1px solid #252525;
+    color: #252525;
+    padding-bottom: 10px;
     padding-left: 30px;
     padding-right: 30px;
-    padding-bottom: 10px;
-    border: 1px solid #252525;
+    padding-top: 30px;
 }
 
 .text-input {
-    width: 100%;
-    height: 25px;
-    margin: 5px 0 20px 0;
     border: 1px solid #252525;
     border-radius: 2px;
+    height: 25px;
+    margin: 5px 0 20px 0;
     padding: 10px 5px;
+    width: 100%;
 }
 
 .radio-buttons input[type="radio"] {
+    height: 16px;
     margin: 0;
     padding: 0;
     vertical-align: middle;
-    /* Align radio buttons vertically with text */
     width: 16px;
-    height: 16px;
 }
 
 .radio-buttons label {
     cursor: pointer;
-    /* Make the label clickable */
     display: inline-flex;
-    /* Use flexbox to align items */
     line-height: 10px;
     padding: 10px 0;
 }
 
 .checkbox input[type="checkbox"] {
+    height: 16px;
     margin: 0;
     padding: 0;
     vertical-align: middle;
-    /* Align radio buttons vertically with text */
     width: 16px;
-    height: 16px;
 }
 
 .checkbox label {
     cursor: pointer;
-    /* Make the label clickable */
     display: inline-flex;
     /* Use flexbox to align items */
     padding: 10px 0;
@@ -430,29 +415,29 @@ img {
 .subscribe-button-form {
     background: #d92099;
     border: 0.5px solid #ffffff;
-    color: #ffffff;
     border-radius: 25px;
     box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+    color: #ffffff;
     cursor: pointer;
     display: block;
     font-size: 18px;
     line-height: 22px;
+    margin: 20px auto;
     padding: 8px 24px;
     transition: all 200ms ease;
-    margin: 20px auto;
 }
 
 .subscribe-button-form:hover {
     background: #35D330;
-    color: #ffffff;
     border: 1px solid #fff;
+    color: #ffffff;
 }
 
 /* Contact us & map section */
 #contact-us {
     margin: 20px auto;
-    text-align: center;
     max-width: 90%;
+    text-align: center;
 }
 
 #contact-us h4 {
@@ -467,45 +452,45 @@ img {
 }
 
 #map iframe {
-    width: 100%;
     height: 300px;
+    width: 100%;
 }
 
 /* Footer Logo */
 #footer-logo {
-    width: 150px;
-    margin: 0 auto;
     display: block;
+    margin: 0 auto;
     padding: 5px;
+    width: 150px;
 }
 
 /* Footer */
 #social-networks {
-    text-align: center;
-    padding: 20px 0;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+    padding: 20px 0;
+    text-align: center;
 }
 
 /* Social network symbols */
 #social-networks i {
+    color: #252525;
     font-size: 28px;
     padding: 5%;
-    color: #252525;
 }
 
 .copyright {
     color: #252525;
-    text-align: center;
-    padding-bottom: 10px;
     font-size: 10px;
+    padding-bottom: 10px;
+    text-align: center;
 }
 
 /* Subscribed page */
 #subscribed {
-    text-align: center;
     margin: 30px;
+    text-align: center;
 }
 
 #subscribed h2 {
@@ -520,23 +505,22 @@ img {
 .return-button {
     background: #d92099;
     border: 0.5px solid #ffffff;
-    color: #ffffff !important;
     border-radius: 25px;
     box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+    color: #ffffff !important;
     cursor: pointer;
     display: inline-block;
     font-size: 18px;
-    line-height: 22px;
+    line-height: 22px;margin: 20px auto;
     padding: 8px 24px;
-    transition: all 200ms ease;
-    margin: 20px auto;
     text-decoration: none;
+    transition: all 200ms ease;
 }
 
 .return-button:hover {
     background: #35D330;
-    color: #ffffff;
     border: 1px solid #fff;
+    color: #ffffff;
 }
 
 #sign-up {
@@ -556,11 +540,11 @@ a:active {
 
     /* Header */
     nav {
-        display: block;
-        position: relative;
         box-shadow: none;
-        width: fit-content;
+        display: block;
         padding-right: 1rem;
+        position: relative;
+        width: fit-content;
     }
 
     #menu {
@@ -582,18 +566,18 @@ a:active {
 
     /* Navbar menu link */
     #our-mission:target {
-        padding-top: 100px;
         margin-top: -100px;
+        padding-top: 100px;
     }
 
     #meet-the-team:target {
-        padding-top: 100px;
         margin-top: -100px;
+        padding-top: 100px;
     }
 
     #subscribe:target {
-        padding-top: 100px;
         margin-top: -100px;
+        padding-top: 100px;
     }
 
     /* Main content */
@@ -602,9 +586,9 @@ a:active {
     }
 
     #hero-text {
-        width: 400px;
-        right: 50px;
         padding-left: 15px;
+        right: 50px;
+        width: 400px;
     }
 
     h1 {
@@ -612,8 +596,8 @@ a:active {
     }
 
     h2 {
-        text-align: center;
         font-size: 40px;
+        text-align: center;
     }
 
     #hero-text h2 {
@@ -625,8 +609,8 @@ a:active {
     }
 
     #quote h4 {
-        text-align: center;
         font-size: 150%;
+        text-align: center;
     }
 
     .team {
@@ -635,8 +619,8 @@ a:active {
 
     /* Form */
     #subscribe-form {
-        max-width: 800px;
         margin: 0 auto;
+        max-width: 800px;
     }
 
     .text-input:hover {
@@ -645,28 +629,24 @@ a:active {
 
     /* Contact us & map section */
     #map iframe {
-        width: 100%;
-        max-width: 800px;
-        /* Set maximum width for the map */
-        margin: 0 auto;
-        /* Center the map horizontally */
         display: block;
-        /* Ensure the iframe is displayed as a block element */
         height: 300px;
+        margin: 0 auto;
+        max-width: 800px;
+        width: 100%;
     }
 }
 
 /* Media query for devices 992px and larger */
 @media screen and (min-width: 992px) {
     #menu a:hover {
-        color: #d92099;
         border-bottom: 1px solid #d92099;
+        color: #d92099;
     }
 }
 
 /* Media query for devices 1200px and larger */
 @media screen and (min-width: 1200px) {
-
     /* Our mission section */
     #about {
         display: flex;
