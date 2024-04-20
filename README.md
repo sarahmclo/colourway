@@ -23,7 +23,7 @@ With this site we offer a clean, practical, and user-friendly platform for indiv
 13. [**Acknowledgements**](#acknowledgements)
 
 <details>
-<summary><h2>About Us</h2><a name="about-colourway"></a></summary>
+<summary><h2>About COLOURWAY</h2><a name="about-colourway"></a></summary>
 <br>
 COLOURWAY: Your Colour Analysts is dedicated to providing a fresh and practical approach to colour analysis. Our team of certified experts offers personalised one-on-one consultations to help you discover the perfect palette for your personal style and everyday environment. But we're more than just consultants; we're a community dedicated to exploring the transformative effects of colour through workshops and colour therapy sessions designed to enhance your well-being.
 
@@ -70,6 +70,9 @@ Our design ethos is rooted in the idea that less is more. We've embraced clean l
 ## Bold Choices
 With our simple yet impactful design, we've made bold choices in our use of colour and typography to create a website that stands out. A vibrant palette with eye-catching fonts draw the user's attention and create a memorable visual identity for our brand. We want our website to invoke the values we hope to bestoww upon our growing community of users.
 Inspiration
+
+## Inspiration
+![ref-pic](docs/images/references/bau.webp) ![ref-pic](docs/images/references/bauhaus.webp) ![ref-pic](docs/images/references/icon.webp) ![ref-pic](docs/images/references/mondrian.webp) ![ref-pic](docs/images/references/profile.webp) ![ref-pic](docs/images/references/pantone.webp)
            
 ## Accessibility
 In keeping with our commitment to practicality, we've ensured that our website is accessible to all users, regardless of their device or ability. Our responsive design adapts seamlessly to any screen size, while our use of semantic HTML ensures compatibility with screen readers and other assistive technologies.
