@@ -13,12 +13,12 @@ With this site we offer a clean, practical, and user-friendly platform for indiv
     - [Project Goals](#project-goals)
     - [User stories](#user-stories)
     - [Target Audience Goals](#target-audience-goals)
+    - [Site Owner Goals](#site-owner-goals)
     - [First Time User Goals](#first-time-user-goals)
     - [Return User Goals](#return-user-goals)
     - [Frequent User Goals](#frequent-user-goals)
-    - [Site Owner Goals](#site-owner-goals)
 3. [Design](#design)
-    - [Design Philosophy](#deisgn-philosophy)
+    - [Design Philosophy](#design-philosophy)
     - [Design Choices](#design-choices)
     - [Colours](#colours)
     - [Typography](#typography)
@@ -26,15 +26,15 @@ With this site we offer a clean, practical, and user-friendly platform for indiv
     - [Structure](#structure)
     - [Wireframes](#wireframes)
 4. [Features](#features)
-    - [Logo & Navbar](#logo-navbar)
+    - [Logo and Navbar](#logo-and-navbar)
     - [Favicon](#favicon)
     - [Headings](#headings)
     - [Main Content](#main-content)
     - [Footer](#footer)
     - [Pages](#pages)
-5. [Technologies Utilised](#technologies-used)
-    - [Languages](#)
-    - [Frameworks and Programs](#)
+5. [Technologies Utilised](#technologies-utilised)
+    - [Languages](#languages)
+    - [Frameworks and Programs](#frameworks-and-programs)
 6. [Testing](#testing)
     - [Validation Testing](#validation-testing)
     - [Manual Testing](#manual-testing)
@@ -48,9 +48,9 @@ With this site we offer a clean, practical, and user-friendly platform for indiv
 9. [Future Features](#future-features)
 10. [Bugs](#bugs)
 11. [Credits](#credits)
-    - [Content](#)
-    - [Media](#)
-    - [Code](#)
+    - [Content](#content)
+    - [Media](#media)
+    - [Code](#code)
 12. [Conclusion](#conclusion)
 13. [Acknowledgements](#acknowledgements)
 
@@ -119,18 +119,17 @@ The 5 S's
 ### User stories
 
 ### Target Audience Goals
-### First Time Visitor Goals
-### Return Visitor Goals
-### Frequent Visitor Goals
+### Site Owner Goals
+### First Time User Goals
+### Return User Goals
+### Frequent User Goals
 
 ## Design <a name="design"></a>
 
 ### Design Philosophy
-
 Our design ethos is rooted in the idea that less is more. We've embraced clean lines, minimalist layouts, and bold colour choices to create an interface that is both visually striking and easy to navigate. Every element has been carefully considered to ensure a seamless user experience, from the intuitive navigation menu to the vibrant colour palettes that adorn each page.
 
 ### Design Choices
-
 While our design may be simple, that doesn't mean it's lacking in impact. We've made bold choices in our use of colour and typography to create a website that stands out from the crowd. Vibrant hues and eye-catching fonts draw the user's attention and create a memorable visual identity for our brand.
 
 ### Colours
@@ -140,7 +139,7 @@ Our colour palette is carefully selected to evoke the emotions and feelings asso
 
 ![Colour Logo](docs/images/colourway-logo-rm.webp)
 
-### Typography/Fonts
+### Typography
 The typography choices on our website reflect our commitment to clarity and elegance. We've selected fonts that are easy to read yet stylish, enhancing the overall aesthetic and user experience.
 
 ### Imagery
@@ -157,8 +156,9 @@ Wireframes serve as the blueprint for our website, outlining the layout and func
 ## Features <a name="features"></a>
 
 ### Logo and Navbar
-Designed logo and converted to webp
 ![Logo](docs/images/colourway-text-logo-rm.webp)
+
+Designed logo and converted to webp
 Our distinctive logo and navigation bar provide a cohesive brand identity and intuitive navigation experience.
 
 ### Favicon
@@ -183,7 +183,7 @@ HTML
 CSS
 Javascript
 
-### Frameworks and Programs Used
+### Frameworks and Programs
 
 ### Codeanywhere
 
@@ -221,7 +221,7 @@ Javascript
 
 ## Testing <a name="testing"></a>
 
-### Validator Testing
+### Validation Testing
 ### HTML
 - Index Page
 ![markup-validation](docs/images/w3c-markup-validation-index_2024-04-19.png)
@@ -268,7 +268,7 @@ This was tested via Chrome DevTools as the project progressed.
 
 ### Performance
 
-### Browser Compatibilty
+### Browser Compatibility
 
 ## Deployment <a name="deployment"></a>
 Git was used for version control. Version control was done locally and remotely. For remote version control, GitHub was used. Regular commits were made after each file change.
