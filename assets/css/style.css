@@ -120,7 +120,7 @@ h1 {
 
 h2 {
     color: #d92099;
-    font-size: 34px;
+    font-size: 38px;
     font-weight: 300;
     padding-bottom: 20px;
 }
@@ -443,6 +443,7 @@ img {
 #contact {
     list-style-type: none;
     padding-bottom: 20px;
+    line-height: 22px;
 }
 
 #map iframe {
