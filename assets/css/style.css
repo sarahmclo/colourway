@@ -170,10 +170,6 @@ hr {
     width: 90%;
 }
 
-.welcome h2 {
-    font-weight: 700;
-}
-
 /* Subscribe button */
 .subscribe-link {
     background-color: #d92099;
@@ -384,8 +380,7 @@ img {
 
 .radio-buttons input[type="radio"] {
     height: 16px;
-    margin: 0;
-    padding: 0;
+    margin: 5px;
     vertical-align: middle;
     width: 16px;
 }
@@ -399,17 +394,14 @@ img {
 
 .checkbox input[type="checkbox"] {
     height: 16px;
-    margin: 0;
-    padding: 0;
+    margin: 5px;
     vertical-align: middle;
     width: 16px;
 }
 
 .checkbox label {
     cursor: pointer;
-    display: inline-flex;
-    /* Use flexbox to align items */
-    padding: 10px 0;
+    display: inline-flex;    
 }
 
 .subscribe-button-form {

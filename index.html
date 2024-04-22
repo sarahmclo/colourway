@@ -256,7 +256,7 @@
             <form id="subscribe-form" method="GET" action="subscribed.html" autocomplete="on">
                 <h4>Subscribe for Exclusive Offers</h4>
                 <label for="first-name">First Name</label>
-                <input type="text" name="first_name" id="first-name" class="text-input" autocomplete="on">
+                <input type="text" name="first_name" id="first-name" class="text-input" autocomplete="on" required>
                 <br>
                 <label for="last-name">Last Name</label>
                 <input type="text" name="last_name" id="last-name" class="text-input" required>
@@ -266,24 +266,24 @@
                 <br>
                 <div class="radio-buttons">
                     <div>
-                        <label for="personal-interior">Personal Style/Interior Deisgn</label>
                         <input type="radio" name="interested-in" id="personal-interior" value="personal-interior"
                             required checked>
+                        <label for="personal-interior">Personal Style/Interior Design</label>
                     </div>
                     <div>
-                        <label for="therapy-workshops">Colour Therapy/Workshops</label>
                         <input type="radio" name="interested-in" id="therapy-workshops" value="therapy-workshops"
                             required>
+                        <label for="therapy-workshops">Colour Therapy/Workshops</label>
                     </div>
                     <div>
-                        <label for="both">Both</label>
                         <input type="radio" name="interested-in" id="both" value="both" required>
+                        <label for="both">Both</label>
                     </div>
                 </div>
                 <br>
                 <div class="checkbox">
-                    <label for="newsletter">Receive our monthly Newsletter?</label>
                     <input id="newsletter" type="checkbox" name="newsletter">
+                    <label for="newsletter">Receive our monthly Newsletter?</label>
                 </div>
                 <input class="subscribe-button-form" type="submit" value="Subscribe">
             </form>
