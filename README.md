@@ -326,9 +326,9 @@ At COLOURWAY: Your Colour Analysts, we believe that design should be both beauti
 
 ## Acknowledgements <a name="acknowledgements"></a>
 Thank you to: 
-- Rahul Lakahanpal, my Code Institute mentor for encouragement and keeping me on track
-- Amy Richardson, my Code Institute Facillitator for motivation and keeping me focused
-- Code Institute Tutor Support
-- All the CI Slack community for resources and daily inspiration
-- Fellow course students for sharing and 
-- Family and Ozzy the dog for thoughts and testing
+- Rahul Lakahanpal, my Code Institute mentor, for encouragement and keeping me on track.
+- Amy Richardson, my Code Institute Facillitator, for motivation and keeping me focused.
+- Code Institute Tutor Support and Student Care.
+- All in the CI Slack community for resources and daily inspiration.
+- Fellow course students for sharing.
+- Family and Ozzy the dog for their eyes, ears, thoughts and testing.
