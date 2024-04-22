@@ -1,5 +1,5 @@
 # Colourway *Your Colour Analysts*
-![Mock-Up](docs/images/colourway-mockup.webp)
+![Mock-Up](docs/images/mockup/colourway-mockup.webp)
 
 Welcome to COLOURWAY, Your Colour Analysts, where we believe that colour isn't just a visual experience; it's a language that speaks volumes about who we are and how we interact with the world around us. We're not your typical colour consultants – we're your personal guides to understanding the power of colour in your life. 
 
@@ -95,7 +95,6 @@ Our design ethos is rooted in the idea that less is more. We've embraced clean l
 
 ## Bold Choices
 With our simple yet impactful design, we've made bold choices in our use of colour and typography to create a website that stands out. A vibrant palette with eye-catching fonts draw the user's attention and create a memorable visual identity for our brand. We want our website to invoke the values we hope to bestoww upon our growing community of users.
-Inspiration
 
 ## Inspiration
 ![ref-pic](docs/images/references/ref-images.webp)
@@ -105,7 +104,7 @@ In keeping with our commitment to practicality, we've ensured that our website i
 
 ## Conclusion
 At COLOURWAY: Your Colour Analysts, we believe that design should be both beautiful and functional. Our website is a testament to this belief, offering a simple, practical, and bold user experience that puts the transformative power of colour at your fingertips. Join us on a journey to discover the true impact of colour in your life. Welcome to a world where every shade narrates a unique story, and where the potential is as vast as the colour spectrum itself.
-Logo & Colour Palette
+
 </details>
 
 ## User Experience <a name="user-experience"></a>
@@ -137,12 +136,16 @@ While our design may be simple, that doesn't mean it's lacking in impact. We've 
 ### Colours
 Our colour palette is carefully selected to evoke the emotions and feelings associated with our brand. Vibrant yet harmonious colors create a visually appealing experience while maintaining readability and accessibility for all users.
 
-![Colour Palette](docs/images/AdobeColor-color-theme_colourway.webp)
+![Colour Palette](docs/images/logo/AdobeColor-color-theme_colourway.webp)
 
-![Colour Logo](docs/images/colourway-logo-rm.webp)
+![Colour Logo](docs/images/logo/colourway-logo-rm.webp)
 
 ### Typography
 The typography choices on our website reflect our commitment to clarity and elegance. We've selected fonts that are easy to read yet stylish, enhancing the overall aesthetic and user experience.
+
+![Inter](docs/images/fonts/inter.webp)
+
+![Roboto](docs/images/fonts/roboto.webp)
 
 ### Imagery
 We believe in the power of imagery to tell a story and evoke emotions. From striking photographs to subtle background textures, every image on our website is carefully chosen to complement our content and reinforce our brand identity.
@@ -153,17 +156,18 @@ Our website's structure is designed to guide users seamlessly through their jour
 ### Wireframes
 Wireframes serve as the blueprint for our website, outlining the layout and functionality of each page. They help us visualise the user experience and iterate on design concepts before implementation
 
-![wireframe-landing-page1](docs/wireframes/wireframe-landing-page-1.png)
+![wireframe-landing-page1](docs/images/wireframes/wireframe-landing-page-1.png)
 
 ## Features <a name="features"></a>
 
 ### Logo and Navbar
-![Logo](docs/images/colourway-text-logo-rm.webp)
+![Logo](docs/images/logo/colourway-text-logo-rm.webp)
 
 Designed logo and converted to webp
 Our distinctive logo and navigation bar provide a cohesive brand identity and intuitive navigation experience.
 
 ### Favicon
+![Favicon](docs/images/logo/favicon-32x32.png)
 Designed by myself in photoshop this custom favicon stems from the designed logo which enhances brand recognition and improves user experience by providing a visual marker for the website. 
 
 ### Headings
@@ -187,25 +191,32 @@ Javascript
 
 ### Frameworks and Programs
 
-### Codeanywhere
+### Gitpod
 
-Codeanywhere was used for writing code, committing, and then pushing to GitHub. GitHub
+Gitpod was used for writing code, committing, and then pushing to GitHub. 
+
+### GitHub
+
+GitHub was utilised for hosting and viewing.
 
 ### Google Fonts
 
-Google Fonts was used to import the fonts Barlow Condensed into the style.css file. These fonts were used throughout the site.
+Google Fonts was used to import the fonts Inter and Roboto into the style.css file. These fonts were used throughout the site.
 
 ### Font Awesome
 
-Font Awesome was used throughout all pages to add icons in order to create a better visual experience for User experience purposes.
+Font Awesome was used throughout to add icons in order to create a better visual experience for the user.
 
 ### Balsamiq
 
 Balsamiq was used to create the wireframes during the design phase of the project.
 
-### Multi Device Website Mockup Generator
+### Responsive Design Checker 
 
-Responsive Design Checker was used in the testing process to check responsiveness on various devices and to generate mockup image.
+Responsive Design Checker  was used in the testing process to check responsiveness on various devices.
+
+### Am I Responsive
+Am I Responsive was utilised to generate Mock Up Image of site in a responsive manner.
 
 ### Chrome DevTools
 
@@ -214,6 +225,9 @@ Chrome DevTools was used during development process for code review and to test 
 ### Coolers Contrast Checker
 
 Coolers Contrast Checker was used to make sure the colors I used contrasted well enough for all users
+
+### Adobe Colors
+Adobe Colors was used to generate a pleasing colour palette inkeeping with logo and design.
 
 ### Languages
 The languages used in this project are:
@@ -225,42 +239,58 @@ Javascript
 
 ### Validation Testing
 ### HTML
+
 - Index Page
-![markup-validation](docs/images/w3c-markup-validation-index_2024-04-19.png)
+
+![markup-validation](docs/images/testing/w3c-markup-validation-index_2024-04-19.png)
+
 - Subscribed Page
-![markup-validation](docs/images/w3c-markup-validation-subscribed-page_2024-04-19.png)
+
+![markup-validation](docs/images/testing/w3c-markup-validation-subscribed-page_2024-04-19.png)
 
 ### CSS
-- Colourway Stylesheet
-![css-validation](docs/images/w3c-css-validation_2024-04-19.png)
-- Google Styles Error
-![css-validation](docs/images/w3c_css_validation_GoogleStylesheetError_2024-04-16.png)
 
-### Lighthouse
-- Index Page
-![lighthouse-testing](docs/images/LighthouseReport-IndexPage_2024-04-19.png)
-- Subscribed Page
-![lighthouse-testing](docs/images/LighthouseReport-SubscribedPage_2024-04-19.png)
+- Colourway Styles
+
+![css-validation](docs/images/testing/w3c-css-validation_2024-04-19.png)
+
+- Google Styles Error
+
+![css-validation](docs/images/testing/w3c_css_validation_GoogleStylesheetError_2024-04-16.png
 
 ### Accessibility
 
-1. Lighthouse testing
+1. **Lighthouse Testing**
 
-2. Semantic HTML
+- Index Page
+
+![lighthouse-testing](docs/images/testing/LighthouseReport-IndexPage_2024-04-19.png)
+
+- Subscribed Page
+
+![lighthouse-testing](docs/images/testing/LighthouseReport-SubscribedPage_2024-04-19.png)
+
+2. **Semantic HTML**
 
 Semantic HTML tags were used to provide a clear and meaningful structure to the website content. This helps screen readers and other assistive technologies interpret and convey information accurately.
 
-3. ARIA (Accessible Rich Internet Applications)
+3. **ARIA (Accessible Rich Internet Applications)**
+
 ARIA attributes were utilised on links to enhance the accessibility of the site allowing for screen readers to accurately pick up information.
 
-4. Contrast and Readability
+4. **Contrast and Readability**
+
 Coolers Contrast Checker was used to ensure sufficient contrast in colors chosen to make the content readable for users with visual impairments.
 
-5. Alt Text for Images
+5. **Alt Text for Images**
+
 All images on the website include descriptive alternative text (alt text). This helps users with visual impairments understand the content and context of images even if they cannot see them.
 
-6. Responsive Design
+6. **Responsive Design**
+
 The website is responsive, providing a seamless experience across various devices and screen sizes. This benefits users with different abilities and ensures a consistent and accessible user experience.
+
+7. **Chrome Dev Tools**
 
 This was tested via Chrome DevTools as the project progressed.
 
