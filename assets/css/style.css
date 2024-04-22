@@ -188,7 +188,7 @@ hr {
 }
 
 .subscribe-link:hover {
-    background: #35D330;
+    background: #00AD8C;
     border: 0.5px solid #ffffff;
     color: #ffffff;
 }
@@ -354,19 +354,18 @@ img {
 
 #subscribe h4 {
     color: #d92099;
-    font-size: 130%;
+    font-size: 150%;
     padding-bottom: 20px;
     text-align: center;
 }
 
 #subscribe-form {
     background-color: #fff9fc;
-    border: 1px solid #252525;
-    color: #252525;
     padding-bottom: 10px;
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 30px;
+    z-index: 99;
 }
 
 .text-input {
@@ -405,37 +404,40 @@ img {
 }
 
 .subscribe-button-form {
-    background: #d92099;
-    border: 0.5px solid #ffffff;
-    border-radius: 25px;
-    box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
-    color: #ffffff;
-    cursor: pointer;
     display: block;
-    font-size: 18px;
-    line-height: 22px;
     margin: 20px auto;
     padding: 8px 24px;
-    transition: all 200ms ease;
-}
-
-.subscribe-button-form:hover {
-    background: #35D330;
-    border: 1px solid #fff;
-    color: #ffffff;
-}
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #d92099;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 8px #999;
+  }
+  
+  .subscribe-button-form:hover {background-color: #00AD8C}
+  
+  .subscribe-button-form:active {
+    background-color: #00AD8C;
+    box-shadow: 0 5px #3a3a3a;
+    transform: translateY(4px);
+  }
 
 /* Contact us & map section */
 #contact-us {
     margin: 20px auto;
     max-width: 90%;
     text-align: center;
+    line-height: 20px;
 }
 
 #contact-us h4 {
     color: #d92099;
-    font-size: 140%;
-    padding-bottom: 10px;
+    font-size: 150%;
+    padding: 10px;
 }
 
 #contact {
@@ -511,7 +513,7 @@ img {
 }
 
 .return-button:hover {
-    background: #35D330;
+    background: #00AD8C;
     border: 1px solid #fff;
     color: #ffffff;
 }
