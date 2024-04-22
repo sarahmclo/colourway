@@ -90,7 +90,7 @@ And connect with other like-minded persons within our community.
 
 Join us on a journey to discover the transformative power of colour at COLOURWAY: Your Colour Analysts.
 
-## User Experience
+## UX
 Our design ethos is rooted in the idea that less is more. We've embraced clean lines, minimalist layouts, negative space and bold colour choices to create an interface that is both visually striking and easy to navigate. Every element has been carefully considered to ensure a seamless user experience for intuitive navigation.
 
 ## Bold Choices
@@ -108,7 +108,7 @@ At COLOURWAY: Your Colour Analysts, we believe that design should be both beauti
 Logo & Colour Palette
 </details>
 
-## User Experience (UX) <a name="user-experience"></a>
+## User Experience <a name="user-experience"></a>
 When you visit our website, you'll immediately notice the simplicity of our design. We've eschewed unnecessary clutter in favour of clean, uncluttered layouts that allow our content to shine. Whether you're browsing our services or exploring our community events, you'll find that everything is just a click away, thanks to our intuitive navigation system.
 The 5 S's
 
@@ -130,7 +130,9 @@ The 5 S's
 Our design ethos is rooted in the idea that less is more. We've embraced clean lines, minimalist layouts, and bold colour choices to create an interface that is both visually striking and easy to navigate. Every element has been carefully considered to ensure a seamless user experience, from the intuitive navigation menu to the vibrant colour palettes that adorn each page.
 
 ### Design Choices
-While our design may be simple, that doesn't mean it's lacking in impact. We've made bold choices in our use of colour and typography to create a website that stands out from the crowd. Vibrant hues and eye-catching fonts draw the user's attention and create a memorable visual identity for our brand.
+While our design may be simple, that doesn't mean it's lacking in impact. We've made bold choices in our use of colour and typography to create a website that stands out from the crowd. Vibrant hues and eye-catching fonts draw the user's attention and create a memorable visual identity for our brand. Strong lines, simple shapes with a nod to the Bauhaus movement are our inspiration as seen in the reference imagery below.
+
+![ref-pic](docs/images/references/ref-images.webp)
 
 ### Colours
 Our colour palette is carefully selected to evoke the emotions and feelings associated with our brand. Vibrant yet harmonious colors create a visually appealing experience while maintaining readability and accessibility for all users.
