@@ -378,12 +378,12 @@ Throughout the development process, we encountered and resolved various bugs to 
 
 |Bug / Errors | Where / Location site | Browser | Device | Fixed | Solution |
 |-------------|-----------------------|---------|--------|:-----:|----------|
-| Warning: The element: button; must not appear as a descendant of the a; element| Welcome & Subscribe Section (line 56) | Chrome | Apple MacBook | Yes | Div container for button so as not inside a tag |
-| Warning: Section lacks heading. Consider using h2 - h6 elements to add identifying headings to all sections | Welcome & subscribe section | Chrome | Apple MacBook (line 59) | Yes | Use h2 for heading |
-| Warning: Section lacks heading. Consider using h2 - h6 elements to add identifying headings to all sections | Photo-gallery section (line 81) | Chrome | Apple MacBook | Yes | Use h2 for heading |
-| Error: Frameborder attribute on iframe is obsolete | Map section (line 215) | Chrome | Apple MacBook | Yes | Remove obsolete attribute and fixed in css |
-| Error: Element h4 is not allowed as child element of ul | Contact section (line 284) | Chrome | Apple MacBook | Yes | Remove heading from ul |
-| Error: Stray script tag | Below body (Line 339) | Chrome | Apple MacBook | Yes | Insert script code inside body |
+| Warning: The element: button; must not appear as a descendant of the a; element| Welcome & Subscribe Section (line 56) | Chrome | MacBook | Yes | Div container for button so as not inside a tag |
+| Warning: Section lacks heading. Consider using h2 - h6 elements to add identifying headings to all sections | Welcome & subscribe section (line 59) | Chrome | MacBook | Yes | Use h2 for heading |
+| Warning: Section lacks heading. Consider using h2 - h6 elements to add identifying headings to all sections | Photo-gallery section (line 81) | Chrome | MacBook | Yes | Use h2 for heading |
+| Error: Frameborder attribute on iframe is obsolete | Map section (line 215) | Chrome | MacBook | Yes | Remove obsolete attribute and fixed in css |
+| Error: Element h4 is not allowed as child element of ul | Contact section (line 284) | Chrome | MacBook | Yes | Remove heading from ul |
+| Error: Stray script tag | Below body (Line 339) | Chrome | MacBook | Yes | Insert script code inside body |
 
 - ### Lighthouse Testing Bugs ###
 
