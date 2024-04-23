@@ -42,8 +42,8 @@ Welcome to COLOURWAY, Your Colour Analysts. With this site we offer a clean, pra
 9. [Future Features](#future-features)
 10. [Credits](#credits)
     - [Content](#content)
+    - [Frameworks](#frameworks)
     - [Media](#media)
-    - [Code](#code)
 11. [Conclusion](#conclusion)
 12. [Acknowledgements](#acknowledgements)
 
@@ -174,6 +174,9 @@ Hero image designed by me in Adobe Illustrator and Photoshop to be bright and in
 The images for content were chosen from [Pexels](https://www.pexels.com/) with the company in mind and using colours that sit well within the page. All images were optimised and converted to webp with [Convertio](https://convertio.co/).
 
 ![content-images](docs/images/content-images.webp)
+
+### Structure
+complete
 
 ### Wireframes
 Wireframes serve as the blueprint for our website, outlining the layout and functionality of each page. They help us visualise the user experience and iterate on design concepts before implementation. 
@@ -419,7 +422,6 @@ Our finished product is a testament to our dedication to providing a beautiful a
 
 <details>
 <summary>Index Page iPad<a name="index-iPad"></a></summary>
-
 
 ![ipad-index](docs/images/fin-site/colourway-ipad.webp)
 </details>
