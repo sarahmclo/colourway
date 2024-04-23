@@ -8,7 +8,7 @@ With this site we offer a clean, practical, and user-friendly platform for indiv
 [View Colourway Live Here](https://sarahmclo.github.io/colourway/)
 
 ## Table of Contents
-1. [About Colourway & Project Plan](#about-colourway)
+1. [Project Plan](#project-plan)
 2. [User Experience](#user-experience)
     - [Project Goals](#project-goals)
     - [User stories](#user-stories)
@@ -55,7 +55,7 @@ With this site we offer a clean, practical, and user-friendly platform for indiv
 13. [Acknowledgements](#acknowledgements)
 
 <details>
-<summary><h2>About Colourway & Project Plan</h2><a name="about-colourway"></a></summary>
+<summary><h2>Project Plan</h2><a name="project-plan"></a></summary>
 COLOURWAY: Your Colour Analysts is dedicated to providing a fresh and practical approach to colour analysis. Our team of certified experts offers personalised one-on-one consultations to help you discover the perfect palette for your personal style and everyday environment. But we're more than just consultants; we're a community dedicated to exploring the transformative effects of colour through workshops and colour therapy sessions designed to enhance your well-being.
 
 ### Our Approach
@@ -104,7 +104,6 @@ In keeping with our commitment to practicality, we've ensured that our website i
 
 ## Conclusion
 At COLOURWAY: Your Colour Analysts, we believe that design should be both beautiful and functional. Our website is a testament to this belief, offering a simple, practical, and bold user experience that puts the transformative power of colour at your fingertips. Join us on a journey to discover the true impact of colour in your life. Welcome to a world where every shade narrates a unique story, and where the potential is as vast as the colour spectrum itself.
-
 </details>
 
 ## User Experience <a name="user-experience"></a>
@@ -144,11 +143,13 @@ Our colour palette is carefully selected to evoke the emotions and feelings asso
 The typography choices on our website reflect our commitment to clarity and elegance. We've selected fonts that are easy to read yet stylish, enhancing the overall aesthetic and user experience.
 
 ![Inter](docs/images/fonts/inter.webp)
-
 ![Roboto](docs/images/fonts/roboto.webp)
 
 ### Imagery
 We believe in the power of imagery to tell a story and evoke emotions. From striking photographs to subtle background textures, every image on our website is carefully chosen to complement our content and reinforce our brand identity.
+
+Hero image designed by me in Adobe Illustrator and Photoshop to be bright and inviting and carry on ethos of logo and brand.
+![hero-image](assets/images/hero-colour.webp)
 
 ### Structure
 Our website's structure is designed to guide users seamlessly through their journey, from discovering our services to engaging with our community events. Clear navigation and intuitive layout ensure that users can find what they need quickly and easily.
@@ -156,11 +157,11 @@ Our website's structure is designed to guide users seamlessly through their jour
 ### Wireframes
 Wireframes serve as the blueprint for our website, outlining the layout and functionality of each page. They help us visualise the user experience and iterate on design concepts before implementation
 
-### Index Page
+- **Index Page**
 
 ![wireframe-index](docs/images/wireframes/pp1-index-wireframe.webp)
 
-### Subscribed Page
+- **Subscribed Page**
 ![wireframe-subscribed](docs/images/wireframes/pp1-subscribed-wireframe.webp)
 
 ## Features <a name="features"></a>
@@ -245,59 +246,55 @@ Javascript
 ### Validation Testing
 ### HTML
 
-- Index Page
+- **Index Page**
 
 ![markup-validation](docs/images/testing/w3c-markup-validation-index_2024-04-19.png)
 
-- Subscribed Page
+- **Subscribed Page**
 
 ![markup-validation](docs/images/testing/w3c-markup-validation-subscribed-page_2024-04-19.png)
 
 ### CSS
 
-- Colourway Styles
+- **Stylesheet**
 
 ![css-validation](docs/images/testing/w3c-css-validation_2024-04-19.png)
 
-- Google Styles Error
+- **Google Styles Error**
 
-![css-validation](docs/images/testing/w3c_css_validation_GoogleStylesheetError_2024-04-16.png
+![css-validation](docs/images/testing/w3c_css_validation_GoogleStylesheetError_2024-04-16.png)
 
 ### Accessibility
 
-1. **Lighthouse Testing**
+### Lighthouse Testing
 
-- Index Page
+- **Index Page**
 
 ![lighthouse-testing](docs/images/testing/LighthouseReport-IndexPage_2024-04-19.png)
 
-- Subscribed Page
+- **Subscribed Page**
 
 ![lighthouse-testing](docs/images/testing/LighthouseReport-SubscribedPage_2024-04-19.png)
 
-2. **Semantic HTML**
+### Semantic HTML
 
 Semantic HTML tags were used to provide a clear and meaningful structure to the website content. This helps screen readers and other assistive technologies interpret and convey information accurately.
 
-3. **ARIA (Accessible Rich Internet Applications)**
+### ARIA (Accessible Rich Internet Applications)
 
 ARIA attributes were utilised on links to enhance the accessibility of the site allowing for screen readers to accurately pick up information.
 
-4. **Contrast and Readability**
+### Contrast and Readability
 
 Coolers Contrast Checker was used to ensure sufficient contrast in colors chosen to make the content readable for users with visual impairments.
 
-5. **Alt Text for Images**
+### Alt Text for Images
 
 All images on the website include descriptive alternative text (alt text). This helps users with visual impairments understand the content and context of images even if they cannot see them.
 
-6. **Responsive Design**
+### Responsive Design
 
-The website is responsive, providing a seamless experience across various devices and screen sizes. This benefits users with different abilities and ensures a consistent and accessible user experience.
-
-7. **Chrome Dev Tools**
-
-This was tested via Chrome DevTools as the project progressed.
+The website is responsive, providing a seamless experience across various devices and screen sizes. This benefits users with different abilities and ensures a consistent and accessible user experience. Tested via Chrome DevTools and Responsive Design Checker as project progressed.
 
 ### Manual Testing
 
@@ -324,25 +321,50 @@ GitHub Pages was used to deploy the site remotely.
 
 ### Local Deployment
 To contribute or check the code, you can:
-
 - Fork the repository
 - Clone the repository
 
 ### How to Fork
-1 To fork, go the repository
-2 Click on the Fork button in the top left corner of the page
-3 Fill in the form with either keep the name or create a new name for the repository
+1. To fork, go the repository
+2. Click on the Fork button in the top left corner of the page
+3. Fill in the form with either keep the name or create a new name for the repository
 
 ### How to Clone
-1 To clone, go to repository
-2 Click on the Code button above the repository files
-3 A drop-down will appear and choose either
-4 Go to your terminal and decide where you want to clone the files
-5 Use the copy/paste button and copy it into your terminal
-6 You also have the option to download a ZIP file of the code
+1. To clone, go to repository
+2. Click on the Code button above the repository files
+3. A drop-down will appear and choose either
+4. Go to your terminal and decide where you want to clone the files
+5. Use the copy/paste button and copy it into your terminal
+6. You also have the option to download a ZIP file of the code
 
 ## Finished Product <a name="finished-product"></a>
 Our finished product is a testament to our dedication to providing a beautiful and functional design that showcases the transformative power of colour. From the intuitive user experience to the vibrant visual identity, every aspect of our website reflects our commitment to excellence.
+
+<details>
+<summary><h3>Index Page Desktop</h3><a name="index-desktop"></a></summary>
+![desktop-index](docs/images/fin-site/colourway-desktop.webp)
+</details>
+
+
+<details>
+<summary><h3>Index Page Mobile</h3><a name="index-mobile"></a></summary>
+docs/images/fin-site/colourway-mobile.webp
+</details>
+
+<details>
+<summary><h3>Index Page iPad</h3><a name="index-iPad"></a></summary>
+![ipad-index](docs/images/fin-site/colourway-ipad.webp)
+</details>
+
+<details>
+<summary><h3>Subscribed Page Desktop</h3><a name="subscribed-desktop"></a></summary>
+![desktop-subscribed](docs/images/fin-site/colourway-subscribed-desktop.webp)
+</details>
+
+<details>
+<summary><h3>Subscribed Page Mobile</h3><a name="subscribed-mobile"></a></summary>
+![mobile-subscribed](docs/images/fin-site/colourway-subscribed-mobile.webp)
+</details>
 
 ## Future Features <a name="future-features"></a>
 
@@ -352,7 +374,7 @@ Throughout the development process, we encountered and resolved various bugs to 
 ## Credits <a name="credits"></a>
 
 ### Content
-All content written for the website is by myself, is purely fictional, and for educational purposes only.
+All content written for the website is by myself. The content is for a fictional company and devised for educational purposes only.
 
 ### Media
 
