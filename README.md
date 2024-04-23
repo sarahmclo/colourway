@@ -257,54 +257,24 @@ Our footer design includes essential links and information, ensuring that users 
 ## Technologies Utilised <a name="technologies-utilised"></a>
 
 ### Languages
-The languages used in this project are:
-HTML5
-CSS
-Javascript
+
+- [**HTML5**](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [**CSS**](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [**Javascript**](https://developer.mozilla.org/en-US/docs/Learn/JavaScript)
 
 ### Frameworks and Programs
 
-### [Gitpod](https://www.gitpod.io/)
-
-Gitpod was used for writing code, committing, and then pushing to GitHub. 
-
-### [GitHub](https://github.com/)
-
-GitHub was utilised for hosting and viewing.
-
-### [Google Fonts](https://fonts.google.com/)
-
-Google Fonts was used to import the fonts Inter and Roboto into the style.css file. These fonts were used throughout the site.
-
-### [Font Awesome](https://fontawesome.com/)
-
-Font Awesome was used throughout to add icons in order to create a better visual experience for the user.
-
-### [Balsamiq](https://balsamiq.com/)
-
-Balsamiq was used to create the wireframes during the design phase of the project.
-
-### [Responsive Design Checker](https://responsivedesignchecker.com/)
-
-Responsive Design Checker  was used in the testing process to check responsiveness on various devices.
-
-### [Am I Responsive](https://ui.dev/amiresponsive)
-
-Am I Responsive was utilised to generate Mock Up Image of site in a responsive manner.
-
-### [Chrome DevTools](https://developer.chrome.com/docs/devtools)
-
-Chrome DevTools was used during development process for code review and to test responsiveness.
-
-### [Coolers Contrast Checker](https://coolors.co/)
-
-Coolers Contrast Checker was used to make sure the colors I used contrasted well enough for all users
-
-### [Adobe Colors](https://color.adobe.com/)
-Adobe Colors was used to generate a pleasing colour palette inkeeping with logo and design.
-
-### [Convertio](https://convertio.co/)
-Convertio was utilised to optimise images to webp for faster loading
+- [**Gitpod**](https://www.gitpod.io/) Gitpod was used for writing code, committing, and then pushing to GitHub. 
+- [**GitHub**](https://github.com/) GitHub was utilised for hosting and viewing.
+- [**Google Fonts**](https://fonts.google.com/) Google Fonts was used to import the fonts Inter and Roboto into the style.css file. These fonts were used throughout the site.
+- [**Font Awesome**](https://fontawesome.com/) Font Awesome was used throughout to add icons in order to create a better visual experience for the user.
+- [**Balsamiq**](https://balsamiq.com/) Balsamiq was used to create the wireframes during the design phase of the project.
+- [**Responsive Design Checker**](https://responsivedesignchecker.com/) Responsive Design Checker  was used in the testing process to check responsiveness on various devices.
+- [**Am I Responsive**](https://ui.dev/amiresponsive) Am I Responsive was utilised to generate Mock Up Image of site in a responsive manner.
+- [**Chrome DevTools**](https://developer.chrome.com/docs/devtools) Chrome DevTools was used during development process for code review and to test responsiveness.
+- [**Coolers Contrast Checker**](https://coolors.co/) Coolers Contrast Checker was used to make sure the colors I used contrasted well enough for all users
+- [**Adobe Colors**](https://color.adobe.com/) Adobe Colors was used to generate a pleasing colour palette inkeeping with logo and design.
+- [**Convertio**](https://convertio.co/) Convertio was utilised to optimise images to webp for faster loading
 
 ## Testing <a name="testing"></a>
 
@@ -363,13 +333,10 @@ The website is responsive, providing a seamless experience across various device
 
 ### Manual Testing
 
-### Common Elements
-
-### Performance
-
-### Browser Compatibility
+Manual testing for the site involves hands-on evaluation by human testers to ensure functionality, usability, and compatibility across various devices and browsers.
 
 ## Deployment <a name="deployment"></a>
+
 Git was used for version control. Version control was done locally and remotely. For remote version control, GitHub was used. Regular commits were made after each file change.
 
 ### Remote Deployment
@@ -385,6 +352,7 @@ GitHub Pages was used to deploy the site remotely.
 8. Project now live and a link is visible at the top of the page "Your site is published at https://github.com/sarahmclo/colourway/" 
 
 ### Local Deployment
+
 To contribute or check the code, you can:
 - Fork the repository
 - Clone the repository
@@ -403,38 +371,70 @@ To contribute or check the code, you can:
 6. You also have the option to download a ZIP file of the code
 
 ## Bugs <a name="bugs"></a>
+
 Throughout the development process, we encountered and resolved various bugs to ensure a smooth and seamless user experience. Our rigorous testing procedures helped identify and address these issues promptly.
 
+- ### Mark-up Validation Testing Bugs
+
+![mark-up-test1](docs/images/testing/markup-test1.webp)
+
+- ### All Mark-up Validation Bugs resolved
+
+|Bug / Errors | Where / Location site | Browser | Device | Fixed | Solution |
+|-------------|-----------------------|---------|--------|:-----:|----------|
+| Warning: The element: button; must not appear as a descendant of the a; element| Welcome & Subscribe Section (line 56) | Chrome | Apple MacBook | Yes | Div container for button so as not inside a tag |
+| Warning: Section lacks heading. Consider using h2 - h6 elements to add identifying headings to all sections | Welcome & subscribe section | Chrome | Apple MacBook (line 59) | Yes | Use h2 for heading |
+| Warning: Section lacks heading. Consider using h2 - h6 elements to add identifying headings to all sections | Photo-gallery section (line 81) | Chrome | Apple MacBook | Yes | Use h2 for heading |
+| Error: Frameborder attribute on iframe is obsolete | Map section (line 215) | Chrome | Apple MacBook | Yes | Remove obsolete attribute and fixed in css |
+| Error: Element h4 is not allowed as child element of ul | Contact section (line 284) | Chrome | Apple MacBook | Yes | Remove heading from ul |
+| Error: Stray script tag | Below body (Line 339) | Chrome | Apple MacBook | Yes | Insert script code inside body |
+
+
+
+- ### Lighthouse Testing Bugs ###
+
+![lighthouse-test1](docs/images/testing/lighthouse-test1.webp)
+
+- ### One Lighthouse Bug Unresolved - Largest Contentful Paint affects Performance ###
+
+|Bug / Errors | Where / Location site | Browser | Device | Fixed | Solution |
+|-------------|-----------------------|---------|--------|:-----:|----------|
+| Largest Contentful Paint element — 8,870 ms| Hero image & text section | Chrome | Apple MacBook | No | Reduce image size neumerous times but not fixed to full capacity |
+| Reduce unused CSS — Potential savings of 20 KiB | CSS Stylesheet | Chrome | Apple MacBook | Yes | Refactored code in css stylesheet |
+| Image elements do not have explicit width and height | Logo section | Chrome | Apple MacBook | Yes | Fix logo with specific dimensions |
+| Minimize third-party usage | Colour Theory video section | Chrome | Apple MacBook | Yes | Used mp4 video rather than linking to external site|
+
 ## Finished Product <a name="finished-product"></a>
+
 Our finished product is a testament to our dedication to providing a beautiful and functional design that showcases the transformative power of colour. From the intuitive user experience to the vibrant visual identity, every aspect of our website reflects our commitment to excellence.
 
 <details>
-<summary><h3>Index Page Desktop</h3><a name="index-desktop"></a></summary>
+<summary>Index Page Desktop<a name="index-desktop"></a></summary>
 
 ![desktop-index](docs/images/fin-site/colourway-desktop.webp)
 </details>
 
 <details>
-<summary><h3>Index Page Mobile</h3><a name="index-mobile"></a></summary>
+<summary>Index Page Mobile<a name="index-mobile"></a></summary>
 
 ![mobile-index](docs/images/fin-site/colourway-mobile.webp)
 </details>
 
 <details>
-<summary><h3>Index Page iPad</h3><a name="index-iPad"></a></summary>
+<summary>Index Page iPad<a name="index-iPad"></a></summary>
 
 
 ![ipad-index](docs/images/fin-site/colourway-ipad.webp)
 </details>
 
 <details>
-<summary><h3>Subscribed Page Desktop</h3><a name="subscribed-desktop"></a></summary>
+<summary>Subscribed Page Desktop<a name="subscribed-desktop"></a></summary>
 
 ![desktop-subscribed](docs/images/fin-site/colourway-subscribed-desktop.webp)
 </details>
 
 <details>
-<summary><h3>Subscribed Page Mobile</h3><a name="subscribed-mobile"></a></summary>
+<summary>Subscribed Page Mobile<a name="subscribed-mobile"></a></summary>
 
 ![mobile-subscribed](docs/images/fin-site/colourway-subscribed-mobile.webp)
 </details>
@@ -484,7 +484,7 @@ Our finished product is a testament to our dedication to providing a beautiful a
 At COLOURWAY: Your Colour Analysts, we believe that design should be both beautiful and functional. Our website is a testament to this belief, offering a simple, practical, and bold user experience that puts the transformative power of colour at your fingertips. Join us on a journey to discover the true impact of colour in your life. Welcome to a world where every shade narrates a unique story, and where the potential is as vast as the colour spectrum itself.
 
 ## Acknowledgements <a name="acknowledgements"></a>
-Thank you to: 
+ 
 - Rahul Lakahanpal, my Code Institute mentor, for encouragement and keeping me on track.
 - Amy Richardson, my Code Institute Facillitator, for motivation and keeping me focused.
 - Code Institute Tutor Support and Student Care.
