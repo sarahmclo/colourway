@@ -53,95 +53,90 @@ When you visit our website, you'll immediately notice the simplicity of our desi
 
 ### Project Goals
 
-- Develop a user-friendly website that emphasizes the transformative power of colour.
-- Ensure the website is responsive across all devices.
+- Develop a user-friendly website that emphasizes the Colourway ethos.
 - Implement a clean and practical design philosophy to enhance user experience.
-- Prioritize simplicity and practicality in design to ensure intuitive navigation.
+- Ensure the website is responsive across all devices.
+- Prioritize simplicity and practicality to ensure intuitive navigation.
 - Create a bold and visually striking interface that highlights the importance of what the company has to offer.
 - Ensure the main call to action - "Subscribe" is clear to develop a community of users.
 - Showcase what the company has to offer in regards to personal consultations and workshops.
 - Offer exclusive information and offers to subscribers, fostering a strong community.
-- Ensure high performance and scalability to accommodate increasing user engagement.
-- Meet project deadlines and budget constraints effectively throughout development.
 
 ### User Stories
 
-- Explore the transformative power of color through engaging content.
-- Clean and practical website design for easy navigation.
-- Find valuable resources and information about color theory and its applications.
-- Subscribe to the Colourway community for exclusive content and offers.
+- Find valuable resources and information about colour analysis..
 - Access the website seamlessly across different devices for a consistent experience.
-- Discover workshops and events related to color exploration and analysis.
-- Share my experiences and insights about color with the Colourway community.
-- Learn about the psychology and symbolism of different colors.
-- Connect with like-minded individuals who appreciate the importance of color in daily life.
-- Receive updates and notifications about new content and events from Colourway.
+- Discover workshops and events related to colour exploration and analysis.
+- Share my experiences and insights about colour with the Colourway community.
+- Learn about the psychology and symbolism of different colours.
+- Connect with like-minded individuals who appreciate the importance of colour in daily life.
+- Subscribe to the Colourway community for exclusive content and offers
+- Receive updates and notifications about new content, events and discounts.
 
 ### Target Audience Goals
 
-- Individuals Seeking Personal Transformation: People who are interested in exploring how color can positively impact their lives and enhance their personal growth journey.
-- Creatives and Artists: Designers, artists, and creatives who are looking for inspiration and guidance in their color choices and compositions.
-- Fashion Enthusiasts: Individuals who are passionate about fashion and want to understand how color influences style and trends.
-- Home Decorators: Homeowners and interior decorators who are looking to create harmonious and visually appealing living spaces through strategic color choices.
-- Influencers: Colourway is valuable resource for enhancing their content, engaging their audience, and establishing themselves in the growing realm of colour analysis and aesthetics.
-- Small Business Owners: Entrepreneurs and small business owners who want to use color effectively in branding and marketing their products or services.
-- Therapists and Counselors: Professionals in the mental health field who recognize the therapeutic potential of color and its impact on mood and emotions.
-- Educators and Students: Teachers, students, and researchers interested in learning more about the science and psychology of color for academic or personal development purposes.
+- Individuals of all ages seeking personal transformation.
+- Creatives and artists.
+- Fashion enthusiasts.
+- Influencers.
+- Home-owners.
+- Small business owners.
+- Therapists and counselors.
+- Educators and students.
 
 ### Site Owner Goals
 
-- Provide Valuable Content: The site aims to offer high-quality and informative content on color theory, analysis, and application to engage and educate visitors.
-- Build a Strong Community: The site seeks to cultivate a vibrant and active community of color enthusiasts who share insights, experiences, and resources related to color exploration and analysis.
-- Drive User Engagement: The site aims to encourage user interaction through comments, discussions, and participation in workshops, events, and other activities related to color.
-- Grow Subscriber Base: The site owner aims to increase the number of subscribers to the Colourway community by offering exclusive content, discounts, and offers to incentivize sign-ups.
-- Establish Authority: The site owner aims to position Colourway as a trusted authority in the field of color analysis and aesthetics, attracting visitors seeking expert guidance and insights.
-- Monetize Through Partnerships: The site owner may explore monetization opportunities through partnerships with brands, sponsors, or advertisers interested in reaching Colourway's audience of color enthusiasts.
--Track and Analyze Performance: The site owner aims to monitor and analyze key metrics such as traffic, engagement, and conversion rates to optimize the site's performance and user experience continually.
-- Maintain Brand Consistency: The site owner aims to ensure consistency in branding, messaging, and visual identity across all aspects of the Colourway website to reinforce its unique value proposition and enhance brand recognition.
-- Stay Updated with Trends: The site owner aims to stay abreast of emerging trends, developments, and best practices in color analysis and aesthetics to keep the content fresh, relevant, and engaging for visitors.
-- Provide Excellent User Experience: The site owner aims to prioritize user experience by implementing intuitive navigation, responsive design, and accessible content to ensure a seamless and enjoyable browsing experience for visitors across all devices and platforms.
+- Provide valuable content.
+- Establish trust and build a strong community.
+- Drive user engagement.
+- Grow subscriber base.
+- Book consultations & workshops.
+- Monetize through partnerships.
+- Maintain brand consistency.
+- Stay updated with trends.
+- Provide an excellent user experience.
 
 ### First Time User Goals
 
-- Discover the Website: The first-time user's goal is to explore the Colourway website and get an overall sense of its purpose, content, and offerings.
-- Learn About Colour Analysis: Users want to learn about the concept of color analysis, its significance, and how it can impact various aspects of their lives.
- - Find Valuable Resources: Users aim to discover valuable resources such as articles, guides, and videos that provide insights into color theory,psychology, and application.
-- Understand the Community: Users want to understand the nature of the Colourway community, including its members, activities, and opportunities for engagement and collaboration.
-- Subscribe for Exclusive Content: Users may be interested in subscribing to the Colourway community to access exclusive content, offers, and updates.
-- Navigate Easily: Users expect to navigate the website easily and intuitively, finding the information they need without confusion or frustration.
-- Access Responsive Design: Users expect the website to be responsive and accessible across various devices and screen sizes, ensuring a seamless browsing experience.
-- Get Inspired: Users want to feel inspired and motivated by the content on the Colourway website, sparking ideas and creativity related to color exploration and analysis.
-- Learn About Workshops and Events: Users may be interested in learning about upcoming workshops, events, or seminars related to color analysis and aesthetics.
-- Connect with Like-Minded Individuals: Users aim to connect with other like-minded individuals who share their interest in color and aesthetics, fostering meaningful connections and relationships within the Colourway community.
+- Discover the website.
+- Find valuable resources.
+- Understand the community.
+- Subscribe for exclusive content.
+- Navigate easily.
+- Access responsive design.
+- Get inspired.
+- Learn about workshops and events.
+- Connect with like-minded individuals.
 
 ### Return User Goals
 
-- Explore New Content: Return users aim to explore new articles, videos, or resources that have been added since their last visit to stay updated on the latest trends and developments in color analysis.
-- Engage with the Community: Return users seek to engage with the Colourway community by participating in discussions, sharing insights, and connecting with other members who share their passion for color exploration.
-- Attend Workshops or Events: Return users may be interested in attending upcoming workshops, events, or seminars hosted by Colourway to further their knowledge and skills in color analysis and aesthetics.
-- Access Exclusive Content: Return users want to access exclusive content, offers, or discounts available to subscribed members of the Colourway community.
-- Stay Informed: Return users aim to stay informed about updates, announcements, and new features on the Colourway website by checking for notifications or subscribing to the newsletter.
-- Share Feedback: Return users may want to share feedback, suggestions, or testimonials with the Colourway team to help improve the website and community experience.
-- Refer Friends: Return users may refer friends or colleagues to the Colourway website, encouraging them to join the community and explore the transformative power of color together.
-- Participate in Challenges: Return users may participate in challenges or activities organized by Colourway to apply color analysis principles in their daily lives and share their experiences with the community.
-- Connect on Social Media: Return users may follow Colourway on social media platforms to stay connected, share content, and engage with other members of the community beyond the website.
-- Continue Personal Growth: Return users aim to continue their personal growth journey with Colourway, using color analysis as a tool for self-discovery, creativity, and expression in their lives.
+- Explore new content.
+- Engage with the community.
+- Access exclusive content.
+- Book consultations.
+- Attend workshops or events.
+- Stay informed.
+- Share feedback.
+- Refer friends.
+- Participate in challenges & activities.
+- Connect on social media.
+- Continue personal growth.
 
 ## Design <a name="design"></a>
 
 ### Design Philosophy
-Our design ethos is rooted in the idea that less is more. We've embraced clean lines, minimalist layouts, and bold colour choices to create an interface that is both visually striking and easy to navigate. Every element has been carefully considered to ensure a seamless user experience, from the intuitive navigation menu to the vibrant colour palettes that adorn each page.
+Our design ethos is rooted in the idea that less is more. We've embraced clean lines, minimalist layouts, and bold colour choices to create an interface that is both visually striking and easy to navigate. We have chosen to keep most elements to one page as we beliebve it suits the flow of the company ethos. Every element has been carefully considered to ensure a seamless user experience, from the intuitive navigation menu to the vibrant colour palettes that adorn each page.
 
 ### Design Choices
-While our design may be simple, that doesn't mean it's lacking in impact. We've made bold choices in our use of colour and typography to create a website that stands out from the crowd. Vibrant hues and eye-catching fonts draw the user's attention and create a memorable visual identity for our brand.
+While our design may be simple, that doesn't mean it's lacking in impact. We've made bold choices in our use of colour and typography to create a website that stands out from the crowd. Vibrant images and eye-catching fonts draw the user's attention and create a memorable visual identity for our brand.
 
 - **Reference Images**
-Strong lines, simple shapes with a nod to the Bauhaus movement are our inspiration as seen in the reference imagery below.
+Strong lines, simple shapes with a nod to the Bauhaus movement are our inspiration, as seen in the reference imagery below.
 
 ![ref-pic](docs/images/references/ref-images.webp)
 
 ### Colours
-Our colour palette is carefully selected to evoke the emotions and feelings associated with our brand. Vibrant yet harmonious colors create a visually appealing experience while maintaining readability and accessibility for all users.
+Our colour palette is carefully selected to evoke the emotions and feelings associated with our brand. Vibrant yet harmonious colours create a visually appealing experience, along with negative sapce and clean dark lines, while maintaining readability and accessibility for all users.
 
 - **Colour Palette**
 The colour palette for this site was devised inkeeping with the Colourway logo and created in [Adobe Color](https://color.adobe.com/).
@@ -149,7 +144,7 @@ The colour palette for this site was devised inkeeping with the Colourway logo a
 ![Colour Palette](docs/images/logo/AdobeColor-color-theme_colourway.webp)
 
 - **Logo**
-The Colourway logo for this site was created in Adobe Illustrator/Photoshop and a starting point for the overall lookk of the website.
+The Colourway logo was created in Adobe Illustrator/Photoshop and a starting point for the clean look of the website.
 
 ![Colour Logo](docs/images/logo/colourway-logo-rm.webp)
 
@@ -166,7 +161,7 @@ The fonts for this site were carefully chosen and imported from [Google Fonts](h
 We believe in the power of imagery to tell a story and evoke emotions. From striking photographs to subtle background textures, every image on our website is carefully chosen to complement our content and reinforce our brand identity.
 
 - **Hero Image**
-Hero image designed by me in Adobe Illustrator and Photoshop to be bright and inviting and carry on ethos of logo and brand.
+Hero image designed by me in Adobe Illustrator and Photoshop to complement the logo and brand.
 
 ![hero-image](assets/images/hero-colour.webp)
 
@@ -194,9 +189,9 @@ Wireframes for this site were created with [Balsamiq](https://balsamiq.com/).
 ## Colurway and the 5 Elements of UX
 
 1. **Strategy**
-- Conduct research to understand the needs and preferences of the target audience regarding color analysis and aesthetics.
+- Conduct research to understand the needs and preferences of the target audience regarding colour analysis and aesthetics.
 - Analyse competitors' websites and UX strategies to identify strengths, weaknesses, and opportunities for differentiation.
-- Define the primary goals of the Colourway website, such as educating users about color theory, fostering a community, and promoting workshops/events.
+- Define the primary goals of the Colourway website, such as educating users about colour analysis, fostering a community, and promoting consultations/workshops/events.
 
 2. **Scope**
 - Determine the essential features and functionalities required to achieve the defined goals within the project timeline and budget.
@@ -209,17 +204,17 @@ Wireframes for this site were created with [Balsamiq](https://balsamiq.com/).
 - Content Layout: Determine the layout and placement of content elements, such as text, images, and videos, to optimize readability and visual appeal.
 
 4. **Skeleton**
-- Wireframing: Create wireframes or low-fidelity mockups of key website pages to visualize the layout and functionality before proceeding to design and development.
-- Prototyping: Develop interactive prototypes or high-fidelity mockups to simulate the user experience and gather feedback from stakeholders and users.
-- Usability Testing: Conduct usability testing sessions with prototype users to identify usability issues, gather insights, and iterate on design improvements before final implementation.
+- Wireframing: Create wireframes/low-fidelity mockups of pages to visualize the layout and functionality.
+- Prototyping: Develop interactive prototypes to simulate the user experience and gather feedback from stakeholders and users.
+- Usability Testing: Conduct usability testing sessions with users to identify  issues, gather insights, and iterate on design improvements before final implementation.
 
 5. **Surface**
-- Visual Design: Apply the chosen color palette, typography, and imagery to create a visually appealing and cohesive design that reflects the brand identity and resonates with the target audience.
-UX/UI-  Elements: Design and implement user interface elements, such as buttons, forms, and cards, with attention to detail and consistency to enhance usability and aesthetics.
+- Visual Design: Apply the chosen color palette, typography, and imagery to create a visually appealing and cohesive design that reflects the brand identity and resonate with the target audience.
+- UX/UI Elements: Design and implement user interface elements, such as buttons and formswith attention to detail and consistency to enhance usability and aesthetics.
 - Responsive Design: Ensure that the website is responsive and adapts seamlessly to various screen sizes and devices, providing a consistent and enjoyable user experience across desktops, tablets, and smartphones.
-- Accessibility: Incorporate accessibility features and best practices, such as alt text for images, keyboard navigation, and semantic HTML, to ensure that the website is inclusive and usable for all users, including those with disabilities.
-- Interaction Design: Design interactive elements and animations to engage users, provide feedback, and enhance the overall user experience without compromising performance or usability.
-
+- Accessibility: Incorporate accessibility features and best practices, such as alt text for images, keyboard navigation, and semantic HTML, to ensure that the website is inclusive and usable for all users
+- Interaction Design: Design elements to engage users, provide feedback, and enhance the overall experience for the return of users.
+  
 ## Features <a name="features"></a>
 
 ### Logo and Navbar
@@ -243,16 +238,30 @@ The navbar Navbar includes bars icon to indicate it has a dropdown menu for mobi
 Designed by myself in Adobe Illustrator this custom favicon stems from the designed logo which enhances brand recognition and improves user experience by providing a visual marker for the website. 
 
 ### Headings
-Clear and consistent heading styles guide users through our content, making it easy to understand and navigate.
+- Clear and consistent heading styles guide users through our content, making it easy to understand and navigate.
+- Utilize clear and consistent heading styles throughout the website.
+- Headings should be descriptive and help users understand the content hierarchy.
+- Use appropriate font sizes, weights, and spacing to enhance readability.
 
-### Main Content
-### Pages
-Each page on our website is designed with purpose, providing valuable information and resources to our users in a clear and accessible format.
+### Main Content:
+- Ensure the main content of each page is engaging, informative, and relevant to the user.
+- Use a mix of text, images, and multimedia elements to convey information effectively.
+- Organize content logically with clear sections and subheadings for easy navigation.
 
-### Subscribe Form
+### Pages:
+- Design each page with a specific purpose and target audience in mind.
+- Clearly define the goal of each page and tailor the content accordingly.
+- Include intuitive navigation elements such as breadcrumbs or a sidebar menu to help users explore different pages.
 
-### Footer
-Our footer design includes essential links and information, ensuring that users can access key resources from any page on our website.
+### Subscribe Form:
+- Place the subscribe form prominently on the website to encourage user engagement.
+- Keep the form simple and easy to fill out, asking for minimal information.
+-Provide clear instructions and incentives for users to subscribe, such as access to exclusive content or special offers.
+
+### Footer:
+- Design the footer to provide essential information and navigation links to users.
+- Include links to important pages such as the homepage, contact us, privacy policy, and terms of service.
+- Incorporate social media icons or other relevant links to encourage further engagement with the website and brand.
 
 ## Technologies Utilised <a name="technologies-utilised"></a>
 
