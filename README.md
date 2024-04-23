@@ -156,7 +156,12 @@ Our website's structure is designed to guide users seamlessly through their jour
 ### Wireframes
 Wireframes serve as the blueprint for our website, outlining the layout and functionality of each page. They help us visualise the user experience and iterate on design concepts before implementation
 
-![wireframe-landing-page1](docs/images/wireframes/wireframe-landing-page-1.png)
+### Index Page
+
+![wireframe-index](docs/images/wireframes/pp1-index-wireframe.webp)
+
+### Subscribed Page
+![wireframe-subscribed](docs/images/wireframes/pp1-subscribed-wireframe.webp)
 
 ## Features <a name="features"></a>
 
