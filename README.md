@@ -21,8 +21,7 @@ Welcome to COLOURWAY, Your Colour Analysts. With this site we offer a clean, pra
     - [Imagery](#imagery)
     - [Wireframes](#wireframes)
     - [Structure](#structure)
-    - [The Five Elements of UX at COLOURWAY](5-UX)
-    
+    - [The Five Elements at COLOURWAY](#5-UX)
 3. [Features](#features)
     - [Logo and Navbar](#logo-and-navbar)
     - [Favicon](#favicon)
