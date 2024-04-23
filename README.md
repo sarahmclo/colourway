@@ -31,18 +31,15 @@ Welcome to COLOURWAY, Your Colour Analysts. With this site we offer a clean, pra
 4. [Technologies Utilised](#technologies-utilised)
     - [Languages](#languages)
     - [Frameworks and Programs](#frameworks-and-programs)
-5. [Testing](#testing)
-    - [Validation Testing](#validation-testing)
-    - [Manual Testing](#manual-testing)
-    - [Common Elements](#common-elements)
-    - [Performance](#performance)
-    - [Browser Compatibility](#browser-compatibility)
-6. [Deployment](#deployment)
+5. [Deployment](#deployment)
     - [Remote Deployment](#remote-deployment)
     - [Local Deployment](#local-deployment)
-7. [Finished Product](#finished-product)
-8. [Future Features](#future-features)
-9. [Bugs](#bugs)
+6. [Testing](#testing)
+    - [Validation Testing](#validation-testing)
+    - [Manual Testing](#manual-testing)
+7. [Bugs](#bugs)
+8. [Finished Product](#finished-product)
+9. [Future Features](#future-features)
 10. [Credits](#credits)
     - [Content](#content)
     - [Media](#media)
@@ -276,6 +273,41 @@ Our footer design includes essential links and information, ensuring that users 
 - [**Adobe Colors**](https://color.adobe.com/) Adobe Colors was used to generate a pleasing colour palette inkeeping with logo and design.
 - [**Convertio**](https://convertio.co/) Convertio was utilised to optimise images to webp for faster loading
 
+## Deployment <a name="deployment"></a>
+
+Git was used for version control. Version control was done locally and remotely. For remote version control, GitHub was used. Regular commits were made after each file change.
+
+### Remote Deployment
+GitHub Pages was used to deploy the site remotely.
+
+1. Login to [Git Hub](https://github.com/) Repository account
+2. Navigate to my project repository colourway
+3. Click the Settings near the top of the page
+4. In the left-hand menu, find and click on the Pages
+5. In the Source section, choose 'main' from the drop-down, select branch menu
+6. Select 'root' from the drop-down folder menu
+7. Click 'Save'
+8. Project now live and a link is visible at the top of the page "Your site is published at https://github.com/sarahmclo/colourway/" 
+
+### Local Deployment
+
+To contribute or check the code, you can:
+- Fork the repository
+- Clone the repository
+
+### How to Fork
+1. To fork, go the repository
+2. Click on the Fork button in the top left corner of the page
+3. Fill in the form with either keep the name or create a new name for the repository
+
+### How to Clone
+1. To clone, go to repository
+2. Click on the Code button above the repository files
+3. A drop-down will appear and choose either
+4. Go to your terminal and decide where you want to clone the files
+5. Use the copy/paste button and copy it into your terminal
+6. You also have the option to download a ZIP file of the code
+
 ## Testing <a name="testing"></a>
 
 ### Validation Testing
@@ -294,10 +326,6 @@ Our footer design includes essential links and information, ensuring that users 
 - **Stylesheet**
 
 ![css-validation](docs/images/testing/w3c-css-validation_2024-04-19.png)
-
-- **Google Styles Error**
-
-![css-validation](docs/images/testing/w3c_css_validation_GoogleStylesheetError_2024-04-16.png)
 
 ### Accessibility
 
@@ -335,41 +363,6 @@ The website is responsive, providing a seamless experience across various device
 
 Manual testing for the site involves hands-on evaluation by human testers to ensure functionality, usability, and compatibility across various devices and browsers.
 
-## Deployment <a name="deployment"></a>
-
-Git was used for version control. Version control was done locally and remotely. For remote version control, GitHub was used. Regular commits were made after each file change.
-
-### Remote Deployment
-GitHub Pages was used to deploy the site remotely.
-
-1. Login to [Git Hub](https://github.com/) Repository account
-2. Navigate to my project repository colourway
-3. Click the Settings near the top of the page
-4. In the left-hand menu, find and click on the Pages
-5. In the Source section, choose 'main' from the drop-down, select branch menu
-6. Select 'root' from the drop-down folder menu
-7. Click 'Save'
-8. Project now live and a link is visible at the top of the page "Your site is published at https://github.com/sarahmclo/colourway/" 
-
-### Local Deployment
-
-To contribute or check the code, you can:
-- Fork the repository
-- Clone the repository
-
-### How to Fork
-1. To fork, go the repository
-2. Click on the Fork button in the top left corner of the page
-3. Fill in the form with either keep the name or create a new name for the repository
-
-### How to Clone
-1. To clone, go to repository
-2. Click on the Code button above the repository files
-3. A drop-down will appear and choose either
-4. Go to your terminal and decide where you want to clone the files
-5. Use the copy/paste button and copy it into your terminal
-6. You also have the option to download a ZIP file of the code
-
 ## Bugs <a name="bugs"></a>
 
 Throughout the development process, we encountered and resolved various bugs to ensure a smooth and seamless user experience. Our rigorous testing procedures helped identify and address these issues promptly.
@@ -389,8 +382,6 @@ Throughout the development process, we encountered and resolved various bugs to 
 | Error: Element h4 is not allowed as child element of ul | Contact section (line 284) | Chrome | Apple MacBook | Yes | Remove heading from ul |
 | Error: Stray script tag | Below body (Line 339) | Chrome | Apple MacBook | Yes | Insert script code inside body |
 
-
-
 - ### Lighthouse Testing Bugs ###
 
 ![lighthouse-test1](docs/images/testing/lighthouse-test1.webp)
@@ -403,6 +394,12 @@ Throughout the development process, we encountered and resolved various bugs to 
 | Reduce unused CSS — Potential savings of 20 KiB | CSS Stylesheet | Chrome | Apple MacBook | Yes | Refactored code in css stylesheet |
 | Image elements do not have explicit width and height | Logo section | Chrome | Apple MacBook | Yes | Fix logo with specific dimensions |
 | Minimize third-party usage | Colour Theory video section | Chrome | Apple MacBook | Yes | Used mp4 video rather than linking to external site|
+
+- ### CSS Validation Testing Bugs ###
+
+- **Google Styles Error**
+
+![css-validation](docs/images/testing/w3c_css_validation_GoogleStylesheetError_2024-04-16.png)
 
 ## Finished Product <a name="finished-product"></a>
 
@@ -444,7 +441,7 @@ Our finished product is a testament to our dedication to providing a beautiful a
 * Further content linked from Meet The Team section indicating what each person offers the user in terms of consultations.
 * More content exploring the nature of the seminars, workshops and newsletter.
 * Introduce a testimonial/reviews section by previous users.
-* Add javascript to logo palette element in mission section so than it spins and attracts athe users attention.
+* Add javascript to logo palette element in mission section so than it spins and attracts the users attention.
 * Introduce a forum where users can interact with like-minded individuals.
 * Explore the possibility of paid partnerships with influencers to further the reach of the site and brand.
 
@@ -485,8 +482,8 @@ At COLOURWAY: Your Colour Analysts, we believe that design should be both beauti
 
 ## Acknowledgements <a name="acknowledgements"></a>
  
-- Rahul Lakahanpal, my Code Institute mentor, for encouragement and keeping me on track.
-- Amy Richardson, my Code Institute Facillitator, for motivation and keeping me focused.
+- Rahul Lakahanpal, my Code Institute mentor, for encouragement, keeping me on track and advising me what is important and when to move on!
+- Amy Richardson, my Code Institute Facillitator, for amazing resources, motivation and keeping me focused.
 - Code Institute Tutor Support and Student Care.
 - All in the CI Slack community for resources and daily inspiration.
 - Fellow course students for sharing.
