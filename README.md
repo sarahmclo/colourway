@@ -21,7 +21,7 @@ Welcome to COLOURWAY, Your Colour Analysts. With this site we offer a clean, pra
     - [Imagery](#imagery)
     - [Wireframes](#wireframes)
     - [Structure](#structure)
-    - [The Five Elements at COLOURWAY](#5-UX)
+    - [The 5 Elements at COLOURWAY](#the-5-elements-at-colourway)
 3. [Features](#features)
     - [Logo and Navbar](#logo-and-navbar)
     - [Favicon](#favicon)
@@ -43,7 +43,7 @@ Welcome to COLOURWAY, Your Colour Analysts. With this site we offer a clean, pra
 8. [Finished Product](#finished-product)
 9. [Future Features](#future-features)
 10. [Credits](#credits)
-    - [Content](#content)
+    - [Main Content](#main-content)
     - [Frameworks](#frameworks)
     - [Media](#media)
 11. [Conclusion](#conclusion)
@@ -198,7 +198,7 @@ Wireframes for this site were created with [Balsamiq](https://balsamiq.com/).
 - Accessibility: Big focus on elements that make the site accessible to users with disabilities. Considerations such as colour contrast, keyboard navigation, and screen reader compatibility ensures inclusivity and compliance with accessibility standards.
 - User Flow: The design facilitates a smooth and intuitive user journey throughout.
 
-## The Five Elements of UX at COLOURWAY
+## The 5 Elements at COLOURWAY
 
 1. **Strategy**
 - Conduct research to understand the needs and preferences of the target audience regarding colour analysis and aesthetics.
@@ -444,7 +444,7 @@ Throughout the development process, we encountered and resolved various bugs to 
 
 - ### CSS Validation Testing Bugs ###
 
-- **Google Styles Error**
+**Google Styles Error**
 
 ![css-validation](docs/images/testing/w3c_css_validation_GoogleStylesheetError_2024-04-16.png)
 
@@ -493,7 +493,7 @@ Our finished product is a testament to our dedication to providing a beautiful a
 
 ## Credits <a name="credits"></a>
 
-### Content
+### Main Content
 
 * All text content written by myself for a fictional company and devised for educational purposes only.
 * [Code-Institute](https://codeinstitute.net/ie/?nab=0) Walkthrough projects content.
