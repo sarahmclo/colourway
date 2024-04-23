@@ -43,7 +43,7 @@ Welcome to COLOURWAY, Your Colour Analysts. With this site we offer a clean, pra
 8. [Finished Product](#finished-product)
 9. [Future Features](#future-features)
 10. [Credits](#credits)
-    - [Main Content](#main-content)
+    - [Content](#content)
     - [Frameworks](#frameworks)
     - [Media](#media)
 11. [Conclusion](#conclusion)
@@ -253,33 +253,32 @@ Designed by myself in Adobe Illustrator this custom favicon stems from the desig
 ### Headings
 
 - Clear and consistent heading styles guide users through our content, making it easy to understand and navigate.
-- Utilize clear and consistent heading styles throughout the website.
-- Headings should be descriptive and help users understand the content hierarchy.
-- Use appropriate font sizes, weights, and spacing to enhance readability.
+- Headings descriptive and help users understand the content hierarchy.
+- Clear and consistent heading styles utilised throughout the website.
+- Appropriate font sizes, weights, and spacing executed to enhance readability.
 
 ### Pages:
 
-- Design each page with a specific purpose and target audience in mind.
-- Clearly define the goal of each page and tailor the content accordingly.
-- Include intuitive navigation elements such as breadcrumbs or a sidebar menu to help users explore different pages.
+- Each page designed with a specific purpose and target audience in mind.
+- Clearly defined goal of each page and content tailored accordingly.
+- Intuitive navigation elements help users explore different pages with ease.
 
 ### Main Content:
 
-- Ensure the main content of each page is engaging, informative, and relevant to the user.
-- Use a mix of text, images, and multimedia elements to convey information effectively.
-- Organize content logically with clear sections and subheadings for easy navigation.
+- Main content of each page is engaging, informative, and relevant to the user.
+- A mix of text, images, and multimedia elements employed to convey information effectively.
+- Content organised logically with clear sections and subheadings for easy navigation.
 
 ### Subscribe Form:
 
-- Place the subscribe form prominently on the website to encourage user engagement.
-- Keep the form simple and easy to fill out, asking for minimal information.
--Provide clear instructions and incentives for users to subscribe, such as access to exclusive content or special offers.
+- Subscribe form placed prominently and easily navgated to encourage user engagement.
+- Form simple and easy to fill out, asking for minimal information.
+- Clear instructions and incentives for users to subscribe, such as access to exclusive content/special offers.
 
 ### Footer:
 
-- Design the footer to provide essential information and navigation links to users.
-- Include links to important pages such as the homepage, contact us, privacy policy, and terms of service.
-- Incorporate social media icons or other relevant links to encourage further engagement with the website and brand.
+- Footer designed to provide essential information and navigation links to users.
+- Social media icons incorporated to encourage further engagement with the website and brand.
 
 ## Technologies Utilised <a name="technologies-utilised"></a>
 
@@ -493,7 +492,7 @@ Our finished product is a testament to our dedication to providing a beautiful a
 
 ## Credits <a name="credits"></a>
 
-### Main Content
+### Content
 
 * All text content written by myself for a fictional company and devised for educational purposes only.
 * [Code-Institute](https://codeinstitute.net/ie/?nab=0) Walkthrough projects content.
