@@ -1,23 +1,19 @@
 # Colourway *Your Colour Analysts*
 ![Mock-Up](docs/images/mockup/colourway-mockup.webp)
 
-Welcome to COLOURWAY, Your Colour Analysts, where we believe that colour isn't just a visual experience; it's a language that speaks volumes about who we are and how we interact with the world around us. We're not your typical colour consultants – we're your personal guides to understanding the power of colour in your life. 
-
-With this site we offer a clean, practical, and user-friendly platform for individuals to explore the transformative power of colour and integrate it into their daily routines in meaningful ways. We believe that simplicity and practicality are the cornerstones of effective design, our website is a testament to this philosophy, offering a bold and intuitive user experience that puts the transformative power of colour front and centre in a personal yet practical way. Our website calls on our user to subcribe to the COLOURWAY community for exclusive info and offers.
+Welcome to COLOURWAY, Your Colour Analysts. With this site we offer a clean, practical, and user-friendly platform for individuals to explore the transformative power of colour and integrate it into their daily routines in meaningful ways. We believe that simplicity and practicality are the cornerstones of effective design, our website is a testament to this philosophy, offering a bold and intuitive user experience that puts the transformative power of colour front and centre in a personal yet practical way. Our website calls on our user to subscribe to the COLOURWAY community for exclusive information and offers.
 
 [View Colourway Live Here](https://sarahmclo.github.io/colourway/)
 
 ## Table of Contents
-1. [Project Plan](#project-plan)
-2. [User Experience](#user-experience)
+1. [User Experience (UX)](#user-experience)
     - [Project Goals](#project-goals)
     - [User stories](#user-stories)
     - [Target Audience Goals](#target-audience-goals)
     - [Site Owner Goals](#site-owner-goals)
     - [First Time User Goals](#first-time-user-goals)
     - [Return User Goals](#return-user-goals)
-    - [Frequent User Goals](#frequent-user-goals)
-3. [Design](#design)
+2. [Design](#design)
     - [Design Philosophy](#design-philosophy)
     - [Design Choices](#design-choices)
     - [Colours](#colours)
@@ -25,102 +21,49 @@ With this site we offer a clean, practical, and user-friendly platform for indiv
     - [Imagery](#imagery)
     - [Structure](#structure)
     - [Wireframes](#wireframes)
-4. [Features](#features)
+3. [Features](#features)
     - [Logo and Navbar](#logo-and-navbar)
     - [Favicon](#favicon)
     - [Headings](#headings)
     - [Main Content](#main-content)
     - [Footer](#footer)
     - [Pages](#pages)
-5. [Technologies Utilised](#technologies-utilised)
+4. [Technologies Utilised](#technologies-utilised)
     - [Languages](#languages)
     - [Frameworks and Programs](#frameworks-and-programs)
-6. [Testing](#testing)
+5. [Testing](#testing)
     - [Validation Testing](#validation-testing)
     - [Manual Testing](#manual-testing)
     - [Common Elements](#common-elements)
     - [Performance](#performance)
     - [Browser Compatibility](#browser-compatibility)
-7. [Deployment](#deployment)
+6. [Deployment](#deployment)
     - [Remote Deployment](#remote-deployment)
     - [Local Deployment](#local-deployment)
-8. [Finished Product](#finished-product)
-9. [Future Features](#future-features)
-10. [Bugs](#bugs)
-11. [Credits](#credits)
+7. [Finished Product](#finished-product)
+8. [Future Features](#future-features)
+9. [Bugs](#bugs)
+10. [Credits](#credits)
     - [Content](#content)
     - [Media](#media)
     - [Code](#code)
-12. [Conclusion](#conclusion)
-13. [Acknowledgements](#acknowledgements)
+11. [Conclusion](#conclusion)
+12. [Acknowledgements](#acknowledgements)
 
-<details>
-<summary><h2>Project Plan</h2><a name="project-plan"></a></summary>
-COLOURWAY: Your Colour Analysts is dedicated to providing a fresh and practical approach to colour analysis. Our team of certified experts offers personalised one-on-one consultations to help you discover the perfect palette for your personal style and everyday environment. But we're more than just consultants; we're a community dedicated to exploring the transformative effects of colour through workshops and colour therapy sessions designed to enhance your well-being.
-
-### Our Approach
-
-At COLOURWAY, simplicity and practicality are at the heart of everything we do. We understand that navigating the world of colour can be overwhelming, which is why we've developed a straightforward process that demystifies the complexities of colour analysis. Whether you're revamping your wardrobe or redesigning your living space, our experts are here to guide you every step of the way.
-
-### What We Offer
-
-- Personalised one-on-one colour consultations
-- Community workshops and colour therapy sessions
-- Certified experts with a passion for colour
-- Simple and practical approach to colour analysis
-
-## Welcome to COLOURWAY Your Colour Analysts
-At COLOURWAY simplicity and practicality are at the heart of everything we do. We understand that navigating the world of colour can be overwhelming, which is why we've developed a straightforward process that demystifies the complexities of colour analysis. Whether you're revamping your wardrobe, redesigning your living/workspace or seeking more vibrancy in your overall well-being, our experts are here to guide you every step of the way.
-
-## About Us
-We believe that colour isn't just a visual experience; it's a language that speaks volumes about who we are and how we interact with the world around us. We're not your typical colour consultants – we're your personal guides to understanding the power and potential of colour in your life. 
-This website offers a clean, viable and user-friendly platform for individuals, allowing them to explore and subscribe to the transformative power of colour. We share practical and insightful tips that are worth integrating into daily routines in meaningful ways.
-
-## Our Mission
-We are dedicated to providing a fresh and practical approach to colour analysis. Our team of certified experts offer personalised one-on-one consultations to help you discover the perfect palette for your personal style and everyday environment. We are a community dedicated to exploring the transformative effects of colour through one-on-one consultations, workshops and colour therapy sessions designed to enhance your well-being.
-
-## Subscribe 
-Subscribe for more information and exclusive offers on our:
-Personalised one-on-one colour consultations.
-Community workshops and colour therapy sessions.
-Certified experts with a passion for colour.
-Simple and practical approach to colour analysis.
-Discounts on consultations, workshops & chromotherapy sessions.
-And connect with other like-minded persons within our community.
-
-Join us on a journey to discover the transformative power of colour at COLOURWAY: Your Colour Analysts.
-
-## UX
-Our design ethos is rooted in the idea that less is more. We've embraced clean lines, minimalist layouts, negative space and bold colour choices to create an interface that is both visually striking and easy to navigate. Every element has been carefully considered to ensure a seamless user experience for intuitive navigation.
-
-## Bold Choices
-With our simple yet impactful design, we've made bold choices in our use of colour and typography to create a website that stands out. A vibrant palette with eye-catching fonts draw the user's attention and create a memorable visual identity for our brand. We want our website to invoke the values we hope to bestoww upon our growing community of users.
-
-## Inspiration
-![ref-pic](docs/images/references/ref-images.webp)
-           
-## Accessibility
-In keeping with our commitment to practicality, we've ensured that our website is accessible to all users, regardless of their device or ability. Our responsive design adapts seamlessly to any screen size, while our use of semantic HTML ensures compatibility with screen readers and other assistive technologies.
-
-## Conclusion
-At COLOURWAY: Your Colour Analysts, we believe that design should be both beautiful and functional. Our website is a testament to this belief, offering a simple, practical, and bold user experience that puts the transformative power of colour at your fingertips. Join us on a journey to discover the true impact of colour in your life. Welcome to a world where every shade narrates a unique story, and where the potential is as vast as the colour spectrum itself.
-</details>
-
-## User Experience <a name="user-experience"></a>
+## User Experience (UX)<a name="user-experience"></a>
 When you visit our website, you'll immediately notice the simplicity of our design. We've eschewed unnecessary clutter in favour of clean, uncluttered layouts that allow our content to shine. Whether you're browsing our services or exploring our community events, you'll find that everything is just a click away, thanks to our intuitive navigation system.
-The 5 S's
-
-### Intended Audience
 
 ### Project Goals
 
 ### User stories
 
 ### Target Audience Goals
+
 ### Site Owner Goals
+
 ### First Time User Goals
+
 ### Return User Goals
-### Frequent User Goals
 
 ## Design <a name="design"></a>
 
@@ -128,19 +71,31 @@ The 5 S's
 Our design ethos is rooted in the idea that less is more. We've embraced clean lines, minimalist layouts, and bold colour choices to create an interface that is both visually striking and easy to navigate. Every element has been carefully considered to ensure a seamless user experience, from the intuitive navigation menu to the vibrant colour palettes that adorn each page.
 
 ### Design Choices
-While our design may be simple, that doesn't mean it's lacking in impact. We've made bold choices in our use of colour and typography to create a website that stands out from the crowd. Vibrant hues and eye-catching fonts draw the user's attention and create a memorable visual identity for our brand. Strong lines, simple shapes with a nod to the Bauhaus movement are our inspiration as seen in the reference imagery below.
+While our design may be simple, that doesn't mean it's lacking in impact. We've made bold choices in our use of colour and typography to create a website that stands out from the crowd. Vibrant hues and eye-catching fonts draw the user's attention and create a memorable visual identity for our brand.
+
+- **Reference Images**
+Strong lines, simple shapes with a nod to the Bauhaus movement are our inspiration as seen in the reference imagery below.
 
 ![ref-pic](docs/images/references/ref-images.webp)
 
 ### Colours
 Our colour palette is carefully selected to evoke the emotions and feelings associated with our brand. Vibrant yet harmonious colors create a visually appealing experience while maintaining readability and accessibility for all users.
 
+- **Colour Palette**
+The colour palette for this site was devised inkeeping with the Colourway logo and created in [Adobe Color](https://color.adobe.com/).
+
 ![Colour Palette](docs/images/logo/AdobeColor-color-theme_colourway.webp)
+
+- **Logo**
+The Colourway logo for this site was created in Adobe Illustrator/Photoshop and a starting point for the overall lookk of the website.
 
 ![Colour Logo](docs/images/logo/colourway-logo-rm.webp)
 
 ### Typography
 The typography choices on our website reflect our commitment to clarity and elegance. We've selected fonts that are easy to read yet stylish, enhancing the overall aesthetic and user experience.
+
+- **Fonts**
+The fonts for this site were carefully chosen and imported from [Google Fonts](https://fonts.google.com/).
 
 ![Inter](docs/images/fonts/inter.webp)
 ![Roboto](docs/images/fonts/roboto.webp)
@@ -148,98 +103,126 @@ The typography choices on our website reflect our commitment to clarity and eleg
 ### Imagery
 We believe in the power of imagery to tell a story and evoke emotions. From striking photographs to subtle background textures, every image on our website is carefully chosen to complement our content and reinforce our brand identity.
 
+- **Hero Image**
 Hero image designed by me in Adobe Illustrator and Photoshop to be bright and inviting and carry on ethos of logo and brand.
+
 ![hero-image](assets/images/hero-colour.webp)
 
-### Structure
-Our website's structure is designed to guide users seamlessly through their journey, from discovering our services to engaging with our community events. Clear navigation and intuitive layout ensure that users can find what they need quickly and easily.
+- **Content Images**
+The images for content were chosen from [Pexels](https://www.pexels.com/) with the company in mind and using colours that sit well within the page. All images were optimised and converted to webp with [Convertio](https://convertio.co/).
+
+![content-images](docs/images/content-images.webp)
 
 ### Wireframes
-Wireframes serve as the blueprint for our website, outlining the layout and functionality of each page. They help us visualise the user experience and iterate on design concepts before implementation
+Wireframes serve as the blueprint for our website, outlining the layout and functionality of each page. They help us visualise the user experience and iterate on design concepts before implementation. 
 
-- **Index Page**
+Wireframes for this site were created with [Balsamiq](https://balsamiq.com/).
+
+- **Index Page Wireframes**
 
 ![wireframe-index](docs/images/wireframes/pp1-index-wireframe.webp)
 
-- **Subscribed Page**
+- **Subscribed Page Wireframes**
+
 ![wireframe-subscribed](docs/images/wireframes/pp1-subscribed-wireframe.webp)
+
+## Colurway and the 5 Elements of UX
+
+1. **Strategy**
+
+2. **Scope**
+
+3. **Structure**
+
+4. **Skeleton**
+
+5. **Surface**
 
 ## Features <a name="features"></a>
 
 ### Logo and Navbar
+
+- **Logo**
+
+Our distinctive logo and navigation bar provide a cohesive brand identity and intuitive navigation experience.
+Logo designed in Illustrator and converted to webp with [Convertio](https://convertio.co/).
+
 ![Logo](docs/images/logo/colourway-text-logo-rm.webp)
 
-Designed logo and converted to webp
-Our distinctive logo and navigation bar provide a cohesive brand identity and intuitive navigation experience.
+- **Navbar**
+
+The navbar Navbar includes bars icon to indicate it has a dropdown menu for mobile.
+
+![Navbar-Desktop](docs/images/navbar.webp)
 
 ### Favicon
 ![Favicon](docs/images/logo/favicon-32x32.png)
-Designed by myself in photoshop this custom favicon stems from the designed logo which enhances brand recognition and improves user experience by providing a visual marker for the website. 
+
+Designed by myself in Adobe Illustrator this custom favicon stems from the designed logo which enhances brand recognition and improves user experience by providing a visual marker for the website. 
 
 ### Headings
 Clear and consistent heading styles guide users through our content, making it easy to understand and navigate.
 
 ### Main Content
+### Pages
+Each page on our website is designed with purpose, providing valuable information and resources to our users in a clear and accessible format.
+
+### Subscribe Form
 
 ### Footer
 Our footer design includes essential links and information, ensuring that users can access key resources from any page on our website.
-
-### Pages
-Each page on our website is designed with purpose, providing valuable information and resources to our users in a clear and accessible format.
 
 ## Technologies Utilised <a name="technologies-utilised"></a>
 
 ### Languages
 The languages used in this project are:
-HTML
+HTML5
 CSS
 Javascript
 
 ### Frameworks and Programs
 
-### Gitpod
+### [Gitpod](https://www.gitpod.io/)
 
 Gitpod was used for writing code, committing, and then pushing to GitHub. 
 
-### GitHub
+### [GitHub](https://github.com/)
 
 GitHub was utilised for hosting and viewing.
 
-### Google Fonts
+### [Google Fonts](https://fonts.google.com/)
 
 Google Fonts was used to import the fonts Inter and Roboto into the style.css file. These fonts were used throughout the site.
 
-### Font Awesome
+### [Font Awesome](https://fontawesome.com/)
 
 Font Awesome was used throughout to add icons in order to create a better visual experience for the user.
 
-### Balsamiq
+### [Balsamiq](https://balsamiq.com/)
 
 Balsamiq was used to create the wireframes during the design phase of the project.
 
-### Responsive Design Checker 
+### [Responsive Design Checker](https://responsivedesignchecker.com/)
 
 Responsive Design Checker  was used in the testing process to check responsiveness on various devices.
 
-### Am I Responsive
+### [Am I Responsive](https://ui.dev/amiresponsive)
+
 Am I Responsive was utilised to generate Mock Up Image of site in a responsive manner.
 
-### Chrome DevTools
+### [Chrome DevTools](https://developer.chrome.com/docs/devtools)
 
 Chrome DevTools was used during development process for code review and to test responsiveness.
 
-### Coolers Contrast Checker
+### [Coolers Contrast Checker](https://coolors.co/)
 
 Coolers Contrast Checker was used to make sure the colors I used contrasted well enough for all users
 
-### Adobe Colors
+### [Adobe Colors](https://color.adobe.com/)
 Adobe Colors was used to generate a pleasing colour palette inkeeping with logo and design.
 
-### Languages
-The languages used in this project are:
-HTML
-CSS
-Javascript
+### [Convertio](https://convertio.co/)
+Convertio was utilised to optimise images to webp for faster loading
 
 ## Testing <a name="testing"></a>
 
@@ -337,48 +320,76 @@ To contribute or check the code, you can:
 5. Use the copy/paste button and copy it into your terminal
 6. You also have the option to download a ZIP file of the code
 
+## Bugs <a name="bugs"></a>
+Throughout the development process, we encountered and resolved various bugs to ensure a smooth and seamless user experience. Our rigorous testing procedures helped identify and address these issues promptly.
+
 ## Finished Product <a name="finished-product"></a>
 Our finished product is a testament to our dedication to providing a beautiful and functional design that showcases the transformative power of colour. From the intuitive user experience to the vibrant visual identity, every aspect of our website reflects our commitment to excellence.
 
 <details>
 <summary><h3>Index Page Desktop</h3><a name="index-desktop"></a></summary>
+
 ![desktop-index](docs/images/fin-site/colourway-desktop.webp)
 </details>
 
-
 <details>
 <summary><h3>Index Page Mobile</h3><a name="index-mobile"></a></summary>
-docs/images/fin-site/colourway-mobile.webp
+
+![mobile-index](docs/images/fin-site/colourway-mobile.webp)
 </details>
 
 <details>
 <summary><h3>Index Page iPad</h3><a name="index-iPad"></a></summary>
+
+
 ![ipad-index](docs/images/fin-site/colourway-ipad.webp)
 </details>
 
 <details>
 <summary><h3>Subscribed Page Desktop</h3><a name="subscribed-desktop"></a></summary>
+
 ![desktop-subscribed](docs/images/fin-site/colourway-subscribed-desktop.webp)
 </details>
 
 <details>
 <summary><h3>Subscribed Page Mobile</h3><a name="subscribed-mobile"></a></summary>
+
 ![mobile-subscribed](docs/images/fin-site/colourway-subscribed-mobile.webp)
 </details>
 
 ## Future Features <a name="future-features"></a>
 
-## Bugs <a name="bugs"></a>
-Throughout the development process, we encountered and resolved various bugs to ensure a smooth and seamless user experience. Our rigorous testing procedures helped identify and address these issues promptly.
-
 ## Credits <a name="credits"></a>
 
 ### Content
-All content written for the website is by myself. The content is for a fictional company and devised for educational purposes only.
+* All text content written by myself for a fictional company and devised for educational purposes only.
+* [Code-Institute](https://codeinstitute.net/ie/?nab=0) Walkthrough projects content.
+* [MDN](https://developer.mozilla.org/en-US/) Web docs and tutorials.
+* [StackOverflow](https://stackoverflow.com/) Troubleshooting code.
+* [W3Schools](https://www.w3schools.com/) Javascript intro tutorials for navbar menu.
+* [CSS Tricks - HTML Picture](https://css-tricks.com) Further CSS tutorials.
+* [Web Dev - Browser level image lazy loading](https://web.dev/browser-level-image-lazy-loading/) Lazy load images after testing.
+* [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) Flexbox tutorials.
+* [Codu](https://www.codu.co/) Inspiration.
+
+### Frameworks
+* [Gitpod](https://www.gitpod.io/) Write, commit and push code to GitHub. 
+* [GitHub](https://github.com/) Utilise for hosting, amending and viewing.
+* [Google Fonts](https://fonts.google.com/) Import fonts.
+* [Balsamiq](https://balsamiq.com/) Create the wireframes in design phase.
+* [Responsive Design Checker](https://responsivedesignchecker.com/) Test responsiveness on various devices.
+* [Am I Responsive](https://ui.dev/amiresponsive) Generate Mock Up Image of site in a responsive manner.
+* [Chrome DevTools](https://developer.chrome.com/docs/devtools) Utilise regularly development for code review and to test responsiveness.
+* [Coolers Contrast Checker](https://coolors.co/) Ensure colour contrast inline with guidelines.
+* [Adobe Colors](https://color.adobe.com/) Generate pleasing colour palette inkeeping with logo and design.
 
 ### Media
-
-### Code
+* [Pexels](https://www.pexels.com/) Fictional team and company images.
+* [FontAwesome](https://fontawesome.com/) Icons for navbar menu, contact section and social networks.
+* [Favicon](https://favicon.io/) Created my own favicon with logo of page.
+* [Convertio](https://convertio.co/document-converter/) Images converted to webp for optimal loading.
+* [Colour Theory Basics by Sarah Renae Clark](https://www.youtube.com/watch?v=YeI6Wqn4I78) Video content on colour theory.
+* [GoogleMaps](https://www.google.com/maps) Fictional location for company.
 
 ## Conclusion <a name="conclusion"></a>
 At COLOURWAY: Your Colour Analysts, we believe that design should be both beautiful and functional. Our website is a testament to this belief, offering a simple, practical, and bold user experience that puts the transformative power of colour at your fingertips. Join us on a journey to discover the true impact of colour in your life. Welcome to a world where every shade narrates a unique story, and where the potential is as vast as the colour spectrum itself.
