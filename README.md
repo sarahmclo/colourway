@@ -19,15 +19,18 @@ Welcome to COLOURWAY, Your Colour Analysts. With this site we offer a clean, pra
     - [Colour Scheme](#colour-scheme)
     - [Typography](#typography)
     - [Imagery](#imagery)
-    - [Structure](#structure)
     - [Wireframes](#wireframes)
+    - [Structure](#structure)
+    - [The Five Elements of UX at COLOURWAY](5-UX)
+    
 3. [Features](#features)
     - [Logo and Navbar](#logo-and-navbar)
     - [Favicon](#favicon)
     - [Headings](#headings)
-    - [Main Content](#main-content)
-    - [Footer](#footer)
     - [Pages](#pages)
+    - [Main Content](#main-content)
+    - [Subscribe Form](subscribe-form)
+    - [Footer](#footer)
 4. [Technologies Utilised](#technologies-utilised)
     - [Languages](#languages)
     - [Frameworks and Programs](#frameworks-and-programs)
@@ -37,7 +40,7 @@ Welcome to COLOURWAY, Your Colour Analysts. With this site we offer a clean, pra
 6. [Testing](#testing)
     - [Validation Testing](#validation-testing)
     - [Manual Testing](#manual-testing)
-7. [Bugs & Fixes](#bugs-&-fixes)
+7. [Bugs and Fixes](#bugs-and-fixes)
 8. [Finished Product](#finished-product)
 9. [Future Features](#future-features)
 10. [Credits](#credits)
@@ -170,18 +173,6 @@ The images for content were chosen from [Pexels](https://www.pexels.com/) with t
 
 ![content-images](docs/images/content-images.webp)
 
-### Structure
-
-- Content Hierarchy: Content is organized hierarchically to guide users through the website. The use of headings, subheadings, and sections break down information into digestible chunks.
-- Navigation: The navigation structure, including menus, links, and calls-to-action have been designed to facilitate easy access to different sections of the website and enhance user experience.
-- Page Structure: The layout of individual pages highlighte key sections such as headers, main content area, form and footer. Each section contributes to the overall flow and functionality of the page.
-- Grid System/Flexbox: Structures the layout of the website and maintains consistency and alignment across pages and screen sizes.
-- Consistency: Consistency is emphasized in design elements such as typography, colours, and spacing, reinforcing UX and brand identity.
-- Whitespace: Negative space is utilised to improve readability and visual appeal. Strategically incorporating whitespace around elements helps create a clean and uncluttered design just like the ethos of COLOURWAY.
-- Responsive Design: The design adapts to different screen sizes and devices to ensure a consistent and seamless UX. Fluid layouts, media queries, and responsive images used to achieve responsiveness throughout.
-- Accessibility: Big focus on elements that make the site accessible to users with disabilities. Considerations such as colour contrast, keyboard navigation, and screen reader compatibility ensures inclusivity and compliance with accessibility standards.
-- User Flow: The design facilitates a smooth and intuitive user journey throughout.
-
 ### Wireframes
 
 Wireframes serve as the blueprint for our website, outlining the layout and functionality of each page. They help us visualise the user experience and iterate on design concepts before implementation. 
@@ -196,7 +187,19 @@ Wireframes for this site were created with [Balsamiq](https://balsamiq.com/).
 
 ![wireframe-subscribed](docs/images/wireframes/pp1-subscribed-wireframe.webp)
 
-## Colurway and the 5 Elements of UX
+### Structure
+
+- Content Hierarchy: Content is organized hierarchically to guide users through the website. The use of headings, subheadings, and sections break down information into digestible chunks.
+- Navigation: The navigation structure, including menus, links, and calls-to-action have been designed to facilitate easy access to different sections of the website and enhance user experience.
+- Page Structure: The layout of individual pages highlighte key sections such as headers, main content area, form and footer. Each section contributes to the overall flow and functionality of the page.
+- Grid System/Flexbox: Structures the layout of the website and maintains consistency and alignment across pages and screen sizes.
+- Consistency: Consistency is emphasized in design elements such as typography, colours, and spacing, reinforcing UX and brand identity.
+- Whitespace: Negative space is utilised to improve readability and visual appeal. Strategically incorporating whitespace around elements helps create a clean and uncluttered design just like the ethos of COLOURWAY.
+- Responsive Design: The design adapts to different screen sizes and devices to ensure a consistent and seamless UX. Fluid layouts, media queries, and responsive images used to achieve responsiveness throughout.
+- Accessibility: Big focus on elements that make the site accessible to users with disabilities. Considerations such as colour contrast, keyboard navigation, and screen reader compatibility ensures inclusivity and compliance with accessibility standards.
+- User Flow: The design facilitates a smooth and intuitive user journey throughout.
+
+## The Five Elements of UX at COLOURWAY
 
 1. **Strategy**
 - Conduct research to understand the needs and preferences of the target audience regarding colour analysis and aesthetics.
@@ -255,17 +258,17 @@ Designed by myself in Adobe Illustrator this custom favicon stems from the desig
 - Headings should be descriptive and help users understand the content hierarchy.
 - Use appropriate font sizes, weights, and spacing to enhance readability.
 
-### Main Content:
-
-- Ensure the main content of each page is engaging, informative, and relevant to the user.
-- Use a mix of text, images, and multimedia elements to convey information effectively.
-- Organize content logically with clear sections and subheadings for easy navigation.
-
 ### Pages:
 
 - Design each page with a specific purpose and target audience in mind.
 - Clearly define the goal of each page and tailor the content accordingly.
 - Include intuitive navigation elements such as breadcrumbs or a sidebar menu to help users explore different pages.
+
+### Main Content:
+
+- Ensure the main content of each page is engaging, informative, and relevant to the user.
+- Use a mix of text, images, and multimedia elements to convey information effectively.
+- Organize content logically with clear sections and subheadings for easy navigation.
 
 ### Subscribe Form:
 
@@ -408,7 +411,7 @@ There are no formatting issues or discrepancies in the placement of content elem
 Proper labeling, alt text for images, and other accessibility features have been included.
 - Performance Testing: The website's performance has been evaluated using tools like DevTools, WC3 Validator and Lighthouse to assess factors such as page load speed, performance metrics, and optimization opportunities.
 
-## Bugs & Fixes <a name="bugs-&-fixes"></a>
+## Bugs and Fixes <a name="bugs-and-fixes"></a>
 
 Throughout the development process, we encountered and resolved various bugs to ensure a smooth and seamless user experience. Our rigorous testing procedures helped identify and address these issues promptly.
 
