@@ -16,7 +16,7 @@ Welcome to COLOURWAY, Your Colour Analysts. With this site we offer a clean, pra
 2. [Design](#design)
     - [Design Philosophy](#design-philosophy)
     - [Design Choices](#design-choices)
-    - [Colours](#colours)
+    - [Colour Scheme](#colour-scheme)
     - [Typography](#typography)
     - [Imagery](#imagery)
     - [Structure](#structure)
@@ -37,7 +37,7 @@ Welcome to COLOURWAY, Your Colour Analysts. With this site we offer a clean, pra
 6. [Testing](#testing)
     - [Validation Testing](#validation-testing)
     - [Manual Testing](#manual-testing)
-7. [Bugs](#bugs)
+7. [Bugs & Fixes](#bugs-&-fixes)
 8. [Finished Product](#finished-product)
 9. [Future Features](#future-features)
 10. [Credits](#credits)
@@ -135,7 +135,7 @@ Strong lines, simple shapes with a nod to the Bauhaus movement are our inspirati
 
 ![ref-pic](docs/images/references/ref-images.webp)
 
-### Colours
+### Colour Scheme
 Our colour palette is carefully selected to evoke the emotions and feelings associated with our brand. Vibrant yet harmonious colours create a visually appealing experience, along with negative sapce and clean dark lines, while maintaining readability and accessibility for all users.
 
 - **Colour Palette**
@@ -171,9 +171,19 @@ The images for content were chosen from [Pexels](https://www.pexels.com/) with t
 ![content-images](docs/images/content-images.webp)
 
 ### Structure
-complete
+
+- Content Hierarchy: Content is organized hierarchically to guide users through the website. The use of headings, subheadings, and sections break down information into digestible chunks.
+- Navigation: The navigation structure, including menus, links, and calls-to-action have been designed to facilitate easy access to different sections of the website and enhance user experience.
+- Page Structure: The layout of individual pages highlighte key sections such as headers, main content area, form and footer. Each section contributes to the overall flow and functionality of the page.
+- Grid System/Flexbox: Structures the layout of the website and maintains consistency and alignment across pages and screen sizes.
+- Consistency: Consistency is emphasized in design elements such as typography, colours, and spacing, reinforcing UX and brand identity.
+- Whitespace: Negative space is utilised to improve readability and visual appeal. Strategically incorporating whitespace around elements helps create a clean and uncluttered design just like the ethos of COLOURWAY.
+- Responsive Design: The design adapts to different screen sizes and devices to ensure a consistent and seamless UX. Fluid layouts, media queries, and responsive images used to achieve responsiveness throughout.
+- Accessibility: Big focus on elements that make the site accessible to users with disabilities. Considerations such as colour contrast, keyboard navigation, and screen reader compatibility ensures inclusivity and compliance with accessibility standards.
+- User Flow: The design facilitates a smooth and intuitive user journey throughout.
 
 ### Wireframes
+
 Wireframes serve as the blueprint for our website, outlining the layout and functionality of each page. They help us visualise the user experience and iterate on design concepts before implementation. 
 
 Wireframes for this site were created with [Balsamiq](https://balsamiq.com/).
@@ -233,32 +243,38 @@ The navbar Navbar includes bars icon to indicate it has a dropdown menu for mobi
 ![Navbar-Desktop](docs/images/navbar.webp)
 
 ### Favicon
+
 ![Favicon](docs/images/logo/favicon-32x32.png)
 
 Designed by myself in Adobe Illustrator this custom favicon stems from the designed logo which enhances brand recognition and improves user experience by providing a visual marker for the website. 
 
 ### Headings
+
 - Clear and consistent heading styles guide users through our content, making it easy to understand and navigate.
 - Utilize clear and consistent heading styles throughout the website.
 - Headings should be descriptive and help users understand the content hierarchy.
 - Use appropriate font sizes, weights, and spacing to enhance readability.
 
 ### Main Content:
+
 - Ensure the main content of each page is engaging, informative, and relevant to the user.
 - Use a mix of text, images, and multimedia elements to convey information effectively.
 - Organize content logically with clear sections and subheadings for easy navigation.
 
 ### Pages:
+
 - Design each page with a specific purpose and target audience in mind.
 - Clearly define the goal of each page and tailor the content accordingly.
 - Include intuitive navigation elements such as breadcrumbs or a sidebar menu to help users explore different pages.
 
 ### Subscribe Form:
+
 - Place the subscribe form prominently on the website to encourage user engagement.
 - Keep the form simple and easy to fill out, asking for minimal information.
 -Provide clear instructions and incentives for users to subscribe, such as access to exclusive content or special offers.
 
 ### Footer:
+
 - Design the footer to provide essential information and navigation links to users.
 - Include links to important pages such as the homepage, contact us, privacy policy, and terms of service.
 - Incorporate social media icons or other relevant links to encourage further engagement with the website and brand.
@@ -290,6 +306,7 @@ Designed by myself in Adobe Illustrator this custom favicon stems from the desig
 Git was used for version control. Version control was done locally and remotely. For remote version control, GitHub was used. Regular commits were made after each file change.
 
 ### Remote Deployment
+
 GitHub Pages was used to deploy the site remotely.
 
 1. Login to [Git Hub](https://github.com/) Repository account
@@ -373,9 +390,25 @@ The website is responsive, providing a seamless experience across various device
 
 ### Manual Testing
 
-Manual testing for the site involves hands-on evaluation by human testers to ensure functionality, usability, and compatibility across various devices and browsers.
+Manual testing for the site involves hands-on evaluation by human testers to ensure functionality, usability, and compatibility across various devices and browsers. By conducting the manual testing procedures below, we ensure the website functions smoothly, provides an optimal user experience, and meets desired standards.
 
-## Bugs <a name="bugs"></a>
+- Navigation Testing: Manually testing the navigation menu ensured all links are working correctly and directing users to the intended pages.
+The navigation menu is responsive and displays properly on different devices and screen sizes.
+- Subscribe Form Testing: Testing the subscribe form ensured it functions correctly, allowing users to submit their information successfully.
+Vaalidation messages were checked and ensured they appear when required fields are left blank or invalid data is entered.
+- Responsive Design Testing: Testing the website on various devices (desktop, mobile, tablet) has ensured responsiveness and proper layout adaptation.
+It is verified that all content remains accessible and readable across different screen sizes.
+- Content Hierarchy Testing: Verified that the content hierarchy is maintained throughout the website, with clear headings, subheadings, and sections.
+Content is logically organized and easy to navigate for users.
+- Cross-browser Compatibility Testing: The website has been tested on different web browsers (Chrome, Firefox, Safari) to ensure compatibility and consistent performance. Layout and functionality issues specific to certain browsers have been addressed accordingly.
+- Form Submission Testing: Subscribe form has been submitted with valid data and ensures successful submission and confirmation.
+- Page Structure Testing: The ayout and structure of individual pages are consistent and aligned with the design specifications.
+There are no formatting issues or discrepancies in the placement of content elements.
+- Accessibility Testing: The website has been tested using accessibility tools to ensure compatibility and adherence to accessibility standards.
+Proper labeling, alt text for images, and other accessibility features have been included.
+- Performance Testing: The website's performance has been evaluated using tools like DevTools, WC3 Validator and Lighthouse to assess factors such as page load speed, performance metrics, and optimization opportunities.
+
+## Bugs & Fixes <a name="bugs-&-fixes"></a>
 
 Throughout the development process, we encountered and resolved various bugs to ensure a smooth and seamless user experience. Our rigorous testing procedures helped identify and address these issues promptly.
 
@@ -459,6 +492,7 @@ Our finished product is a testament to our dedication to providing a beautiful a
 ## Credits <a name="credits"></a>
 
 ### Content
+
 * All text content written by myself for a fictional company and devised for educational purposes only.
 * [Code-Institute](https://codeinstitute.net/ie/?nab=0) Walkthrough projects content.
 * [MDN](https://developer.mozilla.org/en-US/) Web docs and tutorials.
@@ -470,6 +504,7 @@ Our finished product is a testament to our dedication to providing a beautiful a
 * [Codu](https://www.codu.co/) Inspiration.
 
 ### Frameworks
+
 * [Gitpod](https://www.gitpod.io/) Write, commit and push code to GitHub. 
 * [GitHub](https://github.com/) Utilise for hosting, amending and viewing.
 * [Google Fonts](https://fonts.google.com/) Import fonts.
@@ -481,6 +516,7 @@ Our finished product is a testament to our dedication to providing a beautiful a
 * [Adobe Colors](https://color.adobe.com/) Generate pleasing colour palette inkeeping with logo and design.
 
 ### Media
+
 * [Pexels](https://www.pexels.com/) Fictional team and company images.
 * [FontAwesome](https://fontawesome.com/) Icons for navbar menu, contact section and social networks.
 * [Favicon](https://favicon.io/) Created my own favicon with logo of page.
@@ -489,6 +525,7 @@ Our finished product is a testament to our dedication to providing a beautiful a
 * [GoogleMaps](https://www.google.com/maps) Fictional location for company.
 
 ## Conclusion <a name="conclusion"></a>
+
 At COLOURWAY: Your Colour Analysts, we believe that design should be both beautiful and functional. Our website is a testament to this belief, offering a simple, practical, and bold user experience that puts the transformative power of colour at your fingertips. Join us on a journey to discover the true impact of colour in your life. Welcome to a world where every shade narrates a unique story, and where the potential is as vast as the colour spectrum itself.
 
 ## Acknowledgements <a name="acknowledgements"></a>
