@@ -96,9 +96,9 @@ nav {
     padding-top: 70px;
 }
 
-#contact:target {
-    margin-top: -70px;
-    padding-top: 70px;
+#contact-us:target {
+    margin-top: -100px;
+    padding-top: 100px;
 }
 
 /* Main content */
