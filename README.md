@@ -44,7 +44,7 @@ Welcome to COLOURWAY, Your Colour Analysts. With this site we offer a clean, pra
 8. [Finished Product](#finished-product)
 9. [Future Features](#future-features)
 10. [Credits](#credits)
-    - [Content](#Content)
+    - [Content and Code](#content-and-code)
     - [Frameworks](#frameworks)
     - [Media](#media)
 11. [Conclusion](#conclusion)
@@ -544,7 +544,7 @@ Our finished product is a testament to our dedication to providing a beautiful a
 
 ## Credits <a name="credits"></a>
 
-### Content
+### Content and Code
 
 * All text content written by myself for a fictional company and devised for educational purposes only.
 * [Code-Institute](https://codeinstitute.net/ie/?nab=0) Walkthrough projects content.
