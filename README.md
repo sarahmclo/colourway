@@ -28,7 +28,8 @@ Welcome to COLOURWAY, Your Colour Analysts. With this site we offer a clean, pra
     - [Headings](#headings)
     - [Pages](#pages)
     - [Main Content](#main-content)
-    - [Subscribe Form](subscribe-form)
+    - [Subscribe Form](#subscribe-form)
+    - [Contact](#contact)
     - [Footer](#footer)
 4. [Technologies Utilised](#technologies-utilised)
     - [Languages](#languages)
@@ -43,7 +44,7 @@ Welcome to COLOURWAY, Your Colour Analysts. With this site we offer a clean, pra
 8. [Finished Product](#finished-product)
 9. [Future Features](#future-features)
 10. [Credits](#credits)
-    - [Content](#content)
+    - [Content](#Content)
     - [Frameworks](#frameworks)
     - [Media](#media)
 11. [Conclusion](#conclusion)
@@ -119,7 +120,7 @@ When you visit our website, you'll immediately notice the simplicity of our desi
 - Attend workshops or events.
 - Stay informed.
 - Share feedback.
-- Refer friends.
+- Refer family, friends, associates.
 - Participate in challenges & activities.
 - Connect on social media.
 - Continue personal growth.
@@ -128,6 +129,8 @@ When you visit our website, you'll immediately notice the simplicity of our desi
 
 ### Design Philosophy
 Our design ethos is rooted in the idea that less is more. We've embraced clean lines, minimalist layouts, and bold colour choices to create an interface that is both visually striking and easy to navigate. We have chosen to keep most elements to one page as we beliebve it suits the flow of the company ethos. Every element has been carefully considered to ensure a seamless user experience, from the intuitive navigation menu to the vibrant colour palettes that adorn each page.
+
+The site is designed mobile first with the use of media queries for larger screens.
 
 ### Design Choices
 While our design may be simple, that doesn't mean it's lacking in impact. We've made bold choices in our use of colour and typography to create a website that stands out from the crowd. Vibrant images and eye-catching fonts draw the user's attention and create a memorable visual identity for our brand.
@@ -188,15 +191,15 @@ Wireframes for this site were created with [Balsamiq](https://balsamiq.com/).
 
 ### Structure
 
-- Content Hierarchy: Content is organized hierarchically to guide users through the website. The use of headings, subheadings, and sections break down information into digestible chunks.
-- Navigation: The navigation structure, including menus, links, and calls-to-action have been designed to facilitate easy access to different sections of the website and enhance user experience.
-- Page Structure: The layout of individual pages highlighte key sections such as headers, main content area, form and footer. Each section contributes to the overall flow and functionality of the page.
-- Grid System/Flexbox: Structures the layout of the website and maintains consistency and alignment across pages and screen sizes.
-- Consistency: Consistency is emphasized in design elements such as typography, colours, and spacing, reinforcing UX and brand identity.
-- Whitespace: Negative space is utilised to improve readability and visual appeal. Strategically incorporating whitespace around elements helps create a clean and uncluttered design just like the ethos of COLOURWAY.
-- Responsive Design: The design adapts to different screen sizes and devices to ensure a consistent and seamless UX. Fluid layouts, media queries, and responsive images used to achieve responsiveness throughout.
-- Accessibility: Big focus on elements that make the site accessible to users with disabilities. Considerations such as colour contrast, keyboard navigation, and screen reader compatibility ensures inclusivity and compliance with accessibility standards.
-- User Flow: The design facilitates a smooth and intuitive user journey throughout.
+- **Content Hierarchy:** Content is organized hierarchically to guide users through the website.
+- **Navigation:** The navigation structure, including menus, links, and calls-to-action have been designed to facilitate easy access all on on one page to enhance user experience.
+- **Page Structure:** The layout highlights key sections such as headers, main content area, form and footer. Each section contributes to the overall flow and functionality of the page.
+- **Grid System/Flexbox:** The layout of the website maintains consistency and alignment across pages and screen sizes.
+- **Consistency:** Consistency is emphasized in design elements such as typography, colours, and spacing, reinforcing UX and brand identity.
+- **Whitespace:** Negative space is utilised to improve readability and visual appeal. Strategically incorporating whitespace around elements helps create a clean and uncluttered design just like the ethos of COLOURWAY.
+- **Responsive Design:** The design adapts to different screen sizes and devices to ensure a consistent and seamless UX. Fluid layouts, media queries, and responsive images used to achieve responsiveness throughout.
+- **Accessibility:** Big focus on elements that make the site accessible to users with disabilities. Considerations such as colour contrast, keyboard navigation, and screen reader compatibility ensures inclusivity and compliance with accessibility standards.
+- **User Flow:** The design facilitates a smooth and intuitive user journey throughout.
 
 ## The 5 Elements at COLOURWAY
 
@@ -250,6 +253,46 @@ The navbar Navbar includes bars icon to indicate it has a dropdown menu for mobi
 
 Designed by myself in Adobe Illustrator this custom favicon stems from the designed logo which enhances brand recognition and improves user experience by providing a visual marker for the website. 
 
+### Pages:
+
+- Each page designed with a specific purpose and target audience in mind.
+- Clearly defined goal of each page and content tailored accordingly.
+- Intuitive navigation elements help users explore different pages with ease.
+
+![Index](docs/images/fin-site/d-index-landing.webp)
+
+![Subscribed](docs/images/fin-site/colourway-subscribed-desktop.webp)
+
+<details>
+<summary>Index Page Desktop<a name="index-desktop"></a></summary>
+
+![desktop-index](docs/images/fin-site/colourway-desktop.webp)
+</details>
+
+<details>
+<summary>Index Page Mobile<a name="index-mobile"></a></summary>
+
+![mobile-index](docs/images/fin-site/colourway-mobile.webp)
+</details>
+
+<details>
+<summary>Index Page iPad<a name="index-iPad"></a></summary>
+
+![ipad-index](docs/images/fin-site/colourway-ipad.webp)
+</details>
+
+<details>
+<summary>Subscribed Page Desktop<a name="subscribed-desktop"></a></summary>
+
+![desktop-subscribed](docs/images/fin-site/colourway-subscribed-desktop.webp)
+</details>
+
+<details>
+<summary>Subscribed Page Mobile<a name="subscribed-mobile"></a></summary>
+
+![mobile-subscribed](docs/images/fin-site/colourway-subscribed-mobile.webp)
+</details>
+
 ### Headings
 
 - Clear and consistent heading styles guide users through our content, making it easy to understand and navigate.
@@ -257,11 +300,7 @@ Designed by myself in Adobe Illustrator this custom favicon stems from the desig
 - Clear and consistent heading styles utilised throughout the website.
 - Appropriate font sizes, weights, and spacing executed to enhance readability.
 
-### Pages:
-
-- Each page designed with a specific purpose and target audience in mind.
-- Clearly defined goal of each page and content tailored accordingly.
-- Intuitive navigation elements help users explore different pages with ease.
+![Headings](docs/images/fin-site/d-index-headings.webp)
 
 ### Main Content:
 
@@ -269,16 +308,29 @@ Designed by myself in Adobe Illustrator this custom favicon stems from the desig
 - A mix of text, images, and multimedia elements employed to convey information effectively.
 - Content organised logically with clear sections and subheadings for easy navigation.
 
+![Main Content](docs/images/fin-site/d-index-content.webp)
+
 ### Subscribe Form:
 
-- Subscribe form placed prominently and easily navgated to encourage user engagement.
+- Subscribe form placed prominently and easily navgated to encourage user engagement with clickable feature.
 - Form simple and easy to fill out, asking for minimal information.
 - Clear instructions and incentives for users to subscribe, such as access to exclusive content/special offers.
+
+![Subscribe Form](docs/images/fin-site/d-index-form.webp)
+
+### Contact:
+
+- Clear contact information
+- Location map
+
+![Contact](docs/images/fin-site/d-index-contact.webp)
 
 ### Footer:
 
 - Footer designed to provide essential information and navigation links to users.
 - Social media icons incorporated to encourage further engagement with the website and brand.
+
+![Footer](docs/images/fin-site/d-index-footer.webp)
 
 ## Technologies Utilised <a name="technologies-utilised"></a>
 
