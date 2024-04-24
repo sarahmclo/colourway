@@ -275,6 +275,10 @@ img {
     width: 90%;
 }
 
+.team-p {
+    padding-bottom: 50px;
+}
+
 #team-photos {
     display: flex;
     flex-wrap: wrap;
@@ -405,7 +409,7 @@ img {
 
 .checkbox label {
     cursor: pointer;
-    display: inline-flex;    
+    display: inline-flex;
 }
 
 .subscribe-button-form {
@@ -421,15 +425,17 @@ img {
     border: none;
     border-radius: 15px;
     box-shadow: 0 8px #999;
-  }
-  
-  .subscribe-button-form:hover {background-color: #00AD8C}
-  
-  .subscribe-button-form:active {
+}
+
+.subscribe-button-form:hover {
+    background-color: #00AD8C
+}
+
+.subscribe-button-form:active {
     background-color: #00AD8C;
     box-shadow: 0 5px #3a3a3a;
     transform: translateY(4px);
-  }
+}
 
 /* Contact us & map section */
 #contact-us {

@@ -18,6 +18,7 @@ Welcome to COLOURWAY, Your Colour Analysts. With this site we offer a clean, pra
     - [Site Owner Goals](#site-owner-goals)
     - [First Time User Goals](#first-time-user-goals)
     - [Return User Goals](#return-user-goals)
+    - [UX Research Survey](#ux-research-survey)
 2. [Design](#design)
     - [Design Philosophy](#design-philosophy)
     - [Design Choices](#design-choices)
@@ -128,6 +129,21 @@ When you visit our website, you'll immediately notice the simplicity of our desi
 - Refer family, friends, associates.
 - Connect on social media.
 - Continue personal growth.
+
+### UX Research Survey
+
+* UX Survey conducted on 10 individuals for website research purposes.
+<details>
+<summary>Full Survey<a name="full-survey"></a></summary>
+
+![Survey](docs/images/ux-survey/colourway_researchUXsurvery_form-1.webp)
+</details>
+
+<details>
+<summary>Full Survey Results<a name="full-survey-results"></a></summary>
+
+![Survey](docs/images/ux-survey/ .webp)
+</details>
 
 ## Design <a name="design"></a>
 
