@@ -134,17 +134,18 @@ When you visit our website, you'll immediately notice the simplicity of our desi
 
 ### UX Research Survey
 
-* UX Survey conducted on 10 individuals for website research purposes.
-<details>
-<summary>Full Survey<a name="full-survey"></a></summary>
+UX Survey conducted for website research purposes.
 
-![Survey](docs/images/ux-survey/colourway_researchUXsurvery_form-1.webp)
-</details>
+Survey sugests an interest in knowing more about colour analysis and the appeal of one-to-one engagement, with an emphasis on user experience, easy navigation and exclusive offers.
 
 <details>
-<summary>Full Survey Results<a name="full-survey-results"></a></summary>
+<summary>Survey Results<a name="full-survey-results"></a></summary>
 
-![Survey](docs/images/ux-survey/ .webp)
+![Survey](docs/images/ux-survey/ux-survey-personal.webp)
+![Survey](docs/images/ux-survey/ux-survey-environs.webp)
+![Survey](docs/images/ux-survey/ux-survey-therapy.webp)
+![Survey](docs/images/ux-survey/ux-survey-service.webp)
+![Survey](docs/images/ux-survey/ux-survey-site.webp)
 </details>
 
 ## Design <a name="design"></a>
