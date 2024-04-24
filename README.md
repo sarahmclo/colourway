@@ -584,11 +584,11 @@ Our finished product is a testament to our dedication to providing a beautiful a
 * [Balsamiq](https://balsamiq.com/) Create the detailed low-fidelity wireframes in the design phase.
 * [Responsive Design Checker](https://responsivedesignchecker.com/) Test responsiveness on various devices.
 * [Am I Responsive](https://ui.dev/amiresponsive) Generate Mock Up Image of site in a responsive manner.
-* [Chrome DevTools](https://developer.chrome.com/docs/devtools) Utilise regularly development for code review and to test responsiveness.
-* [**Browserstack**](https://www.browserstack.com/) Browserstack was utilised to test browser compatility across multiple devices.
-* [Shields.io](https://shields.io/) Shields.io was used for dynamic badges for Readme.
+* [Chrome DevTools](https://developer.chrome.com/docs/devtools) Utilised regularly in development for code review and to test responsiveness.
+* [Browserstack](https://www.browserstack.com/) Browserstack was utilised to test browser compatility across multiple devices.
+* [Shields.io](https://shields.io/) Shields.io used to create dynamic badges for Readme.
 * [Coolers Contrast Checker](https://coolors.co/) Ensure colour contrast inline with guidelines.
-* [Adobe Colors](https://color.adobe.com/) Generate pleasing colour palette inkeeping with logo and design.
+* [Adobe Colors](https://color.adobe.com/) Generate pleasing colour palette in keeping with logo and overall design.
 
 ### Media
 
