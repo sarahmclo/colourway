@@ -353,6 +353,7 @@ Designed by myself in Adobe Illustrator this custom favicon stems from the desig
 - [**Responsive Design Checker**](https://responsivedesignchecker.com/) Responsive Design Checker  was used in the testing process to check responsiveness on various devices.
 - [**Am I Responsive**](https://ui.dev/amiresponsive) Am I Responsive was utilised to generate Mock Up Image of site in a responsive manner.
 - [**Chrome DevTools**](https://developer.chrome.com/docs/devtools) Chrome DevTools was used during development process for code review and to test responsiveness.
+- [**Shields.io**](https://shields.io/) Shields.io was used for dynamic badges for Readme.
 - [**Coolers Contrast Checker**](https://coolors.co/) Coolers Contrast Checker was used to make sure the colors I used contrasted well enough for all users
 - [**Adobe Colors**](https://color.adobe.com/) Adobe Colors was used to generate a pleasing colour palette inkeeping with logo and design.
 - [**Convertio**](https://convertio.co/) Convertio was utilised to optimise images to webp for faster loading
@@ -568,6 +569,7 @@ Our finished product is a testament to our dedication to providing a beautiful a
 * [Responsive Design Checker](https://responsivedesignchecker.com/) Test responsiveness on various devices.
 * [Am I Responsive](https://ui.dev/amiresponsive) Generate Mock Up Image of site in a responsive manner.
 * [Chrome DevTools](https://developer.chrome.com/docs/devtools) Utilise regularly development for code review and to test responsiveness.
+* [Shields.io](https://shields.io/) Shields.io was used for dynamic badges for Readme.
 * [Coolers Contrast Checker](https://coolors.co/) Ensure colour contrast inline with guidelines.
 * [Adobe Colors](https://color.adobe.com/) Generate pleasing colour palette inkeeping with logo and design.
 
