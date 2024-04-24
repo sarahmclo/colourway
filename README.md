@@ -361,19 +361,19 @@ Designed by myself in Adobe Illustrator this custom favicon stems from the desig
 
 ### Frameworks and Programs
 
-- [**Gitpod**](https://www.gitpod.io/) Gitpod was used for writing code, committing, and then pushing to GitHub. 
-- [**GitHub**](https://github.com/) GitHub was utilised for hosting and viewing.
-- [**Google Fonts**](https://fonts.google.com/) Google Fonts was used to import the fonts Inter and Roboto into the style.css file. These fonts were used throughout the site.
-- [**Font Awesome**](https://fontawesome.com/) Font Awesome was used throughout to add icons in order to create a better visual experience for the user.
-- [**Balsamiq**](https://balsamiq.com/) Balsamiq was used to create the wireframes during the design phase of the project.
-- [**Responsive Design Checker**](https://responsivedesignchecker.com/) Responsive Design Checker  was used in the testing process to check responsiveness on various devices.
-- [**Am I Responsive**](https://ui.dev/amiresponsive) Am I Responsive was utilised to generate Mock Up Image of site in a responsive manner.
-- [**Chrome DevTools**](https://developer.chrome.com/docs/devtools) Chrome DevTools was used during development process for code review and to test responsiveness.
-- [**Browserstack**](https://www.browserstack.com/) Browserstack was utilised to test browser compatility across multiple devices.
-- [**Shields.io**](https://shields.io/) Shields.io was used for dynamic badges for Readme.
-- [**Coolers Contrast Checker**](https://coolors.co/) Coolers Contrast Checker was used to make sure the colors I used contrasted well enough for all users
-- [**Adobe Colors**](https://color.adobe.com/) Adobe Colors was used to generate a pleasing colour palette inkeeping with logo and design.
-- [**Convertio**](https://convertio.co/) Convertio was utilised to optimise images to webp for faster loading
+- [**Gitpod**](https://www.gitpod.io/) Gitpod used for writing code, committing, and pushing to GitHub. 
+- [**GitHub**](https://github.com/) GitHub utilised for hosting, viewing and some readme amendments.
+- [**Google Fonts**](https://fonts.google.com/) Google Fonts used to import Inter and Roboto into stylesheet.
+- [**Font Awesome**](https://fontawesome.com/) Font Awesome used throughout to add icons in order to create a better visual experience for the user.
+- [**Balsamiq**](https://balsamiq.com/) Balsamiq utilised to create wireframes during the design phase.
+- [**Responsive Design Checker**](https://responsivedesignchecker.com/) Responsive Design Checker used in the testing process to check responsiveness on various devices.
+- [**Am I Responsive**](https://ui.dev/amiresponsive) Am I Responsive utilised to generate Mock Up Image of site in a responsive manner.
+- [**Chrome DevTools**](https://developer.chrome.com/docs/devtools) Chrome DevTools utilised frequently during development process for code review and responsiveness tests.
+- [**Browserstack**](https://www.browserstack.com/) Browserstack employed to test browser compatility across multiple devices.
+- [**Shields.io**](https://shields.io/) Shields.io used to generate dynamic badges for Readme.
+- [**Coolers Contrast Checker**](https://coolors.co/) Coolers Contrast Checker used to make sure colours contrasted well correctly for optimum accessibility.
+- [**Adobe Colors**](https://color.adobe.com/) Adobe Colors helped to generate a pleasing colour palette in keeping with logo and overall design.
+- [**Convertio**](https://convertio.co/) Convertio utilised to optimise images to webp for fast loading.
 
 ## Deployment <a name="deployment"></a>
 
