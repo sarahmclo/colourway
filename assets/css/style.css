@@ -96,6 +96,11 @@ nav {
     padding-top: 70px;
 }
 
+#contact:target {
+    margin-top: -70px;
+    padding-top: 70px;
+}
+
 /* Main content */
 main {
     /* Make main element take up surplus space tp push footer down */
