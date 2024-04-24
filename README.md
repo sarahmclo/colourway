@@ -369,6 +369,7 @@ Designed by myself in Adobe Illustrator this custom favicon stems from the desig
 - [**Responsive Design Checker**](https://responsivedesignchecker.com/) Responsive Design Checker  was used in the testing process to check responsiveness on various devices.
 - [**Am I Responsive**](https://ui.dev/amiresponsive) Am I Responsive was utilised to generate Mock Up Image of site in a responsive manner.
 - [**Chrome DevTools**](https://developer.chrome.com/docs/devtools) Chrome DevTools was used during development process for code review and to test responsiveness.
+- [**Browserstack**](https://www.browserstack.com/) Browserstack was utilised to test browser compatility across multiple devices.
 - [**Shields.io**](https://shields.io/) Shields.io was used for dynamic badges for Readme.
 - [**Coolers Contrast Checker**](https://coolors.co/) Coolers Contrast Checker was used to make sure the colors I used contrasted well enough for all users
 - [**Adobe Colors**](https://color.adobe.com/) Adobe Colors was used to generate a pleasing colour palette inkeeping with logo and design.
@@ -465,21 +466,20 @@ The website is responsive, providing a seamless experience across various device
 
 Manual testing for the site involves hands-on evaluation by human testers to ensure functionality, usability, and compatibility across various devices and browsers. By conducting the manual testing procedures below, we ensure the website functions smoothly, provides an optimal user experience, and meets desired standards.
 
-- Navigation Testing: Manually testing the navigation menu ensured all links are working correctly and directing users to the intended pages.
+- **Navigation Testing:** Manually testing the navigation menu ensured all links are working correctly and directing users to the intended pages.
 The navigation menu is responsive and displays properly on different devices and screen sizes.
-- Subscribe Form Testing: Testing the subscribe form ensured it functions correctly, allowing users to submit their information successfully.
-Vaalidation messages were checked and ensured they appear when required fields are left blank or invalid data is entered.
-- Responsive Design Testing: Testing the website on various devices (desktop, mobile, tablet) has ensured responsiveness and proper layout adaptation.
+- **Subscribe Form Testing:** Testing the subscribe form ensured it functions correctly, allowing users to submit their information successfully. Validation messages were checked and ensured they appear when required fields are left blank or invalid data is entered.
+- **Responsive Design Testing:** Testing the website on various devices (desktop, mobile, tablet) has ensured responsiveness and proper layout adaptation.
 It is verified that all content remains accessible and readable across different screen sizes.
-- Content Hierarchy Testing: Verified that the content hierarchy is maintained throughout the website, with clear headings, subheadings, and sections.
+- **Content Hierarchy Testing:** Verified that the content hierarchy is maintained throughout the website, with clear headings, subheadings, and sections.
 Content is logically organized and easy to navigate for users.
-- Cross-browser Compatibility Testing: The website has been tested on different web browsers (Chrome, Firefox, Safari) to ensure compatibility and consistent performance. Layout and functionality issues specific to certain browsers have been addressed accordingly.
-- Form Submission Testing: Subscribe form has been submitted with valid data and ensures successful submission and confirmation.
-- Page Structure Testing: The ayout and structure of individual pages are consistent and aligned with the design specifications.
+- **Cross-browser Compatibility Testing:** The website has been tested on different web browsers in Browserstack (Chrome, Firefox) to ensure compatibility and consistent performance. Layout and functionality issues specific to certain browsers have been addressed accordingly.
+- **Form Submission Testing:** Subscribe form has been submitted with valid data and ensures successful submission and confirmation.
+- **Page Structure Testing:** The ayout and structure of individual pages are consistent and aligned with the design specifications.
 There are no formatting issues or discrepancies in the placement of content elements.
-- Accessibility Testing: The website has been tested using accessibility tools to ensure compatibility and adherence to accessibility standards.
+- **Accessibility Testing:** The website has been tested using accessibility tools to ensure compatibility and adherence to accessibility standards.
 Proper labeling, alt text for images, and other accessibility features have been included.
-- Performance Testing: The website's performance has been evaluated using tools like DevTools, WC3 Validator and Lighthouse to assess factors such as page load speed, performance metrics, and optimization opportunities.
+- **Performance Testing:** The website's performance has been evaluated using tools like DevTools, WC3 Validator and Lighthouse to assess factors such as page load speed, performance metrics, and optimization opportunities.
 
 ## Bugs and Fixes <a name="bugs-and-fixes"></a>
 
@@ -580,11 +580,12 @@ Our finished product is a testament to our dedication to providing a beautiful a
 
 * [Gitpod](https://www.gitpod.io/) Write, commit and push code to GitHub. 
 * [GitHub](https://github.com/) Utilise for hosting, amending and viewing.
-* [Google Fonts](https://fonts.google.com/) Import fonts.
-* [Balsamiq](https://balsamiq.com/) Create the wireframes in design phase.
+* [Google Fonts](https://fonts.google.com/) Import carefully selected fonts.
+* [Balsamiq](https://balsamiq.com/) Create the detailed low-fidelity wireframes in the design phase.
 * [Responsive Design Checker](https://responsivedesignchecker.com/) Test responsiveness on various devices.
 * [Am I Responsive](https://ui.dev/amiresponsive) Generate Mock Up Image of site in a responsive manner.
 * [Chrome DevTools](https://developer.chrome.com/docs/devtools) Utilise regularly development for code review and to test responsiveness.
+* [**Browserstack**](https://www.browserstack.com/) Browserstack was utilised to test browser compatility across multiple devices.
 * [Shields.io](https://shields.io/) Shields.io was used for dynamic badges for Readme.
 * [Coolers Contrast Checker](https://coolors.co/) Ensure colour contrast inline with guidelines.
 * [Adobe Colors](https://color.adobe.com/) Generate pleasing colour palette inkeeping with logo and design.
