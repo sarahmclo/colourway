@@ -1,7 +1,9 @@
 # Colourway *Your Colour Analysts*
 ![Mock-Up](docs/images/mockup/colourway-mockup.webp)
 
-Welcome to COLOURWAY, Your Colour Analysts. With this site we offer a clean, practical, and user-friendly platform for individuals to explore the transformative power of colour and integrate it into their daily routines in meaningful ways. We believe that simplicity and practicality are the cornerstones of effective design, our website is a testament to this philosophy, offering a bold and intuitive user experience that puts the transformative power of colour front and centre in a personal yet practical way. Our website calls on our user to subscribe to the COLOURWAY community for exclusive information and offers. The company, website and content are fictional and for educational purposes only.
+Welcome to COLOURWAY, Your Colour Analysts. With this site we offer a clean, practical, and user-friendly platform for individuals to explore the transformative power of colour and integrate it into their daily routines in meaningful ways. We believe that simplicity and practicality are the cornerstones of effective design, our website is a testament to this philosophy, offering a bold and intuitive user experience that puts the transformative power of colour front and centre in a personal yet practical way. Our website calls on our user to subscribe to the COLOURWAY community for exclusive information and offers. 
+
+This company, website and all content is fictional and for educational purposes only.
 
 [View Colourway Live Here](https://sarahmclo.github.io/colourway/)
 
