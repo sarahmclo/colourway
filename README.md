@@ -1,9 +1,14 @@
 # Colourway *Your Colour Analysts*
 ![Mock-Up](docs/images/mockup/colourway-mockup.webp)
 
-Welcome to COLOURWAY, Your Colour Analysts. With this site we offer a clean, practical, and user-friendly platform for individuals to explore the transformative power of colour and integrate it into their daily routines in meaningful ways. We believe that simplicity and practicality are the cornerstones of effective design, our website is a testament to this philosophy, offering a bold and intuitive user experience that puts the transformative power of colour front and centre in a personal yet practical way. Our website calls on our user to subscribe to the COLOURWAY community for exclusive information and offers.
+Welcome to COLOURWAY, Your Colour Analysts. With this site we offer a clean, practical, and user-friendly platform for individuals to explore the transformative power of colour and integrate it into their daily routines in meaningful ways. We believe that simplicity and practicality are the cornerstones of effective design, our website is a testament to this philosophy, offering a bold and intuitive user experience that puts the transformative power of colour front and centre in a personal yet practical way. Our website calls on our user to subscribe to the COLOURWAY community for exclusive information and offers. The company, website and content are fictional and for educational purposes only.
 
 [View Colourway Live Here](https://sarahmclo.github.io/colourway/)
+
+![GitHub last commit](https://img.shields.io/github/last-commit/sarahmclo/colourway)
+![GitHub language count](https://img.shields.io/github/languages/count/sarahmclo/colourway)
+![GitHub top language](https://img.shields.io/github/languages/top/sarahmclo/colourway)
+![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Fsarahmclo.github.io%2Fcolourway%2F)
 
 ## Table of Contents
 1. [User Experience (UX)](#user-experience)
@@ -52,7 +57,7 @@ Welcome to COLOURWAY, Your Colour Analysts. With this site we offer a clean, pra
 
 ## User Experience (UX)<a name="user-experience"></a>
 
-When you visit our website, you'll immediately notice the simplicity of our design. We've eschewed unnecessary clutter in favour of clean, uncluttered layouts that allow our content to shine. Whether you're browsing our services or exploring our community events, you'll find that everything is just a click away, thanks to our intuitive navigation system.
+When you visit our website, you'll immediately notice the simplicity of our design. We've eschewed unnecessary clutter in favour of clean, uncluttered layouts that allow our content to shine. Whether you're browsing our services or exploring our community events, you'll find that everything is just a click away, thanks to our intuitive navigation system across all browsers and devices.
 
 ### Project Goals
 
@@ -61,24 +66,24 @@ When you visit our website, you'll immediately notice the simplicity of our desi
 - Ensure the website is responsive across all devices.
 - Prioritize simplicity and practicality to ensure intuitive navigation.
 - Create a bold and visually striking interface that highlights the importance of what the company has to offer.
-- Ensure the main call to action - "Subscribe" is clear to develop a community of users.
+- Ensure the main call to action - "Subscribe" is clear to entice and develop a community of users.
 - Showcase what the company has to offer in regards to personal consultations and workshops.
-- Offer exclusive information and offers to subscribers, fostering a strong community.
+- Showcase exclusive information and offers to subscribers, fostering a strong community.
 
 ### User Stories
 
-- Find valuable resources and information about colour analysis..
+- Find valuable resources and information about colour analysis.
 - Access the website seamlessly across different devices for a consistent experience.
 - Discover workshops and events related to colour exploration and analysis.
 - Share my experiences and insights about colour with the Colourway community.
 - Learn about the psychology and symbolism of different colours.
 - Connect with like-minded individuals who appreciate the importance of colour in daily life.
-- Subscribe to the Colourway community for exclusive content and offers
+- Subscribe to the Colourway community for exclusive content and offers.
 - Receive updates and notifications about new content, events and discounts.
 
 ### Target Audience Goals
 
-- Individuals of all ages seeking personal transformation.
+- Individuals of all ages seeking personal growth.
 - Creatives and artists.
 - Fashion enthusiasts.
 - Influencers.
@@ -116,24 +121,23 @@ When you visit our website, you'll immediately notice the simplicity of our desi
 - Explore new content.
 - Engage with the community.
 - Access exclusive content.
-- Book consultations.
+- Book a consultation.
 - Attend workshops or events.
 - Stay informed.
 - Share feedback.
 - Refer family, friends, associates.
-- Participate in challenges & activities.
 - Connect on social media.
 - Continue personal growth.
 
 ## Design <a name="design"></a>
 
 ### Design Philosophy
-Our design ethos is rooted in the idea that less is more. We've embraced clean lines, minimalist layouts, and bold colour choices to create an interface that is both visually striking and easy to navigate. We have chosen to keep most elements to one page as we beliebve it suits the flow of the company ethos. Every element has been carefully considered to ensure a seamless user experience, from the intuitive navigation menu to the vibrant colour palettes that adorn each page.
+Our design ethos is rooted in the idea that less is more. We've embraced clean lines, minimalist layouts, and bold colour choices to create an interface that is both visually striking and easy to navigate. We have chosen to keep most elements to one page as we believe it suits the flow of the company fabric. Every element has been carefully considered to ensure a seamless user experience, from the intuitive navigation menu to the vibrant colour palettes that adorn each page.
 
 The site is designed mobile first with the use of media queries for larger screens.
 
 ### Design Choices
-While our design may be simple, that doesn't mean it's lacking in impact. We've made bold choices in our use of colour and typography to create a website that stands out from the crowd. Vibrant images and eye-catching fonts draw the user's attention and create a memorable visual identity for our brand.
+While our design may be simple, that doesn't mean it's lacking in impact. We've made bold choices in our use of colour and typography to create a website that stands out. Vibrant images and eye-catching fonts draw the user's attention and create a memorable visual identity for our brand.
 
 - **Reference Images**
 Strong lines, simple shapes with a nod to the Bauhaus movement are our inspiration, as seen in the reference imagery below.
@@ -141,15 +145,15 @@ Strong lines, simple shapes with a nod to the Bauhaus movement are our inspirati
 ![ref-pic](docs/images/references/ref-images.webp)
 
 ### Colour Scheme
-Our colour palette is carefully selected to evoke the emotions and feelings associated with our brand. Vibrant yet harmonious colours create a visually appealing experience, along with negative sapce and clean dark lines, while maintaining readability and accessibility for all users.
+Our colour palette is carefully selected to evoke the emotions and feelings associated with our brand. Vibrant yet harmonious colours create a visually appealing experience, along with negative space and clean dark lines, while maintaining readability and accessibility for all users.
 
 - **Colour Palette**
-The colour palette for this site was devised inkeeping with the Colourway logo and created in [Adobe Color](https://color.adobe.com/).
+The colour palette for this site was devised in keeping with the Colourway logo and created in [Adobe Color](https://color.adobe.com/).
 
 ![Colour Palette](docs/images/logo/AdobeColor-color-theme_colourway.webp)
 
 - **Logo**
-The Colourway logo was created in Adobe Illustrator/Photoshop and a starting point for the clean look of the website.
+The Colourway logo is an original creation using Adobe Illustrator/Photoshop and a starting point for the clean appearance of the website.
 
 ![Colour Logo](docs/images/logo/colourway-logo-rm.webp)
 
@@ -163,7 +167,7 @@ The fonts for this site were carefully chosen and imported from [Google Fonts](h
 ![Roboto](docs/images/fonts/roboto.webp)
 
 ### Imagery
-We believe in the power of imagery to tell a story and evoke emotions. From striking photographs to subtle background textures, every image on our website is carefully chosen to complement our content and reinforce our brand identity.
+We believe in the power of imagery to tell a story and evoke emotions. From striking photographs to colourful graphics, every image on our website is carefully created/chosen to complement our content and reinforce our brand identity.
 
 - **Hero Image**
 Hero image designed by me in Adobe Illustrator and Photoshop to complement the logo and brand.
@@ -177,7 +181,7 @@ The images for content were chosen from [Pexels](https://www.pexels.com/) with t
 
 ### Wireframes
 
-Wireframes serve as the blueprint for our website, outlining the layout and functionality of each page. They help us visualise the user experience and iterate on design concepts before implementation. 
+Wireframes serve as the blueprint for the website, outlining the layout and functionality of each page. They help us visualise the user experience and iterate on design concepts and scope before implementation. 
 
 Wireframes for this site were created with [Balsamiq](https://balsamiq.com/).
 
@@ -192,13 +196,13 @@ Wireframes for this site were created with [Balsamiq](https://balsamiq.com/).
 ### Structure
 
 - **Content Hierarchy:** Content is organized hierarchically to guide users through the website.
-- **Navigation:** The navigation structure, including menus, links, and calls-to-action have been designed to facilitate easy access all on on one page to enhance user experience.
+- **Navigation:** The navigation structure, including menus, links, and calls-to-action buttons have been designed to facilitate easy access. The site is all on one page to enhance user experience and enhance flow.
 - **Page Structure:** The layout highlights key sections such as headers, main content area, form and footer. Each section contributes to the overall flow and functionality of the page.
 - **Grid System/Flexbox:** The layout of the website maintains consistency and alignment across pages and screen sizes.
-- **Consistency:** Consistency is emphasized in design elements such as typography, colours, and spacing, reinforcing UX and brand identity.
-- **Whitespace:** Negative space is utilised to improve readability and visual appeal. Strategically incorporating whitespace around elements helps create a clean and uncluttered design just like the ethos of COLOURWAY.
-- **Responsive Design:** The design adapts to different screen sizes and devices to ensure a consistent and seamless UX. Fluid layouts, media queries, and responsive images used to achieve responsiveness throughout.
-- **Accessibility:** Big focus on elements that make the site accessible to users with disabilities. Considerations such as colour contrast, keyboard navigation, and screen reader compatibility ensures inclusivity and compliance with accessibility standards.
+- **Consistency:** Consistency is emphasized in design elements such as typography, colours, lines and spacing, reinforcing UX and brand identity.
+- **Whitespace:** Negative space is utilised to improve readability and visual appeal. Strategically incorporating whitespace around elements helps create a clean and uncluttered design, just like the ethos of COLOURWAY.
+- **Responsive Design:** The design adapts to different screen sizes and devices to ensure a consistent and seamless UX. Fluid layouts, responsive images and media queries are used to achieve responsiveness throughout.
+- **Accessibility:** High focus on elements that make the site accessible to users with disabilities. Considerations such as colour contrast, keyboard navigation, aria labels, alt text for images and screen reader compatibility ensures inclusivity and compliance with accessibility standards.
 - **User Flow:** The design facilitates a smooth and intuitive user journey throughout.
 
 ## The 5 Elements at COLOURWAY
@@ -227,7 +231,6 @@ Wireframes for this site were created with [Balsamiq](https://balsamiq.com/).
 - Visual Design: Apply the chosen color palette, typography, and imagery to create a visually appealing and cohesive design that reflects the brand identity and resonate with the target audience.
 - UX/UI Elements: Design and implement user interface elements, such as buttons and formswith attention to detail and consistency to enhance usability and aesthetics.
 - Responsive Design: Ensure that the website is responsive and adapts seamlessly to various screen sizes and devices, providing a consistent and enjoyable user experience across desktops, tablets, and smartphones.
-- Accessibility: Incorporate accessibility features and best practices, such as alt text for images, keyboard navigation, and semantic HTML, to ensure that the website is inclusive and usable for all users
 - Interaction Design: Design elements to engage users, provide feedback, and enhance the overall experience for the return of users.
   
 ## Features <a name="features"></a>
